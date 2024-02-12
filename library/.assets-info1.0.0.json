@@ -70,6 +70,146 @@
     "E:\\Cocos_Projects\\NewProject\\assets\\Scripts\\SpawnTile.ts": {
       "time": 1707669380615.2964,
       "uuid": "79d93799-8172-4ef4-b60d-66bd4eb18145"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation": {
+      "time": 1707753252361.6223,
+      "uuid": "068ccd1b-2bfe-45c8-b05c-7e3729c74b74"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models": {
+      "time": 1707753829320.098,
+      "uuid": "85194984-68f5-4ed1-a991-530d6b98f3de"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab": {
+      "time": 1707755974980.323,
+      "uuid": "e1d73078-c809-42a4-9497-d988eca4ade3"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene": {
+      "time": 1707756450810.4702,
+      "uuid": "919c6da4-81a4-41d6-81a1-84fe79f02c9e"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts": {
+      "time": 1707753252370.1726,
+      "uuid": "841b3c5c-cd86-416a-868f-1f9368ab664b"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture": {
+      "time": 1707753829322.0947,
+      "uuid": "ea35b37e-14fb-4f93-9bf4-3824dc203424"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Input.ts": {
+      "time": 1707754011189.569,
+      "uuid": "d551497a-22b7-4588-8da3-3088615e8ac9"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\SpawnTile.ts": {
+      "time": 1707669380615.2964,
+      "uuid": "79d93799-8172-4ef4-b60d-66bd4eb18145"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation.meta": {
+      "time": 1707665327483.821
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models.meta": {
+      "time": 1707753818630.7188
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab.meta": {
+      "time": 1707660199293.6667
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene.meta": {
+      "time": 1707756432829.2256
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts.meta": {
+      "time": 1707660206966.203
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture.meta": {
+      "time": 1707753829324.0955
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Input.ts.meta": {
+      "time": 1707662876543.9941
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\SpawnTile.ts.meta": {
+      "time": 1707665635890.3716
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\bounce.pmtl": {
+      "time": 1707664597662.9526,
+      "uuid": "cd8c1ade-f5b4-43cb-b5d4-30082c827140"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\label-atlas.labelatlas": {
+      "time": 1707660229223.2134,
+      "uuid": "e343c51d-1afa-47a4-bb9f-47d303d4d096"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation\\Tile_Spawn.anim": {
+      "time": 1707665677932.0684,
+      "uuid": "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\Tile.prefab": {
+      "time": 1707755974984.9424,
+      "uuid": "03300a6f-b63e-4917-91d0-b965e8b11989"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\scene.scene": {
+      "time": 1707757725011.7102,
+      "uuid": "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\UI.scene": {
+      "time": 1707757722923.927,
+      "uuid": "b50fa493-27a0-4cf6-b6c6-7ce4f47b97a6"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Ball.fbx": {
+      "time": 1705845126000,
+      "uuid": "0942a688-c853-4615-b089-c3fd06707a8b"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Base.fbx": {
+      "time": 1705845130000,
+      "uuid": "f6108222-0dc5-4230-8dee-0b883cf59001"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Base_fracture.fbx": {
+      "time": 1706549532000,
+      "uuid": "7734831b-3f0b-42df-8df5-ec3777705af4"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Base_texture.jpg": {
+      "time": 1705845064000,
+      "uuid": "1112f87d-8019-4a0a-9ffd-3528391f1f45"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Collectible_Crystal.fbx": {
+      "time": 1706548950000,
+      "uuid": "66eaac47-9ff8-42d4-850a-2dd22f6667eb"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Collectible_Star.fbx": {
+      "time": 1706548982000,
+      "uuid": "305f84eb-166c-458b-9668-cdb52ce47cae"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\label-atlas.labelatlas.meta": {
+      "time": 1707660245521.6426
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\bounce.pmtl.meta": {
+      "time": 1707663855938.4658
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\Tile.prefab.meta": {
+      "time": 1707755974985.947
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\scene.scene.meta": {
+      "time": 1707592100100.6248
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation\\Tile_Spawn.anim.meta": {
+      "time": 1707665347724.1985
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\UI.scene.meta": {
+      "time": 1707756443723.3213
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Base_texture.jpg.meta": {
+      "time": 1707753829405.5847
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Base.fbx.meta": {
+      "time": 1707753830793.4727
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Ball.fbx.meta": {
+      "time": 1707753830965.542
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Collectible_Crystal.fbx.meta": {
+      "time": 1707753830666.8374
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Collectible_Star.fbx.meta": {
+      "time": 1707753830795.9824
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Base_fracture.fbx.meta": {
+      "time": 1707753830855.5996
     }
   },
   "missing": {
