@@ -12,6 +12,10 @@
     {
       "name": "Floor",
       "value": 1
+    },
+    {
+      "name": "FindTile",
+      "value": 2
     }
   ],
   "custom_joint_texture_layouts": [],

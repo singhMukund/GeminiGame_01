@@ -8,11 +8,14 @@ export class Input extends Component {
     floor:Layers = 0;
     @property
     character:Node
+    @property
+    speed:number=0.1;
+    
     
 
     start() {
-    this.node.getComponent(SphereCollider).on('onCollisionEnter' , this.OnCollide) 
-}
+    
+    }
 
     update(deltaTime: number) {
         if(input.getTouchCount() > 0){
@@ -20,18 +23,25 @@ export class Input extends Component {
             var x = new Vec2();
             var y = new Vec2();
             
-            console.log("TOuch "+touch.getStartLocation()+" Y "+touch.getLocationX());
+            console.log("TOuch "+touch.getStartLocation().x+" Y "+touch.getLocationX());
+
+            if(touch.getLocationX() != touch.getStartLocation().x){
+               if(touch.getLocationX() > touch.getStartLocation().x){
+                if(this.node.getPosition().x > -4){
+                    this.node.translate(new Vec3(-this.speed*deltaTime,0,0))
+                }
+                
+               }else{
+                if(this.node.getPosition().x < 4){
+                    this.node.translate(new Vec3(this.speed*deltaTime,0,0))
+                }
+                
+               }
+            }
         }
     }
 
-    OnCollide(target:any){ //It contains OtherCollider , SelfCollider
-        
-        if(target.otherCollider.node.layer == 1){
-        var sphere = target.selfCollider.node as Node
-        sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, 9, 0))
-        }
-    
-    }
+
     onTouch(touch:any){
     console.log("touch "+touch._prevPoint , "  "+touch._startPoint);
     if(touch._prevPoint > touch._startPoint){  ///right Swipe
