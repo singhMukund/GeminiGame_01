@@ -1,0 +1,90 @@
+{
+  "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76",
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+        "03300a6f-b63e-4917-91d0-b965e8b11989",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "d551497a-22b7-4588-8da3-3088615e8ac9",
+        "CC3eba29-7abb-723a-f7ab-ae275e2277e8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "cb242b7e-174d-4012-bd48-a32b8b1249a0": {
+    "url": "db://assets/scripts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7ae59211-4001-4cb4-807b-dc2a5154beaa": {
+    "url": "db://assets/scripts/test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e1d73078-c809-42a4-9497-d988eca4ade3": {
+    "url": "db://assets/Prefab",
+    "value": {},
+    "versionCode": 0
+  },
+  "841b3c5c-cd86-416a-868f-1f9368ab664b": {
+    "url": "db://assets/Scripts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e343c51d-1afa-47a4-bb9f-47d303d4d096": {
+    "url": "db://assets/label-atlas.labelatlas",
+    "value": {
+      "depends": [
+        "24c419ea-63a8-4ea1-a9d0-7fc469489bbc@f9941"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d551497a-22b7-4588-8da3-3088615e8ac9": {
+    "url": "db://assets/Scripts/Input.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cd8c1ade-f5b4-43cb-b5d4-30082c827140": {
+    "url": "db://assets/bounce.pmtl",
+    "value": {},
+    "versionCode": 0
+  },
+  "03300a6f-b63e-4917-91d0-b965e8b11989": {
+    "url": "db://assets/Prefab/Cube.prefab",
+    "value": {
+      "depends": [
+        "620b6bf3-0369-4560-837f-2a2c00b73c26",
+        "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
+        "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
+      ],
+      "dependScripts": [
+        "79d93799-8172-4ef4-b60d-66bd4eb18145"
+      ]
+    },
+    "versionCode": 0
+  },
+  "068ccd1b-2bfe-45c8-b05c-7e3729c74b74": {
+    "url": "db://assets/Animation",
+    "value": {},
+    "versionCode": 0
+  },
+  "f23b1c5c-5330-461f-9aa5-c80a7b7e3423": {
+    "url": "db://assets/Animation/Tile_Spawn.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "79d93799-8172-4ef4-b60d-66bd4eb18145": {
+    "url": "db://assets/Scripts/SpawnTile.ts",
+    "value": {},
+    "versionCode": 0
+  }
+}
