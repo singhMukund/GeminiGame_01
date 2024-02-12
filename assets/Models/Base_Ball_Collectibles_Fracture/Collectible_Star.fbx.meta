@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "305f84eb-166c-458b-9668-cdb52ce47cae",
+  "files": [],
+  "subMetas": {
+    "fd4a2": {
+      "importer": "gltf-mesh",
+      "uuid": "305f84eb-166c-458b-9668-cdb52ce47cae@fd4a2",
+      "displayName": "",
+      "id": "fd4a2",
+      "name": "Cube.004.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 20
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7bfc5": {
+      "importer": "gltf-material",
+      "uuid": "305f84eb-166c-458b-9668-cdb52ce47cae@7bfc5",
+      "displayName": "",
+      "id": "7bfc5",
+      "name": "Collectible_Star.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f5166": {
+      "importer": "gltf-scene",
+      "uuid": "305f84eb-166c-458b-9668-cdb52ce47cae@f5166",
+      "displayName": "",
+      "id": "f5166",
+      "name": "Collectible_Star.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "305f84eb-166c-458b-9668-cdb52ce47cae@f5166",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "305f84eb-166c-458b-9668-cdb52ce47cae@fd4a2"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "305f84eb-166c-458b-9668-cdb52ce47cae@7bfc5"
+      ],
+      "scenes": [
+        "305f84eb-166c-458b-9668-cdb52ce47cae@f5166"
+      ]
+    }
+  }
+}

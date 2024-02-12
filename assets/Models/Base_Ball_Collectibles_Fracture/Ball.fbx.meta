@@ -1,0 +1,97 @@
+{
+  "ver": "2.3.12",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0942a688-c853-4615-b089-c3fd06707a8b",
+  "files": [],
+  "subMetas": {
+    "91730": {
+      "importer": "gltf-material",
+      "uuid": "0942a688-c853-4615-b089-c3fd06707a8b@91730",
+      "displayName": "",
+      "id": "91730",
+      "name": "Ball.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "825ed": {
+      "importer": "gltf-mesh",
+      "uuid": "0942a688-c853-4615-b089-c3fd06707a8b@825ed",
+      "displayName": "",
+      "id": "825ed",
+      "name": "Sphere.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 480
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d895a": {
+      "importer": "gltf-scene",
+      "uuid": "0942a688-c853-4615-b089-c3fd06707a8b@d895a",
+      "displayName": "",
+      "id": "d895a",
+      "name": "Ball.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "0942a688-c853-4615-b089-c3fd06707a8b@d895a",
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "0942a688-c853-4615-b089-c3fd06707a8b@825ed"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "0942a688-c853-4615-b089-c3fd06707a8b@91730"
+      ],
+      "scenes": [
+        "0942a688-c853-4615-b089-c3fd06707a8b@d895a"
+      ]
+    }
+  }
+}
