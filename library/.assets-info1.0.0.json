@@ -1,0 +1,92 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "E:\\Cocos_Projects\\NewProject\\assets\\scene.scene.meta": {
+      "time": 1707592100100.6248
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\scene.scene": {
+      "time": 1707677005348.3135,
+      "uuid": "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76"
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Prefab.meta": {
+      "time": 1707660199293.6667
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Prefab": {
+      "time": 1707665298372.2727,
+      "uuid": "e1d73078-c809-42a4-9497-d988eca4ade3"
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Scripts.meta": {
+      "time": 1707660206966.203
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Scripts": {
+      "time": 1707665635888.3735,
+      "uuid": "841b3c5c-cd86-416a-868f-1f9368ab664b"
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\label-atlas.labelatlas.meta": {
+      "time": 1707660245521.6426
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\label-atlas.labelatlas": {
+      "time": 1707660229223.2134,
+      "uuid": "e343c51d-1afa-47a4-bb9f-47d303d4d096"
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\bounce.pmtl.meta": {
+      "time": 1707663855938.4658
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\bounce.pmtl": {
+      "time": 1707664597662.9526,
+      "uuid": "cd8c1ade-f5b4-43cb-b5d4-30082c827140"
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Prefab\\Cube.prefab.meta": {
+      "time": 1707665298402.2798
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Prefab\\Cube.prefab": {
+      "time": 1707669100596.5076,
+      "uuid": "03300a6f-b63e-4917-91d0-b965e8b11989"
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Animation.meta": {
+      "time": 1707665327483.821
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Animation": {
+      "time": 1707665347706.512,
+      "uuid": "068ccd1b-2bfe-45c8-b05c-7e3729c74b74"
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Animation\\Tile_Spawn.anim.meta": {
+      "time": 1707665347724.1985
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Animation\\Tile_Spawn.anim": {
+      "time": 1707665677932.0684,
+      "uuid": "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Scripts\\Input.ts.meta": {
+      "time": 1707662876543.9941
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Scripts\\Input.ts": {
+      "time": 1707677358341.515,
+      "uuid": "d551497a-22b7-4588-8da3-3088615e8ac9"
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Scripts\\SpawnTile.ts.meta": {
+      "time": 1707665635890.3716
+    },
+    "E:\\Cocos_Projects\\NewProject\\assets\\Scripts\\SpawnTile.ts": {
+      "time": 1707669380615.2964,
+      "uuid": "79d93799-8172-4ef4-b60d-66bd4eb18145"
+    }
+  },
+  "missing": {
+    "cb242b7e-174d-4012-bd48-a32b8b1249a0": {
+      "path": "E:\\Cocos_Projects\\NewProject\\assets\\scripts",
+      "time": 1707592272048.4453,
+      "removeTime": 1707660183282
+    },
+    "7ae59211-4001-4cb4-807b-dc2a5154beaa": {
+      "path": "E:\\Cocos_Projects\\NewProject\\assets\\scripts\\test.ts",
+      "time": 1707592716413.0457,
+      "removeTime": 1707660183282
+    },
+    "d551497a-22b7-4588-8da3-3088615e8ac9": {
+      "path": "E:\\Cocos_Projects\\NewProject\\assets\\Input.ts",
+      "time": 1707665204569.419,
+      "removeTime": 1707665625368
+    }
+  }
+}
