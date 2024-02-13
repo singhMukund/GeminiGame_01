@@ -1,6 +1,11 @@
 {
   "general": {
-    "highQuality": true
+    "highQuality": true,
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitHeight": true
+    }
   },
   "__version__": "1.0.6",
   "fbx": {
@@ -12,6 +17,10 @@
     {
       "name": "Floor",
       "value": 1
+    },
+    {
+      "name": "FindTile",
+      "value": 2
     }
   ],
   "custom_joint_texture_layouts": [],
@@ -19,6 +28,11 @@
     "gravity": {
       "y": -10
     },
-    "autoSimulation": true
+    "autoSimulation": true,
+    "collisionGroups": [],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 0
+    }
   }
 }
