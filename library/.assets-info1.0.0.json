@@ -80,15 +80,15 @@
       "uuid": "85194984-68f5-4ed1-a991-530d6b98f3de"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab": {
-      "time": 1707760238118.1692,
+      "time": 1707847473641.9092,
       "uuid": "e1d73078-c809-42a4-9497-d988eca4ade3"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene": {
-      "time": 1707760238120.2349,
+      "time": 1707847473642.9143,
       "uuid": "919c6da4-81a4-41d6-81a1-84fe79f02c9e"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts": {
-      "time": 1707763250054.2012,
+      "time": 1707848414294.9534,
       "uuid": "841b3c5c-cd86-416a-868f-1f9368ab664b"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture": {
@@ -96,11 +96,11 @@
       "uuid": "ea35b37e-14fb-4f93-9bf4-3824dc203424"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Input.ts": {
-      "time": 1707846845099.09,
+      "time": 1707847879216.2412,
       "uuid": "d551497a-22b7-4588-8da3-3088615e8ac9"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\SpawnTile.ts": {
-      "time": 1707844609456.5122,
+      "time": 1707847473647.9138,
       "uuid": "79d93799-8172-4ef4-b60d-66bd4eb18145"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation.meta": {
@@ -128,7 +128,7 @@
       "time": 1707760238121.7197
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\bounce.pmtl": {
-      "time": 1707843467984.065,
+      "time": 1707847473653.4307,
       "uuid": "cd8c1ade-f5b4-43cb-b5d4-30082c827140"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\label-atlas.labelatlas": {
@@ -140,11 +140,11 @@
       "uuid": "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\Tile.prefab": {
-      "time": 1707844942730.2722,
+      "time": 1707847473641.9092,
       "uuid": "03300a6f-b63e-4917-91d0-b965e8b11989"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\scene.scene": {
-      "time": 1707847406759.047,
+      "time": 1707848740957.9368,
       "uuid": "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\UI.scene": {
@@ -212,18 +212,25 @@
       "time": 1707760238115.6638
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\TileGenerator.ts.meta": {
-      "time": 1707761727366.1543
+      "time": 1707847473653.4307
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\TileGenerator.ts": {
-      "time": 1707845074531.1204,
+      "time": 1707847473647.9138,
       "uuid": "aaa30af3-a7fd-40be-b293-3a42e199ca55"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Ball.ts.meta": {
-      "time": 1707763250063.8865
+      "time": 1707847473646.913
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Ball.ts": {
-      "time": 1707847173886.0642,
+      "time": 1707847473642.9143,
       "uuid": "66645f15-7ca5-410d-9a52-da5e2d739b20"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameManager.ts.meta": {
+      "time": 1707848414304.384
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameManager.ts": {
+      "time": 1707848600890.6692,
+      "uuid": "40a7b8c0-c664-4675-940c-938510455bc1"
     }
   },
   "missing": {

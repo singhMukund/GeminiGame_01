@@ -26,7 +26,6 @@ export class Input extends Component {
 
     onTouch(touch:any){
     this.tilemangager.canGenerate = true;
-    console.log("touch "+touch.getDelta().x);
     var nextPos = touch.getDelta().x as number
     if(this.node.position.x > 3){
         if(nextPos < 0){
@@ -38,7 +37,6 @@ export class Input extends Component {
             nextPos = 0; 
          }
     }
-    console.log("touch delta"+touch.getDelta().x);
     this.node.translate(new Vec3(-(nextPos/this.speed),0,0))
     }
 }
