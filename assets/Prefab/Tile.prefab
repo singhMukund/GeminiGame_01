@@ -201,7 +201,10 @@
     "__prefab": {
       "__id__": 8
     },
-    "_material": null,
+    "_material": {
+      "__uuid__": "cd8c1ade-f5b4-43cb-b5d4-30082c827140",
+      "__expectedType__": "cc.PhysicsMaterial"
+    },
     "_isTrigger": false,
     "_center": {
       "__type__": "cc.Vec3",
@@ -554,7 +557,7 @@
     "_lpos": {
       "__type__": "cc.Vec3",
       "x": 0,
-      "y": 2.679,
+      "y": 4.885,
       "z": 0
     },
     "_lrot": {
@@ -602,8 +605,8 @@
     },
     "_size": {
       "__type__": "cc.Vec3",
-      "x": 2.033,
-      "y": 5.478,
+      "x": 14.286,
+      "y": 9.695,
       "z": 1.927
     },
     "_id": ""
@@ -666,7 +669,8 @@
     "__prefab": {
       "__id__": 52
     },
-    "speed": 0.1,
+    "speed": 0.15,
+    "canRun": false,
     "_id": ""
   },
   {

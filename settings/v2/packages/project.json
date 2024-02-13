@@ -1,6 +1,11 @@
 {
   "general": {
-    "highQuality": true
+    "highQuality": true,
+    "designResolution": {
+      "width": 720,
+      "height": 1280,
+      "fitHeight": true
+    }
   },
   "__version__": "1.0.6",
   "fbx": {
@@ -23,6 +28,11 @@
     "gravity": {
       "y": -10
     },
-    "autoSimulation": true
+    "autoSimulation": true,
+    "collisionGroups": [],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 0
+    }
   }
 }

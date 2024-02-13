@@ -16,16 +16,17 @@ export class Ball extends Component {
         
         if(target.otherCollider.node.layer == 1){//Floor Layer
         var sphere = target.selfCollider.node as Node
-        sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, 9, 0))
+        
+        sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, 7, 0))
         }
     
     }
     OnTriggerEnter(target:any){ //It contains OtherCollider , SelfCollider
-        
-        // if(target.otherCollider.node.layer == 2){//Find Layer
-        // var sphere = target.selfCollider.node as Node
-        // sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, -50, 0))
-        // }
+        target.otherCollider.enabled = false;
+        if(target.otherCollider.node.layer == 2){//Find Layer
+        var sphere = target.selfCollider.node as Node
+        sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, -10, 0))
+        }
     
     }
 }

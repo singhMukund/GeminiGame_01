@@ -1,4 +1,5 @@
 import { _decorator, BoxCollider, Component, EventTouch, input, Layers, Node, RigidBody, SphereCollider, System, SystemEvent, systemEvent, Vec2, Vec3 } from 'cc';
+import { TileGenerator } from './TileGenerator';
 const { ccclass, property } = _decorator;
 
 @ccclass('Input')
@@ -10,52 +11,35 @@ export class Input extends Component {
     character:Node
     @property
     speed:number=0.1;
+    @property(TileGenerator)
+    tilemangager:TileGenerator;
     
     
 
     start() {
-    
+    systemEvent.on(SystemEvent.EventType.TOUCH_MOVE , this.onTouch , this)
     }
 
     update(deltaTime: number) {
-        if(input.getTouchCount() > 0){
-            var touch = input.getTouch(0);
-            var x = new Vec2();
-            var y = new Vec2();
-            
-            console.log("TOuch "+touch.getStartLocation().x+" Y "+touch.getLocationX());
-
-            if(touch.getLocationX() != touch.getStartLocation().x){
-               if(touch.getLocationX() > touch.getStartLocation().x){
-                if(this.node.getPosition().x > -4){
-                    this.node.translate(new Vec3(-this.speed*deltaTime,0,0))
-                }
-                
-               }else{
-                if(this.node.getPosition().x < 4){
-                    this.node.translate(new Vec3(this.speed*deltaTime,0,0))
-                }
-                
-               }
-            }
-        }
     }
 
 
     onTouch(touch:any){
-    console.log("touch "+touch._prevPoint , "  "+touch._startPoint);
-    if(touch._prevPoint > touch._startPoint){  ///right Swipe
-        if(this.node.position.x > -4){
-            var newPos = this.node.getPosition() 
-            this.node.translate(new Vec3(-0.1,0,0))
-        }
-        
-    }else{
-        if(this.node.position.x < 4){
-            var newPos = this.node.getPosition() 
-            this.node.translate(new Vec3(0.1,0,0))
-        }
+    this.tilemangager.canGenerate = true;
+    console.log("touch "+touch.getDelta().x);
+    var nextPos = touch.getDelta().x as number
+    if(this.node.position.x > 3){
+        if(nextPos < 0){
+            nextPos = 0; 
+         }
     }
+    if(this.node.position.x < -3){
+        if(nextPos > 0){
+            nextPos = 0; 
+         }
+    }
+    console.log("touch delta"+touch.getDelta().x);
+    this.node.translate(new Vec3(-(nextPos/this.speed),0,0))
     }
 }
 
