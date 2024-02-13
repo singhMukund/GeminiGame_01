@@ -13,8 +13,9 @@
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
         "aaa30af3-a7fd-40be-b293-3a42e199ca55",
-        "66645f15-7ca5-410d-9a52-da5e2d739b20",
-        "d551497a-22b7-4588-8da3-3088615e8ac9"
+        "40a7b8c0-c664-4675-940c-938510455bc1",
+        "d551497a-22b7-4588-8da3-3088615e8ac9",
+        "66645f15-7ca5-410d-9a52-da5e2d739b20"
       ]
     },
     "versionCode": 0
@@ -433,6 +434,11 @@
   },
   "66645f15-7ca5-410d-9a52-da5e2d739b20": {
     "url": "db://assets/Scripts/Ball.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "40a7b8c0-c664-4675-940c-938510455bc1": {
+    "url": "db://assets/Scripts/GameManager.ts",
     "value": {},
     "versionCode": 0
   }
