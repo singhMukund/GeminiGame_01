@@ -7,6 +7,8 @@
         "03300a6f-b63e-4917-91d0-b965e8b11989",
         "620b6bf3-0369-4560-837f-2a2c00b73c26",
         "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+        "ade8a15a-dcca-4b3c-84c6-f6476ac875bb",
+        "353c9baa-fd3d-40e1-92bf-6932a881177d@f9941",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
         "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
       ],
@@ -440,6 +442,104 @@
   "40a7b8c0-c664-4675-940c-938510455bc1": {
     "url": "db://assets/Scripts/GameManager.ts",
     "value": {},
+    "versionCode": 0
+  },
+  "50c6d6ea-3e19-4b47-8d9e-42717bdde974": {
+    "url": "db://assets/Materials",
+    "value": {},
+    "versionCode": 0
+  },
+  "9a14ab6d-2480-4a47-b3d6-460cb3d07466": {
+    "url": "db://assets/Materials/Bg_Color.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b8f372b1-895a-4b9e-8f97-d16c70ed3fe2": {
+    "url": "db://assets/Texture",
+    "value": {},
+    "versionCode": 0
+  },
+  "9d3a624d-b4c8-4e26-b5a4-8b9a72b6d117": {
+    "url": "db://assets/Particles",
+    "value": {},
+    "versionCode": 0
+  },
+  "3196c2e0-94b8-4f9a-9b00-320cb1b4eb67": {
+    "url": "db://assets/Texture/voodoo_cactus_underwater.jpg",
+    "value": {},
+    "versionCode": 0
+  },
+  "3196c2e0-94b8-4f9a-9b00-320cb1b4eb67@6c48a": {
+    "url": "db://assets/Texture/voodoo_cactus_underwater.jpg@6c48a",
+    "value": {
+      "depends": [
+        "3196c2e0-94b8-4f9a-9b00-320cb1b4eb67"
+      ]
+    },
+    "versionCode": 0
+  },
+  "353c9baa-fd3d-40e1-92bf-6932a881177d": {
+    "url": "db://assets/Texture/slide_1.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "353c9baa-fd3d-40e1-92bf-6932a881177d@6c48a": {
+    "url": "db://assets/Texture/slide_1.jpg@6c48a",
+    "value": {
+      "depends": [
+        "353c9baa-fd3d-40e1-92bf-6932a881177d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "353c9baa-fd3d-40e1-92bf-6932a881177d@f9941": {
+    "url": "db://assets/Texture/slide_1.jpg@f9941",
+    "value": {
+      "depends": [
+        "353c9baa-fd3d-40e1-92bf-6932a881177d@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4666d799-703a-4488-b4e9-f5a3481c9a06": {
+    "url": "db://assets/Scene/LoadingScene.scene",
+    "value": {},
+    "versionCode": 0
+  },
+  "2feb84f9-70dd-4535-a168-c2beb6e66de9": {
+    "url": "db://assets/Texture/logo-social.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "2feb84f9-70dd-4535-a168-c2beb6e66de9@6c48a": {
+    "url": "db://assets/Texture/logo-social.png@6c48a",
+    "value": {
+      "depends": [
+        "2feb84f9-70dd-4535-a168-c2beb6e66de9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "92a4fea1-0f7d-4e8b-928d-e5713f8042ac": {
+    "url": "db://assets/Texture/logo-social.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "92a4fea1-0f7d-4e8b-928d-e5713f8042ac@6c48a": {
+    "url": "db://assets/Texture/logo-social.png@6c48a",
+    "value": {
+      "depends": [
+        "92a4fea1-0f7d-4e8b-928d-e5713f8042ac"
+      ]
+    },
     "versionCode": 0
   }
 }
