@@ -59,6 +59,7 @@ BundleArtifacts
 bin/
 obj/
 gen/
+build/
 local.properties
 
 # Ignore python compiled files

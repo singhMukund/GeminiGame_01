@@ -15,12 +15,18 @@
       "1707592163182": {
         "configID": "e90639",
         "services": []
+      },
+      "1707849081847": {
+        "configID": "e90639",
+        "services": [],
+        "__version__": "3.0.7"
       }
     },
     "__version__": "1.3.7"
   },
   "builder-options": {
     "configID": "e90639",
-    "services": []
+    "services": [],
+    "__version__": "3.0.7"
   }
 }
