@@ -1,11 +1,18 @@
-import { _decorator, Component, Node, RigidBody, SphereCollider, Vec3 } from 'cc';
+import { _decorator, Component, Material, Node, RigidBody, SphereCollider, Vec3 } from 'cc';
 const { ccclass, property } = _decorator;
 
 @ccclass('Ball')
 export class Ball extends Component {
+     
+    @property
+    fallingSpeed:number = 12;
+    @property
+    upSpeed:number = 7;
+
+    
     start() {
-        this.node.getComponent(SphereCollider).on('onCollisionEnter' , this.OnCollide)
-        this.node.getComponent(SphereCollider).on('onTriggerEnter' , this.OnTriggerEnter) 
+        this.node.getComponent(SphereCollider).on('onCollisionEnter' , this.OnCollide , this)
+        this.node.getComponent(SphereCollider).on('onTriggerEnter' , this.OnTriggerEnter , this) 
     }
 
     update(deltaTime: number) {
@@ -17,7 +24,7 @@ export class Ball extends Component {
         if(target.otherCollider.node.layer == 1){//Floor Layer
         var sphere = target.selfCollider.node as Node
         
-        sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, 7, 0))
+        sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, this.upSpeed, 0))
         }
     
     }
@@ -25,7 +32,7 @@ export class Ball extends Component {
         target.otherCollider.enabled = false;
         if(target.otherCollider.node.layer == 2){//Find Layer
         var sphere = target.selfCollider.node as Node
-        sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, -10, 0))
+        sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, -this.fallingSpeed, 0))
         }
     
     }

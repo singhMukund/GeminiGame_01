@@ -9,6 +9,8 @@ export class SpawnTile extends Component {
     speed:number =0.1;
     @property
     canRun:boolean = false;
+    @property
+    xPos:number =0;
 
     start() {
         this.canRun = this.node.getParent().getComponent(TileGenerator).canGenerate
@@ -16,7 +18,7 @@ export class SpawnTile extends Component {
 
     update(deltaTime: number) {
     if(this.canRun){
-        this.node.translate(new Vec3(0,0,-this.speed))
+        this.node.translate(new Vec3(this.xPos,0,-this.speed))
     }else{
         this.canRun = this.node.getParent().getComponent(TileGenerator).canGenerate
     }

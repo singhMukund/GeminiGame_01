@@ -1,13 +1,13 @@
 {
   "__type__": "cc.SpriteFrame",
   "content": {
-    "name": "slide_1",
+    "name": "floor_1",
     "atlas": "",
     "rect": {
       "x": 0,
       "y": 0,
       "width": 1080,
-      "height": 1920
+      "height": 877
     },
     "offset": {
       "x": 0,
@@ -15,7 +15,7 @@
     },
     "originalSize": {
       "width": 1080,
-      "height": 1920
+      "height": 877
     },
     "rotated": false,
     "capInsets": [
@@ -27,16 +27,16 @@
     "vertices": {
       "rawPosition": [
         -540,
-        -960,
+        -438.5,
         0,
         540,
-        -960,
+        -438.5,
         0,
         -540,
-        960,
+        438.5,
         0,
         540,
-        960,
+        438.5,
         0
       ],
       "indexes": [
@@ -49,9 +49,9 @@
       ],
       "uv": [
         0,
-        1920,
+        877,
         1080,
-        1920,
+        877,
         0,
         0,
         1080,
@@ -69,16 +69,16 @@
       ],
       "minPos": {
         "x": -540,
-        "y": -960,
+        "y": -438.5,
         "z": 0
       },
       "maxPos": {
         "x": 540,
-        "y": 960,
+        "y": 438.5,
         "z": 0
       }
     },
-    "texture": "353c9baa-fd3d-40e1-92bf-6932a881177d@6c48a",
+    "texture": "6c6fad2a-c31d-4ebc-a0c9-dafcaa7cd711@6c48a",
     "packable": true,
     "pixelsToUnit": 100,
     "pivot": {
