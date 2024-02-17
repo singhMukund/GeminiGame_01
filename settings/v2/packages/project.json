@@ -21,6 +21,14 @@
     {
       "name": "FindTile",
       "value": 2
+    },
+    {
+      "name": "baseLight",
+      "value": 4
+    },
+    {
+      "name": "BigTile",
+      "value": 8
     }
   ],
   "custom_joint_texture_layouts": [],
