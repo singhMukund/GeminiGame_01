@@ -80,7 +80,7 @@
       "uuid": "85194984-68f5-4ed1-a991-530d6b98f3de"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab": {
-      "time": 1707847473641.9092,
+      "time": 1708173473418.2163,
       "uuid": "e1d73078-c809-42a4-9497-d988eca4ade3"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene": {
@@ -88,7 +88,7 @@
       "uuid": "919c6da4-81a4-41d6-81a1-84fe79f02c9e"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts": {
-      "time": 1708016481706.8335,
+      "time": 1708194630038.8906,
       "uuid": "841b3c5c-cd86-416a-868f-1f9368ab664b"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture": {
@@ -96,11 +96,11 @@
       "uuid": "ea35b37e-14fb-4f93-9bf4-3824dc203424"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Input.ts": {
-      "time": 1707848825072.238,
+      "time": 1708194809568.213,
       "uuid": "d551497a-22b7-4588-8da3-3088615e8ac9"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\SpawnTile.ts": {
-      "time": 1708167212960.495,
+      "time": 1708189764653.4685,
       "uuid": "79d93799-8172-4ef4-b60d-66bd4eb18145"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation.meta": {
@@ -140,15 +140,15 @@
       "uuid": "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\Tile.prefab": {
-      "time": 1707847473641.9092,
+      "time": 1708173227713.453,
       "uuid": "03300a6f-b63e-4917-91d0-b965e8b11989"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\scene.scene": {
-      "time": 1708168616775.8318,
+      "time": 1708194985172.7725,
       "uuid": "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\UI.scene": {
-      "time": 1707760238119.2195,
+      "time": 1708190756554.81,
       "uuid": "b50fa493-27a0-4cf6-b6c6-7ce4f47b97a6"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Ball.fbx": {
@@ -209,20 +209,20 @@
       "time": 1707760238116.6946
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Base_fracture.fbx.meta": {
-      "time": 1707760238115.6638
+      "time": 1708170716598.783
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\TileGenerator.ts.meta": {
       "time": 1707847473653.4307
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\TileGenerator.ts": {
-      "time": 1707847473647.9138,
+      "time": 1708193875887.0735,
       "uuid": "aaa30af3-a7fd-40be-b293-3a42e199ca55"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Ball.ts.meta": {
       "time": 1707847473646.913
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Ball.ts": {
-      "time": 1708166712853.4392,
+      "time": 1708194513032.8196,
       "uuid": "66645f15-7ca5-410d-9a52-da5e2d739b20"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameManager.ts.meta": {
@@ -236,7 +236,7 @@
       "time": 1707930061951.7476
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials": {
-      "time": 1708166754775.6367,
+      "time": 1708170819144.529,
       "uuid": "50c6d6ea-3e19-4b47-8d9e-42717bdde974"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture.meta": {
@@ -341,7 +341,7 @@
       "time": 1707936012591.0627
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\BackgroundManager.ts": {
-      "time": 1708169914275.9207,
+      "time": 1708194304990.33,
       "uuid": "5d31b2a1-84a4-4b1f-b147-40a65ea4a937"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Axel_f.mp3.meta": {
@@ -497,6 +497,34 @@
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\BG_2.jpg": {
       "time": 1708113169064.1719,
       "uuid": "9aa3085e-7714-421c-a1c0-01da489e391a"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials\\Tile_effect.mtl.meta": {
+      "time": 1708170819162.0786
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials\\Tile_effect.mtl": {
+      "time": 1708170832424.1467,
+      "uuid": "2e82b830-3eb3-45de-8228-24354ad935d6"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\BigTile.prefab.meta": {
+      "time": 1708173473422.218
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\BigTile.prefab": {
+      "time": 1708175908625.0757,
+      "uuid": "964603a2-67df-4be3-a6f0-0ca8add37bfa"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Believer.mp3.meta": {
+      "time": 1708186993343.7173
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Believer.mp3": {
+      "time": 1708186981899.9797,
+      "uuid": "5cbe801e-9884-4ecc-a78e-fdde1cf747d4"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\SoundManager.ts.meta": {
+      "time": 1708194630046.9004
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\SoundManager.ts": {
+      "time": 1708194855089.02,
+      "uuid": "b78eaa38-d8e0-46db-9188-de395fcdd539"
     }
   },
   "missing": {
@@ -659,6 +687,21 @@
       "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials\\Bg_Mat_3.mtl",
       "time": 1708163194343.2942,
       "removeTime": 1708166638454
+    },
+    "964603a2-67df-4be3-a6f0-0ca8add37bfa": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\Tile-001.prefab",
+      "time": 1708173467638.4624,
+      "removeTime": 1708173473418
+    },
+    "5cbe801e-9884-4ecc-a78e-fdde1cf747d4": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\Believer(PagalWorld).mp3",
+      "time": 1708186981899.9797,
+      "removeTime": 1708187009156
+    },
+    "72a1cd64-84af-4a9e-805a-786ee13ccf23": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\folder",
+      "time": 1708194616131.225,
+      "removeTime": 1708194619167
     }
   }
 }

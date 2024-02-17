@@ -29,9 +29,7 @@ export class BackgroundManager extends Component {
         
         // },0.1,10,0)
         // this.scheduleOnce((dt)=>{
-         
         // },0)
-      
     }
 
     update(deltaTime: number) {
@@ -80,13 +78,9 @@ export class BackgroundManager extends Component {
                     calculateAlpha = 0
                 }
             }
-            
             this.bg1.getComponent(MeshRenderer).getRenderMaterial(0).setProperty("albedo" , new Color(255,0,0,calculateAlpha) ,0)
         } , interval , repeat ,0)
-    }
-    
-
-    
+    } 
 }
 
 
