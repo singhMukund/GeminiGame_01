@@ -18,10 +18,20 @@ export class TileGenerator extends Component {
     canGenrateChanger:boolean = false;
 
     counter:number =0;
+    timer:number = 30;
 
     
     start() {
-    this.schedule(this.generateTile ,0.3,macro.REPEAT_FOREVER,1)
+        var num =0;
+    this.schedule((dt)=>{
+        var ar = [25 ,20,20, 35  ,40 ];
+        this.timer = ar[num];
+
+        num++;
+        if(num > ar.length-1){
+            num =0;
+        }
+    },3,macro.REPEAT_FOREVER)
     }
 
     update(deltaTime: number) {
@@ -30,8 +40,14 @@ export class TileGenerator extends Component {
         }else{
             this.canGenrateChanger = false;
         }
+        if(this.canGenerate){
+           this.counter++
+            if( this.counter%this.timer ==0){
+            this.generateTile()
+            }
 
     }
+}
 
     generateTile(){
         if(this.canGenerate){
