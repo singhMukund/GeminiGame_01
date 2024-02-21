@@ -16,9 +16,12 @@ export class TileGenerator extends Component {
     tileCount:number =0;
     changerCount:number = 5;
     canGenrateChanger:boolean = false;
+
+    counter:number =0;
+
     
     start() {
-    this.schedule(this.generateTile ,0.8,macro.REPEAT_FOREVER,1)
+    this.schedule(this.generateTile ,0.3,macro.REPEAT_FOREVER,1)
     }
 
     update(deltaTime: number) {
@@ -27,6 +30,7 @@ export class TileGenerator extends Component {
         }else{
             this.canGenrateChanger = false;
         }
+
     }
 
     generateTile(){
@@ -44,7 +48,7 @@ export class TileGenerator extends Component {
             if(this.canGenrateChanger){
                 generatedTile.setPosition(new Vec3(0,0,10))
             }else{
-                var randomPos = randomRangeInt(-2 , 2)
+                var randomPos = this.getXpos()
                 generatedTile.setPosition(new Vec3(randomPos,0,10))
             }
             var xpos = 0;
@@ -61,6 +65,22 @@ export class TileGenerator extends Component {
             generatedTile.getComponent(SpawnTile).spawnTile()
         }
 
+    }
+
+    getInterval(){
+        var list = [0.3 , 0.5 , 0.6];
+        var random = randomRangeInt(0,list.length);
+        var numberOfTile = this.getNumberOfTiles(random);
+        return [list[random],numberOfTile];
+    }
+    getNumberOfTiles(index:number){
+     var list = [3 , 2 , 1];
+     return list[index];
+    }
+    getXpos(){
+        var pos = [-2 , -1 , 0 , 2 , 1];
+        var randomPos = randomRangeInt(0,pos.length);
+        return pos[randomPos];
     }
 }
 

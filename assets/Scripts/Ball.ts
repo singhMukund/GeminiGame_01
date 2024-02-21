@@ -1,6 +1,7 @@
 import { _decorator, Component, director, Layers, Material, Node, RigidBody, Scene, SphereCollider, Vec3 } from 'cc';
 import { SpawnTile } from './SpawnTile';
 import { BackgroundManager } from './BackgroundManager';
+import { Tone } from 'tone/build/esm/core/Tone';
 const { ccclass, property } = _decorator;
 
 @ccclass('Ball')
@@ -21,6 +22,7 @@ export class Ball extends Component {
 
     update(deltaTime: number) {
         this.node.setPosition(new Vec3(this.node.getPosition().x ,this.node.getPosition().y , 0 ))
+        
     }
     
     OnCollide(target:any){ //It contains OtherCollider , SelfCollider
@@ -35,7 +37,7 @@ export class Ball extends Component {
         if(target.otherCollider.node.layer == 8){ //BigTile Layer
             var sphere = target.selfCollider.node as Node
             sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, this.upSpeed, 0))
-            this.bgManager.checkBG(4)
+            this.bgManager.checkBG(2)
         }
     
     }

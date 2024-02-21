@@ -30,6 +30,8 @@ export class BackgroundManager extends Component {
         // },0.1,10,0)
         // this.scheduleOnce((dt)=>{
         // },0)
+        this.bg1.getComponent(MeshRenderer).getRenderMaterial(0).setProperty("albedo" , new Color(255,0,0,255) ,0)
+        this.bg2.getComponent(MeshRenderer).getRenderMaterial(0).setProperty("albedo" , new Color(255,0,0,255) ,0)
     }
 
     update(deltaTime: number) {
