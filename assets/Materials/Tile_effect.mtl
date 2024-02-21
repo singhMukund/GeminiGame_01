@@ -8,9 +8,8 @@
     "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
     "__expectedType__": "cc.EffectAsset"
   },
-  "_techIdx": 0,
+  "_techIdx": 1,
   "_defines": [
-    {},
     {},
     {},
     {},
@@ -62,28 +61,22 @@
           {}
         ]
       }
-    },
-    {
-      "rasterizerState": {},
-      "depthStencilState": {},
-      "blendState": {
-        "targets": [
-          {}
-        ]
-      }
     }
   ],
   "_props": [
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 0,
-        "g": 207,
-        "b": 0,
-        "a": 255
-      }
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 98
+      },
+      "alphaThreshold": 0.152,
+      "occlusion": 0.573,
+      "metallic": 0.185,
+      "specularIntensity": 0.592
     },
-    {},
     {},
     {},
     {},

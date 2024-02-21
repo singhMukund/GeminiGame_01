@@ -91,6 +91,7 @@
         "7734831b-3f0b-42df-8df5-ec3777705af4@53c37",
         "7734831b-3f0b-42df-8df5-ec3777705af4@0447c",
         "f6108222-0dc5-4230-8dee-0b883cf59001@d295a",
+        "2e82b830-3eb3-45de-8228-24354ad935d6",
         "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
       ],
       "dependScripts": [
@@ -1188,6 +1189,5262 @@
   },
   "b78eaa38-d8e0-46db-9188-de395fcdd539": {
     "url": "db://assets/Scripts/SoundManager.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f247cc3f-7a2d-4bf5-bb23-fa6def4de149": {
+    "url": "db://assets/Tone",
+    "value": {},
+    "versionCode": 0
+  },
+  "e7c1e942-7bab-4739-b7ab-2cc7fac5aabb": {
+    "url": "db://assets/Tone/classes.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f686bf03-3ec7-464f-9159-5ce42af017e4": {
+    "url": "db://assets/Tone/component",
+    "value": {},
+    "versionCode": 0
+  },
+  "6cb2e4b0-1dc7-4fbe-be76-35fc5e54f607": {
+    "url": "db://assets/Tone/core",
+    "value": {},
+    "versionCode": 0
+  },
+  "3545c744-f9f7-48a2-9c75-2e95c813b04a": {
+    "url": "db://assets/Tone/effect",
+    "value": {},
+    "versionCode": 0
+  },
+  "83c87b55-b99f-43bb-a1ec-16c751603fd3": {
+    "url": "db://assets/Tone/event",
+    "value": {},
+    "versionCode": 0
+  },
+  "8c47fdec-9373-487a-83ef-e28a2ba30046": {
+    "url": "db://assets/Tone/fromContext.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "41245ebd-4953-4d83-b0f5-ca1eaf4042d9": {
+    "url": "db://assets/Tone/fromContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ed634f5e-175c-45a5-9b64-f4b43cbce3a1": {
+    "url": "db://assets/Tone/index.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "596b24a9-c632-4e20-afaa-d6babe3727a1": {
+    "url": "db://assets/Tone/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f91f8fa3-ef80-4a8d-962d-63ff732b8fde": {
+    "url": "db://assets/Tone/instrument",
+    "value": {},
+    "versionCode": 0
+  },
+  "5ecc3051-7a53-4415-b265-234fa8f7d222": {
+    "url": "db://assets/Tone/signal",
+    "value": {},
+    "versionCode": 0
+  },
+  "0ddf4008-7f64-40c7-89f8-fda3a8dfea10": {
+    "url": "db://assets/Tone/source",
+    "value": {},
+    "versionCode": 0
+  },
+  "ff738940-3d89-4d73-93cb-0720a27959b4": {
+    "url": "db://assets/Tone/version.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bc1d2320-1420-4eec-a543-38c5b77286df": {
+    "url": "db://assets/Tone/component/analysis",
+    "value": {},
+    "versionCode": 0
+  },
+  "1681271f-b25f-4ceb-83d3-23ce2f1f3039": {
+    "url": "db://assets/Tone/component/channel",
+    "value": {},
+    "versionCode": 0
+  },
+  "664df708-2333-4de3-b847-82cee7b9ee53": {
+    "url": "db://assets/Tone/component/dynamics",
+    "value": {},
+    "versionCode": 0
+  },
+  "3e2bfc18-0687-4599-9687-c3957402a98e": {
+    "url": "db://assets/Tone/component/envelope",
+    "value": {},
+    "versionCode": 0
+  },
+  "4ccc3377-ae4a-4407-ae81-dd60912e31b1": {
+    "url": "db://assets/Tone/component/filter",
+    "value": {},
+    "versionCode": 0
+  },
+  "27d58a74-afd2-4f45-8c95-c7701fb28137": {
+    "url": "db://assets/Tone/component/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "86116c8c-2a70-48a2-8f1d-8399c91a4f3d": {
+    "url": "db://assets/Tone/core/clock",
+    "value": {},
+    "versionCode": 0
+  },
+  "abf35028-ff75-4222-8d31-cdda3dc35ccf": {
+    "url": "db://assets/Tone/core/context",
+    "value": {},
+    "versionCode": 0
+  },
+  "ac157b87-b8b3-41e7-8b57-d0240ba4cd50": {
+    "url": "db://assets/Tone/core/Global.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "92872f08-e0f7-4602-84ec-b0f580a57104": {
+    "url": "db://assets/Tone/core/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3f2327df-dd9a-445a-ab1b-2de2c37e0bca": {
+    "url": "db://assets/Tone/core/Tone.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dc163bd6-1f8c-472f-838f-9357a857ef9b": {
+    "url": "db://assets/Tone/core/type",
+    "value": {},
+    "versionCode": 0
+  },
+  "c56194a9-8c7a-494f-b83c-62acd668f7cb": {
+    "url": "db://assets/Tone/core/util",
+    "value": {},
+    "versionCode": 0
+  },
+  "02b18d85-fa8f-47b1-b508-7cb455ad4dbd": {
+    "url": "db://assets/Tone/core/worklet",
+    "value": {},
+    "versionCode": 0
+  },
+  "dbf86d82-efb4-4560-81a6-618470aa9bfa": {
+    "url": "db://assets/Tone/effect/AutoFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "09460cab-ccf1-47d9-b65e-84b6d60c87eb": {
+    "url": "db://assets/Tone/effect/AutoFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "aad5cdd5-288b-4f0e-97bb-b2e84a2d6c69": {
+    "url": "db://assets/Tone/effect/AutoPanner.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d1232f54-e204-4c2e-89db-ae9e8da4be08": {
+    "url": "db://assets/Tone/effect/AutoPanner.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "328776ac-f5fc-48e2-9905-bceb3d57f891": {
+    "url": "db://assets/Tone/effect/AutoWah.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "42d9c3d9-abbc-4f59-b2d8-cda47ec7b1ef": {
+    "url": "db://assets/Tone/effect/AutoWah.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "237aeb79-3903-4e98-94d0-16e92682eec6": {
+    "url": "db://assets/Tone/effect/BitCrusher.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0ab9b976-5e87-452c-baa0-5154b6f0a8ea": {
+    "url": "db://assets/Tone/effect/BitCrusher.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7a1d6bc4-5bb1-4eef-ba0c-467b1776f682": {
+    "url": "db://assets/Tone/effect/BitCrusher.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "07668936-33b3-48f4-bb40-4dff72400282": {
+    "url": "db://assets/Tone/effect/Chebyshev.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e35af886-5b73-41b9-8a09-a7aa74b6f00a": {
+    "url": "db://assets/Tone/effect/Chebyshev.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f11e015a-b4af-490b-9075-5d41e2b2baca": {
+    "url": "db://assets/Tone/effect/Chorus.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f1821258-105e-459b-92f8-5c6a218010e9": {
+    "url": "db://assets/Tone/effect/Chorus.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d95df301-72eb-4539-b86b-c634ccfae27d": {
+    "url": "db://assets/Tone/effect/Distortion.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7ce51459-b769-4af4-9510-e810e7631b0b": {
+    "url": "db://assets/Tone/effect/Distortion.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d4b71650-3bc7-4dfd-8210-c9b72e0c69f7": {
+    "url": "db://assets/Tone/effect/Effect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f4464da3-8a29-4eee-96b3-953a3d48f8d6": {
+    "url": "db://assets/Tone/effect/FeedbackDelay.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "16eec99d-8d9e-4c80-9978-4f94d896d697": {
+    "url": "db://assets/Tone/effect/FeedbackDelay.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ec28dbb7-3977-43c4-8b59-7abad37d4ace": {
+    "url": "db://assets/Tone/effect/FeedbackEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4e5d3686-caa3-4a54-a86f-e6b7d7ab4d95": {
+    "url": "db://assets/Tone/effect/Freeverb.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3904110e-b677-4d94-bcf9-ca9c42d1105e": {
+    "url": "db://assets/Tone/effect/Freeverb.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8aed6dcd-a0ff-4e02-b161-12c6e1156ab6": {
+    "url": "db://assets/Tone/effect/FrequencyShifter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8bc591ea-ef30-4ec0-80d8-c3e20d905c4c": {
+    "url": "db://assets/Tone/effect/FrequencyShifter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8fa6abad-ccde-4c12-a650-0235d596f5d8": {
+    "url": "db://assets/Tone/effect/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b1ed0834-ec4b-4bd5-bf98-2dc0e5a86c24": {
+    "url": "db://assets/Tone/effect/JCReverb.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b08df73e-858b-47b1-8f60-0411ef684578": {
+    "url": "db://assets/Tone/effect/JCReverb.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "aaf6b6bc-8327-4f38-b4f5-f0cfdeb454af": {
+    "url": "db://assets/Tone/effect/LFOEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d9a623b6-a41b-4bb7-99bf-11e3b5510463": {
+    "url": "db://assets/Tone/effect/MidSideEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "85b80651-51b2-4293-8e8b-8705f907e557": {
+    "url": "db://assets/Tone/effect/Phaser.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fac39124-a7f5-441f-aec9-69183e47c55c": {
+    "url": "db://assets/Tone/effect/Phaser.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b028bb2e-dce4-4d08-abcf-6b61f51d3987": {
+    "url": "db://assets/Tone/effect/PingPongDelay.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b0ff4462-c224-4c30-b6d1-12bbc5db49de": {
+    "url": "db://assets/Tone/effect/PingPongDelay.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6b5b361f-bc68-4e8c-9f09-b86032e0a485": {
+    "url": "db://assets/Tone/effect/PitchShift.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "90d05bf4-54a3-47bd-a84e-7d5d13050d5b": {
+    "url": "db://assets/Tone/effect/PitchShift.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "563c04a8-d516-46a4-a92d-feedc72b283e": {
+    "url": "db://assets/Tone/effect/Reverb.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f3026e2a-7e5c-480d-aad7-ea001e99f939": {
+    "url": "db://assets/Tone/effect/Reverb.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9e3fb6d4-fa47-4979-ab04-0fd1f43940bd": {
+    "url": "db://assets/Tone/effect/StereoEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f55e23ac-8bd9-475c-aba7-22601d34c8e2": {
+    "url": "db://assets/Tone/effect/StereoFeedbackEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a705ac6f-2177-40f1-881e-008afbb526d9": {
+    "url": "db://assets/Tone/effect/StereoWidener.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dd8b617a-be24-4f3e-982a-e8fb93cbf269": {
+    "url": "db://assets/Tone/effect/StereoWidener.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d9da456d-f7b8-4fed-ac2b-774a4c89fecb": {
+    "url": "db://assets/Tone/effect/StereoXFeedbackEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c22fdcb4-8503-4ce2-94d2-6ac648fc87f7": {
+    "url": "db://assets/Tone/effect/Tremolo.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1b802d6c-857e-4e68-b972-58bc24bc128b": {
+    "url": "db://assets/Tone/effect/Tremolo.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dbaf9cad-16a6-420b-b878-061c07e03a31": {
+    "url": "db://assets/Tone/effect/Vibrato.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "adc2f327-25e6-4cf8-9686-0eb19b087253": {
+    "url": "db://assets/Tone/effect/Vibrato.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e8a0b617-96a6-43bf-a265-751a94edc25e": {
+    "url": "db://assets/Tone/event/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8ca75301-070f-48a9-958c-ae84b54a6fcc": {
+    "url": "db://assets/Tone/event/Loop.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3f04765c-e82a-4f2b-bf7a-06ec69f41430": {
+    "url": "db://assets/Tone/event/Loop.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7d13cc78-1184-4d55-a6d0-4121a0a4e591": {
+    "url": "db://assets/Tone/event/Part.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7f10e948-d330-499e-bcd9-f0ac3d77d27e": {
+    "url": "db://assets/Tone/event/Part.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ae31c1ca-cb4b-443a-827d-11c88ae7946c": {
+    "url": "db://assets/Tone/event/Pattern.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "70d11cb5-004b-428e-8812-452be75ce256": {
+    "url": "db://assets/Tone/event/Pattern.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8b78010f-f02d-4753-89db-2071dd0d3320": {
+    "url": "db://assets/Tone/event/PatternGenerator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d20642c7-c06a-49a2-bc9d-b127f8b6198f": {
+    "url": "db://assets/Tone/event/PatternGenerator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1a08a213-8dd5-4d27-b1dd-09bb80499fb6": {
+    "url": "db://assets/Tone/event/Sequence.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "742a5790-518c-4306-8017-192cef264e0a": {
+    "url": "db://assets/Tone/event/Sequence.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f190cf80-77dd-41b5-8b98-544812f0efed": {
+    "url": "db://assets/Tone/event/ToneEvent.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "36d68cff-c891-4c6c-80b6-1a15b819a1f0": {
+    "url": "db://assets/Tone/event/ToneEvent.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ad17e68e-8731-44b0-9dc0-e15301f34f85": {
+    "url": "db://assets/Tone/instrument/AMSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7948d9a3-127a-47be-8ef8-311d0179a1cb": {
+    "url": "db://assets/Tone/instrument/AMSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "45f5fdd3-f2d3-4c50-bb02-b3a5ac0fb5e9": {
+    "url": "db://assets/Tone/instrument/DuoSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2b514922-7b98-4e5a-8b9b-5541d187021a": {
+    "url": "db://assets/Tone/instrument/DuoSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bdae9dec-aa2a-4ede-a224-192ecd58bcad": {
+    "url": "db://assets/Tone/instrument/FMSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "33826e19-6874-4721-beaa-b8e6d6c74322": {
+    "url": "db://assets/Tone/instrument/FMSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b1209cc2-1077-408b-9222-be4f0b083477": {
+    "url": "db://assets/Tone/instrument/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8c4762a3-d6b2-4183-95dd-cb365d64b367": {
+    "url": "db://assets/Tone/instrument/Instrument.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "50e0aea0-2d29-43df-9437-fed4e34c2616": {
+    "url": "db://assets/Tone/instrument/MembraneSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7ec86680-0bdd-456c-bf9a-9e783128776b": {
+    "url": "db://assets/Tone/instrument/MembraneSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ea5740f5-34c0-454e-a6c5-9ce508fc6464": {
+    "url": "db://assets/Tone/instrument/MetalSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b2e3af0c-8b33-49ec-ba84-e70704000f98": {
+    "url": "db://assets/Tone/instrument/MetalSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8ef6dc24-daf5-482c-b600-a6218b7d3201": {
+    "url": "db://assets/Tone/instrument/ModulationSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "05cb3c5c-623a-4d3a-a2d3-19316f5a00ca": {
+    "url": "db://assets/Tone/instrument/Monophonic.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4bf533dc-3e49-4956-9738-3dd525e1c59b": {
+    "url": "db://assets/Tone/instrument/MonoSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6799961d-f4e5-459d-b61b-12f00e3182f9": {
+    "url": "db://assets/Tone/instrument/MonoSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1fbf1e04-7286-4987-a44c-f4a895dacc4c": {
+    "url": "db://assets/Tone/instrument/NoiseSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "577a13f5-e72c-4ca3-a56b-5b61a43f7152": {
+    "url": "db://assets/Tone/instrument/NoiseSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bd868b5d-6f0a-436f-bad5-b0c0ce12b759": {
+    "url": "db://assets/Tone/instrument/PluckSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4de9dcfb-627f-475d-a46d-a733c12aecd9": {
+    "url": "db://assets/Tone/instrument/PluckSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ba68ab3e-1021-4bdf-81d4-9d217b9bcbfe": {
+    "url": "db://assets/Tone/instrument/PolySynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d8b45715-16d3-4141-8dab-00106d054b02": {
+    "url": "db://assets/Tone/instrument/PolySynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2e8b3e01-3aca-4958-84fa-aca1db9f88bf": {
+    "url": "db://assets/Tone/instrument/Sampler.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e162c939-19ee-4273-9252-d41a33a0754f": {
+    "url": "db://assets/Tone/instrument/Sampler.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0c06d83b-f8a5-4162-a492-fff0b17ba0ae": {
+    "url": "db://assets/Tone/instrument/Synth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bcbd4fd8-1473-4e68-a303-8561d39ff60b": {
+    "url": "db://assets/Tone/instrument/Synth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cdb35c00-d541-4bf6-bac1-b6a40f7f4d46": {
+    "url": "db://assets/Tone/signal/Abs.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ad199904-1687-4fde-9998-9eb1b875eddf": {
+    "url": "db://assets/Tone/signal/Abs.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5117a54c-d0ef-44a6-b411-e87f56bf2483": {
+    "url": "db://assets/Tone/signal/Add.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "94cae010-f7bf-419d-83f1-8df17c66cf8a": {
+    "url": "db://assets/Tone/signal/Add.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "04ca7674-73d2-4568-824e-b2ba79f55bcb": {
+    "url": "db://assets/Tone/signal/AudioToGain.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cca8590d-6797-4890-a32e-917c73e8d511": {
+    "url": "db://assets/Tone/signal/AudioToGain.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6b1ef7f3-0f45-4459-9705-093ca9427e1b": {
+    "url": "db://assets/Tone/signal/GainToAudio.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4d871524-7895-4e69-8971-38d6453663d3": {
+    "url": "db://assets/Tone/signal/GainToAudio.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ca44f79f-7118-41a5-ba8d-3a7c5216deef": {
+    "url": "db://assets/Tone/signal/GreaterThan.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "90abad71-4254-4239-9a22-bdd53a0475be": {
+    "url": "db://assets/Tone/signal/GreaterThan.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5bedb594-45ff-4013-80e2-b6d8d8614074": {
+    "url": "db://assets/Tone/signal/GreaterThanZero.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4847a758-5b4f-4c77-b555-af38cba4e1a6": {
+    "url": "db://assets/Tone/signal/GreaterThanZero.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f5574efd-9190-4ee0-9a45-4ba19a7e3573": {
+    "url": "db://assets/Tone/signal/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "065b04ec-60b2-4e0d-8893-e78300b28000": {
+    "url": "db://assets/Tone/signal/Multiply.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d910bc6e-0e53-48c5-8193-aebf6c211a72": {
+    "url": "db://assets/Tone/signal/Multiply.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bc1cadc6-c990-40f5-853a-a41230877d19": {
+    "url": "db://assets/Tone/signal/Negate.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "eaf97049-7091-4a64-932b-9d8207a704ff": {
+    "url": "db://assets/Tone/signal/Negate.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e42dfc9d-11cd-41aa-8cde-f44a720eb07b": {
+    "url": "db://assets/Tone/signal/Pow.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c28be481-fd36-4b9b-9735-825547493323": {
+    "url": "db://assets/Tone/signal/Pow.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cad393cb-f78c-47c8-871c-95d3121d3f7d": {
+    "url": "db://assets/Tone/signal/Scale.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ab50d650-1714-4649-92f7-f7480969b585": {
+    "url": "db://assets/Tone/signal/Scale.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f0fc0c2e-b10b-43e6-81e3-3cfe9dd7c902": {
+    "url": "db://assets/Tone/signal/ScaleExp.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "16354a00-4abc-4dde-a6a0-08ddd5dd023e": {
+    "url": "db://assets/Tone/signal/ScaleExp.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8f2c1c16-bfe3-4345-8340-e99a8f18e143": {
+    "url": "db://assets/Tone/signal/Signal.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b8c61dfd-e0a4-424a-9f0e-be53a2befe5b": {
+    "url": "db://assets/Tone/signal/Signal.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5492b3df-8f0a-4a94-9db4-b0ef29ef702d": {
+    "url": "db://assets/Tone/signal/SignalOperator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b9e8c3b0-4d20-46fd-999c-a2243abdd352": {
+    "url": "db://assets/Tone/signal/Subtract.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3c4955e9-4bcf-4b83-b50b-107b399b6629": {
+    "url": "db://assets/Tone/signal/Subtract.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "db2a8660-302e-4647-b963-69e6204e52a0": {
+    "url": "db://assets/Tone/signal/SyncedSignal.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b218d31a-8b00-4e37-b7b7-f418aa3e85a0": {
+    "url": "db://assets/Tone/signal/SyncedSignal.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ab5c8f23-d42b-4e60-a519-15ecfbb2ad82": {
+    "url": "db://assets/Tone/signal/ToneConstantSource.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4f66872d-06a6-4b56-9358-f712912f88f1": {
+    "url": "db://assets/Tone/signal/ToneConstantSource.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ccc236d3-b699-4aec-a973-00767814e6a3": {
+    "url": "db://assets/Tone/signal/WaveShaper.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a0c59d7c-9aca-4d71-971e-6165eb6e81cb": {
+    "url": "db://assets/Tone/signal/WaveShaper.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "065be2cf-1c04-4499-b3b1-77e5db798d65": {
+    "url": "db://assets/Tone/signal/Zero.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3e1a843b-925c-42b3-ba2d-0ce486ee1de4": {
+    "url": "db://assets/Tone/signal/Zero.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "93c00b02-da5f-4e8b-9813-3c6f64a107ba": {
+    "url": "db://assets/Tone/source/buffer",
+    "value": {},
+    "versionCode": 0
+  },
+  "3bc46b2a-9714-4432-bf3d-e619434d2662": {
+    "url": "db://assets/Tone/source/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b9c155c6-d94e-4b56-8115-443a2c000d4a": {
+    "url": "db://assets/Tone/source/Noise.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "19109a79-24cf-44c1-8fd4-8dfbe32117a4": {
+    "url": "db://assets/Tone/source/Noise.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "50d8ea2c-cfa7-4493-87a1-8342b8b65bf3": {
+    "url": "db://assets/Tone/source/OneShotSource.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "58d5bd59-903f-43dc-98ea-d7f331348a5f": {
+    "url": "db://assets/Tone/source/oscillator",
+    "value": {},
+    "versionCode": 0
+  },
+  "a3593aae-db21-4451-9247-1585ed9fe3d3": {
+    "url": "db://assets/Tone/source/Source.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c9faed85-2052-430b-9ddd-5a936fe4f4d8": {
+    "url": "db://assets/Tone/source/Source.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "113dcdcd-ddb9-409d-a103-a8c85a36ede1": {
+    "url": "db://assets/Tone/source/UserMedia.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9e5c79d8-2e49-488c-a975-8293a177adbf": {
+    "url": "db://assets/Tone/source/UserMedia.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b566a526-ca82-429a-844d-04ae25d52f27": {
+    "url": "db://assets/Tone/component/analysis/Analyser.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cd801105-b6f9-43d4-82ee-ef18628b4514": {
+    "url": "db://assets/Tone/component/analysis/Analyser.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dc59da0c-a595-4e55-a895-aec604a1ec81": {
+    "url": "db://assets/Tone/component/analysis/DCMeter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c2afe853-54b8-491b-98ce-9be66959b644": {
+    "url": "db://assets/Tone/component/analysis/DCMeter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b22aa87a-5818-44d0-95f4-112263134aee": {
+    "url": "db://assets/Tone/component/analysis/FFT.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5fcea5f0-824a-4cef-a8fa-a7dbe0ba98aa": {
+    "url": "db://assets/Tone/component/analysis/FFT.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "82d85c3d-bc55-491d-84a3-038a6deba2f5": {
+    "url": "db://assets/Tone/component/analysis/Follower.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d02c09f9-b013-454e-8df1-27532c4d2577": {
+    "url": "db://assets/Tone/component/analysis/Follower.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "87db42d3-5ce0-4fa8-9d52-b5b65b24fd4e": {
+    "url": "db://assets/Tone/component/analysis/Meter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "438705c1-02b3-4227-ad5a-493ff9fa5119": {
+    "url": "db://assets/Tone/component/analysis/Meter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3ef36814-0474-4436-9338-95379f17d8ed": {
+    "url": "db://assets/Tone/component/analysis/MeterBase.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a77768cf-68d0-40f0-abd3-0fe41210786b": {
+    "url": "db://assets/Tone/component/analysis/Waveform.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f57fe8d3-f07c-4051-ac46-65c816b0369e": {
+    "url": "db://assets/Tone/component/analysis/Waveform.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3b8e1ca9-33ca-4edd-856a-f813055ce469": {
+    "url": "db://assets/Tone/component/channel/Channel.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "823cd817-647a-4d2d-a0dd-808fe4efa503": {
+    "url": "db://assets/Tone/component/channel/Channel.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "578a90a7-879e-407a-a7fa-3f795370e8e7": {
+    "url": "db://assets/Tone/component/channel/CrossFade.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e2f769a2-1cd1-48da-b5d3-f55f5d63bcfd": {
+    "url": "db://assets/Tone/component/channel/CrossFade.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9b0df5af-28b0-48a3-9026-77c7347d46f4": {
+    "url": "db://assets/Tone/component/channel/Merge.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a0a15273-2ca1-432a-88e5-5482e037691f": {
+    "url": "db://assets/Tone/component/channel/Merge.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6e53f94c-5a4a-4ce4-9d04-78157f923ffe": {
+    "url": "db://assets/Tone/component/channel/MidSideMerge.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "966a8247-fac8-4206-9990-42ad9fe4da9f": {
+    "url": "db://assets/Tone/component/channel/MidSideMerge.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c489532c-9f3b-4347-a892-978f6b62f941": {
+    "url": "db://assets/Tone/component/channel/MidSideSplit.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8c060e7a-e5f6-43cd-837e-fc8da3fc84d0": {
+    "url": "db://assets/Tone/component/channel/MidSideSplit.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4b2e6468-a400-4de5-a4ee-7bc762b03e16": {
+    "url": "db://assets/Tone/component/channel/Mono.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "52f9c5f7-6914-4e1a-8502-a78cb3a46510": {
+    "url": "db://assets/Tone/component/channel/Mono.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d9accf21-6a63-403e-8b8b-81ba4304f49d": {
+    "url": "db://assets/Tone/component/channel/MultibandSplit.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0c0e5d41-1387-456e-8297-4d0ff79ab0c8": {
+    "url": "db://assets/Tone/component/channel/MultibandSplit.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "daba33c0-7b48-4f0e-ae97-02bc0695ecee": {
+    "url": "db://assets/Tone/component/channel/Panner.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4f622f91-d252-4089-9ef5-9b353d290ff5": {
+    "url": "db://assets/Tone/component/channel/Panner.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7b6b5f13-8863-4781-b705-ddb386cb6b6e": {
+    "url": "db://assets/Tone/component/channel/Panner3D.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e8bb593c-3f92-47f3-a85e-691ef484479c": {
+    "url": "db://assets/Tone/component/channel/Panner3D.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ad3c0782-ec08-4cf2-9d00-c7c85715ea57": {
+    "url": "db://assets/Tone/component/channel/PanVol.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "22827f0b-e17c-43d8-949d-78211138183f": {
+    "url": "db://assets/Tone/component/channel/PanVol.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5283f8e8-351e-4836-9a68-84f83dddf8e1": {
+    "url": "db://assets/Tone/component/channel/Recorder.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "26b33e2e-cdf6-4054-aea1-b833eadcffb2": {
+    "url": "db://assets/Tone/component/channel/Recorder.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "328dd9a3-d5a0-4968-aff1-99ebfdc9a702": {
+    "url": "db://assets/Tone/component/channel/Solo.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3f8e4c51-22b8-4a79-901c-5993117e60b2": {
+    "url": "db://assets/Tone/component/channel/Solo.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d09460ff-c002-4d18-bb2d-3dffbbb2b6e8": {
+    "url": "db://assets/Tone/component/channel/Split.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2e85b8d0-6373-42b7-b9f8-859ea2ed4674": {
+    "url": "db://assets/Tone/component/channel/Split.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "97f13179-8296-4e7a-82fd-cd2814e7135d": {
+    "url": "db://assets/Tone/component/channel/Volume.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0613d1b5-0a7a-4bc0-88d7-f54a3dce6ff6": {
+    "url": "db://assets/Tone/component/channel/Volume.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "15dc1c28-7d38-4edb-a3c3-350ed35047e0": {
+    "url": "db://assets/Tone/component/dynamics/Compressor.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3c4d3f58-5fdf-4fc6-8b83-4f4e8fa821a6": {
+    "url": "db://assets/Tone/component/dynamics/Compressor.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "85eddf5d-2e5c-4ee5-a61d-50320d14fdb8": {
+    "url": "db://assets/Tone/component/dynamics/Gate.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "48f8558e-59cd-4a97-a25a-b7d491c196d5": {
+    "url": "db://assets/Tone/component/dynamics/Gate.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7970df4e-9f8e-4a99-86d9-28806ec2f5ae": {
+    "url": "db://assets/Tone/component/dynamics/Limiter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fee9ccc3-9a73-431c-80c3-1b2ee097550a": {
+    "url": "db://assets/Tone/component/dynamics/Limiter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2e7b8811-c0f6-4d91-9392-bc56ae0c5a06": {
+    "url": "db://assets/Tone/component/dynamics/MidSideCompressor.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6c398000-537d-4aa6-8335-d64aa2cd46fa": {
+    "url": "db://assets/Tone/component/dynamics/MidSideCompressor.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ebdad54d-a540-4b21-ae09-2ccfec0311f3": {
+    "url": "db://assets/Tone/component/dynamics/MultibandCompressor.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9218daf1-b636-43ec-90cd-cce941651781": {
+    "url": "db://assets/Tone/component/dynamics/MultibandCompressor.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fe8aa816-4864-4d2f-86a8-beb8bcef3bfb": {
+    "url": "db://assets/Tone/component/envelope/AmplitudeEnvelope.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2f6d4355-7404-4719-aea5-7ee3a6596b47": {
+    "url": "db://assets/Tone/component/envelope/AmplitudeEnvelope.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2fe1e539-4a29-45f4-a31a-818117f33f41": {
+    "url": "db://assets/Tone/component/envelope/Envelope.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "91646693-c237-448f-9c12-31ba537f80c4": {
+    "url": "db://assets/Tone/component/envelope/Envelope.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8b4b12cc-8348-4cf2-98e4-36745615d45c": {
+    "url": "db://assets/Tone/component/envelope/FrequencyEnvelope.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "952a10df-23d5-4f84-aa95-b89771184fcb": {
+    "url": "db://assets/Tone/component/envelope/FrequencyEnvelope.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3843c7ab-5e71-4296-9561-6ad27252b53e": {
+    "url": "db://assets/Tone/component/filter/BiquadFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "373c9078-32f1-4196-9e8f-5af5d56372d9": {
+    "url": "db://assets/Tone/component/filter/BiquadFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c2c2325f-f3f2-4c43-b97f-09f698437564": {
+    "url": "db://assets/Tone/component/filter/Convolver.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ef810dfd-b069-4b60-b090-9b15143ae606": {
+    "url": "db://assets/Tone/component/filter/Convolver.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cb979919-3075-4b2e-abe2-1eab4675b8aa": {
+    "url": "db://assets/Tone/component/filter/EQ3.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c62b29ea-2f16-4528-8c8d-b0cc1017b759": {
+    "url": "db://assets/Tone/component/filter/EQ3.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1bcbbaa3-b88e-434b-a7a3-a633a5b88edc": {
+    "url": "db://assets/Tone/component/filter/FeedbackCombFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7c38cfc9-cb45-43bb-aa6e-75244ccd15f4": {
+    "url": "db://assets/Tone/component/filter/FeedbackCombFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "03ea576d-d4ee-4601-8b79-0430b1375fd9": {
+    "url": "db://assets/Tone/component/filter/FeedbackCombFilter.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7cb11424-40aa-4b79-8d22-b3ac5c51a99b": {
+    "url": "db://assets/Tone/component/filter/Filter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d7cecd7c-ff07-4399-920d-1eaf995cbecc": {
+    "url": "db://assets/Tone/component/filter/Filter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b7ed91ec-c465-44e6-8a29-197df638bf01": {
+    "url": "db://assets/Tone/component/filter/LowpassCombFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d23d1874-2810-4206-8438-79662aac750b": {
+    "url": "db://assets/Tone/component/filter/LowpassCombFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "78cb80bd-152b-42ad-9423-f3c210e492a8": {
+    "url": "db://assets/Tone/component/filter/OnePoleFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7d4c7e60-75b2-4a35-ac4c-f39d15c869de": {
+    "url": "db://assets/Tone/component/filter/OnePoleFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ca2842fa-7dc0-43e4-96ea-95b595d2c01f": {
+    "url": "db://assets/Tone/component/filter/PhaseShiftAllpass.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "61e6479f-bd7e-4d82-82b4-5de66dc9fc38": {
+    "url": "db://assets/Tone/component/filter/PhaseShiftAllpass.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8457f09c-6799-4cd6-ba8d-4cbe4784a890": {
+    "url": "db://assets/Tone/core/clock/Clock.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1a2bdb08-bb1a-4cf9-bd11-643ae1ece6fa": {
+    "url": "db://assets/Tone/core/clock/Clock.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cb59417e-7a59-4db3-9929-e0922c91714c": {
+    "url": "db://assets/Tone/core/clock/Ticker.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1aa8556f-69f0-4a60-a10e-ddef202a9dca": {
+    "url": "db://assets/Tone/core/clock/Ticker.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "907ac13b-7834-40e9-90e7-39666b5456e4": {
+    "url": "db://assets/Tone/core/clock/TickParam.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "81e0b701-f671-47cc-bd11-107c410213de": {
+    "url": "db://assets/Tone/core/clock/TickParam.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7266e151-3efe-41b8-9abb-47eae9e707ab": {
+    "url": "db://assets/Tone/core/clock/TickSignal.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6bc1c663-f0ad-4f0d-ac2b-48b90ff6de0d": {
+    "url": "db://assets/Tone/core/clock/TickSignal.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9407150f-2212-4399-af74-3bd3772d5969": {
+    "url": "db://assets/Tone/core/clock/TickSource.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "996a79fb-88fc-45fa-ada6-44879255e0f3": {
+    "url": "db://assets/Tone/core/clock/TickSource.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "101821bc-9f1b-455b-9870-52537629863e": {
+    "url": "db://assets/Tone/core/clock/Transport.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9ce22931-c60e-4c5e-ad1e-1d23ebe36045": {
+    "url": "db://assets/Tone/core/clock/Transport.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9d106d99-1912-4663-9256-f90236b20dc3": {
+    "url": "db://assets/Tone/core/clock/TransportEvent.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c5d1cdfd-7f9b-4dfe-8ae3-84652070c561": {
+    "url": "db://assets/Tone/core/clock/TransportEvent.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "29d4cf6e-eba1-43a9-bfd8-11db73651fa6": {
+    "url": "db://assets/Tone/core/clock/TransportRepeatEvent.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "27f88cd5-5326-4ae6-8dd1-c6fb22eb8359": {
+    "url": "db://assets/Tone/core/clock/TransportRepeatEvent.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7a0970cb-03b3-4682-a77b-d8add0f8d550": {
+    "url": "db://assets/Tone/core/context/AbstractParam.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "87039dbb-fcdc-47cc-93dd-a9bd4f781ddc": {
+    "url": "db://assets/Tone/core/context/AudioContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "558d0e41-248e-44b7-950a-594db742d4a7": {
+    "url": "db://assets/Tone/core/context/BaseContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a918e572-9cac-448d-a568-30232007aaf6": {
+    "url": "db://assets/Tone/core/context/Context.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d56da969-de4b-417e-b543-de99ba25591f": {
+    "url": "db://assets/Tone/core/context/Context.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "09593f95-731a-4017-9c17-8714179e3bf2": {
+    "url": "db://assets/Tone/core/context/ContextInitialization.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9dd18703-5d78-4ff3-85a7-994467139b6b": {
+    "url": "db://assets/Tone/core/context/Delay.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ecdedc71-9ed1-42aa-8112-181ec2b48fd3": {
+    "url": "db://assets/Tone/core/context/Delay.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4c037a8e-7504-400b-99ae-77397d584206": {
+    "url": "db://assets/Tone/core/context/Destination.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f5481e45-39c5-451b-8ce3-cd5188c44e96": {
+    "url": "db://assets/Tone/core/context/Destination.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f59f7903-7b5a-4c3c-812d-6675cbf35f1a": {
+    "url": "db://assets/Tone/core/context/DummyContext.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1f08296c-4be4-4540-bbc7-85bf7d8c5eca": {
+    "url": "db://assets/Tone/core/context/DummyContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e55558c1-17d7-4992-80b7-c539cb1abb1d": {
+    "url": "db://assets/Tone/core/context/Gain.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ca8b4a25-2cf9-4dd7-805a-e39d5decf928": {
+    "url": "db://assets/Tone/core/context/Gain.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bdf21098-c7fa-46cd-ac48-86e128174f65": {
+    "url": "db://assets/Tone/core/context/Listener.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b2468013-1188-4d4e-8759-bd81e8178dd3": {
+    "url": "db://assets/Tone/core/context/Listener.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "16e5db6f-6dc1-4895-920e-4e821343bd82": {
+    "url": "db://assets/Tone/core/context/Offline.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a82f5c89-e2b5-4112-94db-49851aa1018b": {
+    "url": "db://assets/Tone/core/context/Offline.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "549718e1-4270-4593-ba97-1432087a378a": {
+    "url": "db://assets/Tone/core/context/OfflineContext.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "aa1427f8-4909-46ae-ad50-878322d45722": {
+    "url": "db://assets/Tone/core/context/OfflineContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "63b7b609-a55d-4d8e-96b2-1ef35de9fb8e": {
+    "url": "db://assets/Tone/core/context/Param.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2878261b-59e7-4648-9617-4e97378660a3": {
+    "url": "db://assets/Tone/core/context/Param.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f90b868b-6de4-4e0e-b828-a72da5d70b92": {
+    "url": "db://assets/Tone/core/context/ToneAudioBuffer.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "703c4076-cedc-4052-8fe9-510fa872e9c8": {
+    "url": "db://assets/Tone/core/context/ToneAudioBuffer.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7ed44194-00cb-4d15-947d-f024d0d98248": {
+    "url": "db://assets/Tone/core/context/ToneAudioBuffers.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b8dd3634-9330-46c4-9a87-1814a3af24db": {
+    "url": "db://assets/Tone/core/context/ToneAudioBuffers.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a3a4549e-3cdb-40a4-9339-2a5e8ecb550e": {
+    "url": "db://assets/Tone/core/context/ToneAudioNode.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6820b830-ac3b-40d6-8947-d714a1ec7f17": {
+    "url": "db://assets/Tone/core/context/ToneAudioNode.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8ad38503-6fea-49b7-b00e-8ad47b9839cf": {
+    "url": "db://assets/Tone/core/context/ToneWithContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "831d90a3-9cee-4058-91c4-c36818375b19": {
+    "url": "db://assets/Tone/core/type/Conversions.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5107ae7d-10ba-4e85-8ea3-e313bb8bb57c": {
+    "url": "db://assets/Tone/core/type/Conversions.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cde90735-107a-45e4-8a9a-f4de270229ba": {
+    "url": "db://assets/Tone/core/type/Frequency.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b21aae6c-65cb-427e-a547-455ff6c5ecc3": {
+    "url": "db://assets/Tone/core/type/Frequency.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4f61d520-99a2-47cc-b94f-49eaf2733619": {
+    "url": "db://assets/Tone/core/type/Midi.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "86cda52d-0dd9-4696-8d0a-482806b58fcf": {
+    "url": "db://assets/Tone/core/type/Midi.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c4117c10-9be9-4a3c-a592-476d41be255b": {
+    "url": "db://assets/Tone/core/type/NoteUnits.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b7260d8f-059b-4929-9ee9-0f4cd7983f01": {
+    "url": "db://assets/Tone/core/type/Ticks.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2e8ff5b0-bf01-4b46-a370-9298fc7dca9a": {
+    "url": "db://assets/Tone/core/type/Ticks.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ffef64a4-8829-4ca6-a986-01c3cda28071": {
+    "url": "db://assets/Tone/core/type/Time.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4b76f0f8-bfbc-441a-9148-709639555757": {
+    "url": "db://assets/Tone/core/type/Time.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "28af35a3-c309-41a0-97c1-a2ee87eb6c44": {
+    "url": "db://assets/Tone/core/type/TimeBase.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ebf3888d-ea00-44c8-9863-4d20223d8ea9": {
+    "url": "db://assets/Tone/core/type/TransportTime.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9e0b14f8-5fbc-4463-b835-e56013817f6d": {
+    "url": "db://assets/Tone/core/type/TransportTime.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "be68b916-74dc-4552-ae67-11d9d420a816": {
+    "url": "db://assets/Tone/core/type/Units.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "16d3c82d-c7b8-418c-a2cc-0f5032f7f9f9": {
+    "url": "db://assets/Tone/core/util/AdvancedTypeCheck.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "45d89d52-3a75-4187-ad08-ed08c1eb8139": {
+    "url": "db://assets/Tone/core/util/Debug.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8a9d8f69-d7f7-4ee0-acb8-b37ac846778e": {
+    "url": "db://assets/Tone/core/util/Debug.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "36e68478-c150-4c3a-b01b-04b128409be1": {
+    "url": "db://assets/Tone/core/util/Decorator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4acb1fdf-ac49-4e92-ae9f-4100b04d50b2": {
+    "url": "db://assets/Tone/core/util/Defaults.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e50feffc-7c48-41e1-992c-6a796f39b893": {
+    "url": "db://assets/Tone/core/util/Draw.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "022cd250-2e02-4f61-98d7-dfc1dead9bb7": {
+    "url": "db://assets/Tone/core/util/Draw.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "502d7b4a-3299-4b8d-be07-cdf44e3cd1d0": {
+    "url": "db://assets/Tone/core/util/Emitter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "75e72a48-1cf1-4d04-8619-4e93a090af15": {
+    "url": "db://assets/Tone/core/util/Emitter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "435a10f7-56f6-485a-90a7-48c5b353fc3a": {
+    "url": "db://assets/Tone/core/util/global.d.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5e16133a-4c82-4085-ae7a-5fdec6e4cf6d": {
+    "url": "db://assets/Tone/core/util/Interface.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "68577d7f-dcc5-4243-ba44-ac57738a63f4": {
+    "url": "db://assets/Tone/core/util/IntervalTimeline.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d8d773d1-5fd7-4e1a-85c3-72f9d30eb118": {
+    "url": "db://assets/Tone/core/util/IntervalTimeline.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "02d1bada-c522-468a-b799-48684e5b0851": {
+    "url": "db://assets/Tone/core/util/Math.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "398ed3a4-99fb-44b0-a056-fbff2c0831fb": {
+    "url": "db://assets/Tone/core/util/StateTimeline.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2a7e8413-59b2-4800-bf51-7506351081ee": {
+    "url": "db://assets/Tone/core/util/StateTimeline.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f14a757b-fc9d-4461-845b-892669871aaf": {
+    "url": "db://assets/Tone/core/util/Timeline.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a5e72f02-40e6-44dc-8b43-f80e48b9b3c5": {
+    "url": "db://assets/Tone/core/util/Timeline.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c6e9c767-8b65-49d3-b37e-8b5cf433f25c": {
+    "url": "db://assets/Tone/core/util/TimelineValue.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "13aa38bc-cb21-4157-b685-e2d5644166a8": {
+    "url": "db://assets/Tone/core/util/TimelineValue.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dbdc298c-eaf1-4428-b82a-4a311748d559": {
+    "url": "db://assets/Tone/core/util/TypeCheck.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a72bc2f7-b868-4431-91b9-f505b25a087c": {
+    "url": "db://assets/Tone/core/worklet/DelayLine.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "665d88f2-389a-44d3-9a81-920b7b391597": {
+    "url": "db://assets/Tone/core/worklet/SingleIOProcessor.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "33bb5895-3b26-4a16-a0ea-1546e0bb55b2": {
+    "url": "db://assets/Tone/core/worklet/ToneAudioWorklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7e391da4-68b2-472d-aefd-57cd4fa6a2de": {
+    "url": "db://assets/Tone/core/worklet/ToneAudioWorkletProcessor.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b0c60b8c-32f1-4ae1-9f79-70de7848f93a": {
+    "url": "db://assets/Tone/core/worklet/WorkletGlobalScope.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f0ee1ad7-b340-4098-b714-41a940901af9": {
+    "url": "db://assets/Tone/source/buffer/GrainPlayer.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7b4f38be-5e93-4334-950f-e79fa270fc7d": {
+    "url": "db://assets/Tone/source/buffer/GrainPlayer.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9485d641-4a56-4bac-831d-cc7eb20a130a": {
+    "url": "db://assets/Tone/source/buffer/Player.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "90ab130e-0451-4d99-ab98-1da775d2f4d3": {
+    "url": "db://assets/Tone/source/buffer/Player.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ab0e4878-c452-4c5e-98c2-7455ac06f851": {
+    "url": "db://assets/Tone/source/buffer/Players.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "aab614d0-3383-44ea-85f4-5432b6b93f1a": {
+    "url": "db://assets/Tone/source/buffer/Players.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5e576a55-d9c8-46ee-8190-493772687266": {
+    "url": "db://assets/Tone/source/buffer/ToneBufferSource.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "72e3a67f-9126-408b-bc81-3de9a054f56a": {
+    "url": "db://assets/Tone/source/buffer/ToneBufferSource.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dce36dac-96b3-493d-91aa-76db1a4e4edc": {
+    "url": "db://assets/Tone/source/oscillator/AMOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "81c6d87b-d346-4151-9c37-b1087f81c4b4": {
+    "url": "db://assets/Tone/source/oscillator/AMOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b4a7c4b5-3c62-45df-8e2b-066befc123d6": {
+    "url": "db://assets/Tone/source/oscillator/FatOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9da84a6e-afd2-4e1c-87eb-4e4d40585a70": {
+    "url": "db://assets/Tone/source/oscillator/FatOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b5e2b4fc-a5b0-4b2b-8195-26fdfa96dada": {
+    "url": "db://assets/Tone/source/oscillator/FMOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "741c2e30-93dc-4c3d-9a97-f2d9afa1f7f2": {
+    "url": "db://assets/Tone/source/oscillator/FMOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f42017a5-ff04-4688-8b9d-c15d030b9e08": {
+    "url": "db://assets/Tone/source/oscillator/LFO.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b2441afa-005e-4446-b929-117de51bbc2f": {
+    "url": "db://assets/Tone/source/oscillator/LFO.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "90cede50-a777-4765-bd75-74333eb18148": {
+    "url": "db://assets/Tone/source/oscillator/OmniOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "339930eb-29a2-4dc3-8dc2-a04d55f2080e": {
+    "url": "db://assets/Tone/source/oscillator/OmniOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "075a55cc-60dd-459a-8a9b-f043b98683ff": {
+    "url": "db://assets/Tone/source/oscillator/Oscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4ea1e83a-518d-4237-8353-db111d1a0ab5": {
+    "url": "db://assets/Tone/source/oscillator/Oscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "925cfce5-ce58-48ff-bf7a-84c6cf6486d5": {
+    "url": "db://assets/Tone/source/oscillator/OscillatorInterface.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ce24531f-b5aa-4723-aee9-f82c9981d253": {
+    "url": "db://assets/Tone/source/oscillator/PulseOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9833db6e-3870-43e2-9acf-153bfb06df28": {
+    "url": "db://assets/Tone/source/oscillator/PulseOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c5b67ffd-ecf8-4ee5-80fa-70cc5417e14d": {
+    "url": "db://assets/Tone/source/oscillator/PWMOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "41079248-fe2f-4f29-b5dd-b944d314288f": {
+    "url": "db://assets/Tone/source/oscillator/PWMOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "76a06e88-a159-4f20-9225-bccb994e87aa": {
+    "url": "db://assets/Tone/source/oscillator/ToneOscillatorNode.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fad718b1-cd3c-4432-b208-581af33519c3": {
+    "url": "db://assets/Tone/source/oscillator/ToneOscillatorNode.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f15bc266-7439-4200-bf41-60f08ded53a1": {
+    "url": "db://assets/Tone.js-dev/examples",
+    "value": {},
+    "versionCode": 0
+  },
+  "88079cf8-a00a-42ac-a52f-48454b164fe8": {
+    "url": "db://assets/Tone.js-dev/scripts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7bdf5eb8-9f10-4b01-ac52-172f90ce8bcf": {
+    "url": "db://assets/Tone.js-dev/test",
+    "value": {},
+    "versionCode": 0
+  },
+  "49289012-236d-4196-9bf0-2c16602adf82": {
+    "url": "db://assets/Tone.js-dev/Tone",
+    "value": {},
+    "versionCode": 0
+  },
+  "6f43d945-8030-4e9d-9beb-72f3f430ed9b": {
+    "url": "db://assets/Tone.js-dev/examples/js",
+    "value": {},
+    "versionCode": 0
+  },
+  "4b09df26-936a-4d44-8dda-84342a9818f9": {
+    "url": "db://assets/Tone.js-dev/test/audio",
+    "value": {},
+    "versionCode": 0
+  },
+  "53e4562c-5613-460b-bcc7-240a63933b3f": {
+    "url": "db://assets/Tone.js-dev/test/helper",
+    "value": {},
+    "versionCode": 0
+  },
+  "e866c404-a991-452e-815c-58133931a076": {
+    "url": "db://assets/Tone.js-dev/test/scripts",
+    "value": {},
+    "versionCode": 0
+  },
+  "de102729-f012-422e-9aae-5b46e2e543c8": {
+    "url": "db://assets/Tone.js-dev/Tone/classes.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e545d419-6d8f-4bad-a712-6315392623ec": {
+    "url": "db://assets/Tone.js-dev/Tone/component",
+    "value": {},
+    "versionCode": 0
+  },
+  "07b77441-d008-4d69-9129-00557b1b4d2e": {
+    "url": "db://assets/Tone.js-dev/Tone/core",
+    "value": {},
+    "versionCode": 0
+  },
+  "05119076-1554-423a-b853-83a393c7c47f": {
+    "url": "db://assets/Tone.js-dev/Tone/effect",
+    "value": {},
+    "versionCode": 0
+  },
+  "b8d290d9-6e35-4f36-a221-e81f1cb59683": {
+    "url": "db://assets/Tone.js-dev/Tone/event",
+    "value": {},
+    "versionCode": 0
+  },
+  "08890b14-2706-4bc5-99ab-620d06b16383": {
+    "url": "db://assets/Tone.js-dev/Tone/fromContext.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "657069a1-f625-4abc-a32e-b3068b69cc58": {
+    "url": "db://assets/Tone.js-dev/Tone/fromContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "03712d0d-a5c1-4f15-8d5d-ddb84b484908": {
+    "url": "db://assets/Tone.js-dev/Tone/index.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2319a1c7-04a7-4983-a7b1-a9c111ab7d35": {
+    "url": "db://assets/Tone.js-dev/Tone/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6cc9ed64-41ed-459d-9baa-45316cdff69a": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument",
+    "value": {},
+    "versionCode": 0
+  },
+  "ad587be5-1411-44e4-b979-c1a173aef642": {
+    "url": "db://assets/Tone.js-dev/Tone/signal",
+    "value": {},
+    "versionCode": 0
+  },
+  "932af489-f559-4369-ab72-b50493019b6d": {
+    "url": "db://assets/Tone.js-dev/Tone/source",
+    "value": {},
+    "versionCode": 0
+  },
+  "894e5156-e700-4eb8-89a0-ad1730281753": {
+    "url": "db://assets/Tone.js-dev/Tone/version.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "65ea6923-f738-446b-b392-73c91da76dba": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare",
+    "value": {},
+    "versionCode": 0
+  },
+  "865b08f8-a56f-4086-b086-680a075e709c": {
+    "url": "db://assets/Tone.js-dev/test/audio/param",
+    "value": {},
+    "versionCode": 0
+  },
+  "4ac15515-e72d-484e-bfdc-9b8671f8de97": {
+    "url": "db://assets/Tone.js-dev/test/helper/Basic.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bbe34bc5-cccc-4b1c-ac71-1062d1a0a472": {
+    "url": "db://assets/Tone.js-dev/test/helper/CompareToFile.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8f37a6f1-4abe-4797-9929-fa56b37dd4dd": {
+    "url": "db://assets/Tone.js-dev/test/helper/Connect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c483f48d-24ba-4e8a-8d7f-39ca7cdd3441": {
+    "url": "db://assets/Tone.js-dev/test/helper/ConstantOutput.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "91cf63fc-6f5b-4cbe-b4b5-cfb8e92aeddc": {
+    "url": "db://assets/Tone.js-dev/test/helper/Dispose.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d60f5497-b8e2-4e07-84b5-1c981a2f5c44": {
+    "url": "db://assets/Tone.js-dev/test/helper/EffectTests.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b747b13f-9ab3-4b68-8358-276b1254d69b": {
+    "url": "db://assets/Tone.js-dev/test/helper/InstrumentTests.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "30e07b76-9723-4a6a-a2b9-8e0521a3a345": {
+    "url": "db://assets/Tone.js-dev/test/helper/MonophonicTests.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "baaf2702-a8f4-4f47-a115-dbf355fd28d1": {
+    "url": "db://assets/Tone.js-dev/test/helper/Offline.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "82bf8d21-d093-4fd6-a683-70afefb33e20": {
+    "url": "db://assets/Tone.js-dev/test/helper/OscillatorTests.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fcc885f8-a630-4c06-a290-54d5e7c03eb9": {
+    "url": "db://assets/Tone.js-dev/test/helper/OutputAudio.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "32b25139-6dd6-4aa0-90a4-63b5250b6c60": {
+    "url": "db://assets/Tone.js-dev/test/helper/PassAudio.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ae85943e-3778-4dcf-8c2d-008ba5dfdba4": {
+    "url": "db://assets/Tone.js-dev/test/helper/SourceTests.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "66c6055a-9a0d-47ba-af62-a2a5ac96931f": {
+    "url": "db://assets/Tone.js-dev/test/helper/StereoSignal.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fb328732-f79a-4de1-9a2b-ed1c4a170164": {
+    "url": "db://assets/Tone.js-dev/test/helper/Supports.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1d6a07a0-de56-4bbb-8e28-8cadfc709b5a": {
+    "url": "db://assets/Tone.js-dev/test/helper/ToneAudioBuffer.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "35af1bac-ff1a-4ccd-8fed-4a8c44281536": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis",
+    "value": {},
+    "versionCode": 0
+  },
+  "a2a62545-498e-461b-ae40-1749ec018149": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel",
+    "value": {},
+    "versionCode": 0
+  },
+  "3ecd8bac-c79e-4245-b9b3-f06c95ab1760": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics",
+    "value": {},
+    "versionCode": 0
+  },
+  "a051e028-1099-4110-9b08-123795f6fcd7": {
+    "url": "db://assets/Tone.js-dev/Tone/component/envelope",
+    "value": {},
+    "versionCode": 0
+  },
+  "4ba84087-1f82-4a20-8439-14335b1018f3": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter",
+    "value": {},
+    "versionCode": 0
+  },
+  "b4c578a8-b54f-4d1b-81c3-9be96ad42fc6": {
+    "url": "db://assets/Tone.js-dev/Tone/component/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "51062ad3-8257-44f9-93af-3a9f68b98167": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock",
+    "value": {},
+    "versionCode": 0
+  },
+  "d9f12055-cd2f-414a-a3aa-8e53bd5113e0": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context",
+    "value": {},
+    "versionCode": 0
+  },
+  "b7787639-fe32-427d-8eb0-43dd984901c2": {
+    "url": "db://assets/Tone.js-dev/Tone/core/Global.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "66434e39-2cec-4872-a3a3-4fd6dfbf061a": {
+    "url": "db://assets/Tone.js-dev/Tone/core/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b58d1a57-467e-42e2-be4a-284e46d6cb5a": {
+    "url": "db://assets/Tone.js-dev/Tone/core/Tone.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bbaf3d42-c5bc-48d8-8e85-f2a57cf02bbc": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type",
+    "value": {},
+    "versionCode": 0
+  },
+  "f91f2dbb-6a21-44ac-adf4-d65cfa81851a": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util",
+    "value": {},
+    "versionCode": 0
+  },
+  "c3901794-4b73-4e09-95eb-c0d2641ab32e": {
+    "url": "db://assets/Tone.js-dev/Tone/core/worklet",
+    "value": {},
+    "versionCode": 0
+  },
+  "7d6ec3dd-cd5a-4692-ab71-c9ff821666d4": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/AutoFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e8fcd85e-2eaf-4975-a82a-70c9ad76c5fb": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/AutoFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ed4987f8-1dcd-4c3d-8105-5a2844a92d9a": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/AutoPanner.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6c49a78f-e547-4eb8-b5df-e139461beded": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/AutoPanner.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2283cbcc-1b1e-40aa-a70b-ee82025d3217": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/AutoWah.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "99a0722a-05df-47cd-b06f-be474b368a28": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/AutoWah.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e996a64a-37c0-4a5e-9895-060ddaf1746a": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/BitCrusher.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dcddea4d-5dc8-41d0-b465-dd5316adb5a7": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/BitCrusher.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a46ec5fb-6ab0-4239-aca2-fe1ca506c175": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/BitCrusher.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ec6f8c79-b929-4921-b684-895ad8d3015f": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Chebyshev.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7726bb54-0e54-4cde-85ba-59a2b0251051": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Chebyshev.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6b3fcd5f-0ecd-4bdf-be2e-2ca170b44f5c": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Chorus.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "189e449e-2f89-4bd4-a8e6-488282bbfe63": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Chorus.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9f8f094d-5fda-49c9-bfcc-470a66baa37b": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Distortion.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "327095d5-42bf-4bb8-9af9-ef9d1f6272e7": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Distortion.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6c0209ee-c46f-40f6-8579-ba5bd382d916": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Effect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7922c646-84c4-447f-ba92-72ceb0525cb3": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/FeedbackDelay.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6f65d439-360d-4c33-af4e-b1be728adefc": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/FeedbackDelay.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "de125445-cec3-4b7b-9ade-e3a8801ddfa7": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/FeedbackEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "104dea6b-9429-4c29-b8e7-5fe5544eb74a": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Freeverb.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dfe1ec83-e0dd-4784-9671-daf0ba120062": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Freeverb.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dd0b6b15-0197-444f-a6b4-cc9dd5e3ad61": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/FrequencyShifter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6df211c0-0490-4116-91f8-55ed2ac6e7e0": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/FrequencyShifter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "57c4b649-4fc9-4db1-a011-32de4495e748": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0abe4f06-29db-4ef0-9788-a7c421071322": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/JCReverb.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ab8d7867-c71e-4830-8620-86c7fd92deec": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/JCReverb.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f1c95e25-ee53-4df5-abc7-46aa7254470d": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/LFOEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "96808b54-2f5f-4615-9e36-3a305644b012": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/MidSideEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "00f8279e-f92c-4208-b503-122757ca6a52": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Phaser.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6c4d623e-b596-4368-a022-66727c6eeb47": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Phaser.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9ed35975-d8b7-42e9-b4f9-5ac99a5a9c1c": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/PingPongDelay.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "479d23f2-c9fb-4243-bee9-8b635f7ac74f": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/PingPongDelay.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3546ca83-5b69-435c-8f43-894bd7f6af17": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/PitchShift.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "31cc0e1d-61da-4b62-8140-5d2cc7c0879e": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/PitchShift.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "143f59b5-7ddb-42e4-ab1f-7eba5668c405": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Reverb.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5ec5a967-2e6c-47c4-bfc0-dc383efd7b71": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Reverb.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "db5779e0-73e3-4e2a-b580-3b7c796f5a54": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/StereoEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "53e2ee0c-9334-4024-a74d-0e54f309ef54": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/StereoFeedbackEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cdae50b3-9cfe-499b-90f3-2e73a655bc3d": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/StereoWidener.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0dbeeeca-ce4b-47bf-9c92-b15fa0a16741": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/StereoWidener.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "496a8cd4-0b4f-4d1e-aed9-f93917569781": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/StereoXFeedbackEffect.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b20bf0da-844d-4034-8509-6cabc90a9747": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Tremolo.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a69e98c0-dff9-471a-8f14-23007faaaa65": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Tremolo.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "528976b8-68c7-4dcb-9927-667dba1a6fa6": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Vibrato.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fe7a0a3e-6f0e-4b69-8fd5-4eb59e4db38f": {
+    "url": "db://assets/Tone.js-dev/Tone/effect/Vibrato.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "abdd2960-eef3-4a07-b04d-e160623b2235": {
+    "url": "db://assets/Tone.js-dev/Tone/event/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3c816768-f80d-46fa-bd39-3d569fd8f02d": {
+    "url": "db://assets/Tone.js-dev/Tone/event/Loop.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ad5bff6b-4e28-42b5-97a8-be93253ca0b2": {
+    "url": "db://assets/Tone.js-dev/Tone/event/Loop.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6eedfb93-0d60-40a7-8342-78c4aeadb182": {
+    "url": "db://assets/Tone.js-dev/Tone/event/Part.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6ab6be7b-4bde-4122-adf7-85566dc44a3f": {
+    "url": "db://assets/Tone.js-dev/Tone/event/Part.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7175ba79-3229-412e-a648-8ab3ca00b393": {
+    "url": "db://assets/Tone.js-dev/Tone/event/Pattern.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b099547f-7fdf-4459-ad83-67b1886f1075": {
+    "url": "db://assets/Tone.js-dev/Tone/event/Pattern.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "726eaba7-908c-4603-b547-1bc2e991600c": {
+    "url": "db://assets/Tone.js-dev/Tone/event/PatternGenerator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "952d0f38-001c-44d2-be9a-620e7e3997f9": {
+    "url": "db://assets/Tone.js-dev/Tone/event/PatternGenerator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "640d6dad-e98f-44e5-86d2-fdf18dfd3bed": {
+    "url": "db://assets/Tone.js-dev/Tone/event/Sequence.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e6a04671-cae3-491d-8c0d-269b5c517227": {
+    "url": "db://assets/Tone.js-dev/Tone/event/Sequence.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "abdb6036-e1e7-4cd4-813c-abc83d576684": {
+    "url": "db://assets/Tone.js-dev/Tone/event/ToneEvent.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8f40913e-9ff9-4d70-bd15-747f6144d3cb": {
+    "url": "db://assets/Tone.js-dev/Tone/event/ToneEvent.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ed458bc6-d644-460c-a112-d9cf009a6b4d": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/AMSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "db6802b3-e924-4c9c-a7d5-ffe1e5357352": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/AMSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c26d2448-271c-49ff-8b64-423d850808c5": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/DuoSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d256473b-0c4e-45f3-a804-2d22e79f9272": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/DuoSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9ec41511-60b4-4e00-9be8-dc36540277ac": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/FMSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9991ad58-8cb2-4d2d-9e64-cd2308fbc432": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/FMSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "480bfea5-ae8b-45ea-86f4-b9e268f01609": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "92a38144-af38-4ec7-9119-2751d26649e8": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/Instrument.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9ad793ec-02bd-41e2-8d12-7fdc56d34650": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/MembraneSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "430f8289-b729-4a8d-985b-a50bc9f0eab5": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/MembraneSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a185aac9-1974-4cd4-a6e2-ee399e96e01a": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/MetalSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a7ac407a-d4f3-48af-89f2-722c63e208cc": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/MetalSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e778cf38-2882-4a06-ba10-410846f6bd51": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/ModulationSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a1f4e02d-94e8-44e9-8298-cc4237943915": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/Monophonic.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "801e8f0c-b0dd-45e4-ac94-e32e0347d193": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/MonoSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0009fad6-2ec8-43ab-abf8-fa5f949aae62": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/MonoSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e033a2de-e351-4377-a7bf-da0aecf9911b": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/NoiseSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a47c9de6-ad3f-4c78-9a57-4d27d07e4e4e": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/NoiseSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c05a6024-9016-47cc-8a52-2e3a07abe324": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/PluckSynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "70c27b6a-9ed1-45c1-a055-3ea5d54126af": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/PluckSynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9e8df713-040f-4a0c-a948-ec01c1acd70c": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/PolySynth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "112654b7-0588-4275-b0f7-9dcd041f969b": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/PolySynth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ebd695dd-df27-4663-829d-7923a482a1f9": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/Sampler.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "90fdb13e-3e0f-4283-9427-618f1b9b36ce": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/Sampler.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3d07bdbb-5cb8-4a66-bcbf-3b0651c2944d": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/Synth.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "76f2427b-e3ca-4922-a465-e8f467144ac1": {
+    "url": "db://assets/Tone.js-dev/Tone/instrument/Synth.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "68d0519c-6aa6-40a9-b169-d84a903d5a59": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Abs.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9eaaee89-0e62-4cd5-9427-de5fa3f31cf6": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Abs.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "de6b3cfa-9838-4a73-b14b-2798f55f58a2": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Add.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "70e587f1-bca1-4170-9f54-de904c624ab7": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Add.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5836ac70-c2f9-4459-9e26-c21e96601cad": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/AudioToGain.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6405bc72-0bcf-424a-afad-3439f4d84ef4": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/AudioToGain.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "05eac1fc-b42c-42a7-ac31-d6bc6623350f": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/GainToAudio.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5b272ec2-9785-4bbd-b5e4-e43c4a9d9f45": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/GainToAudio.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a887e9f4-d7bd-4434-8c4c-a98a1732ff24": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/GreaterThan.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "65d09561-0d0c-4eaa-ad5f-44962bae5a44": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/GreaterThan.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d7711ef5-b147-4cd6-874d-a7b99c7e61b4": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/GreaterThanZero.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6088fe7c-5ca6-4601-8242-845d20424f3a": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/GreaterThanZero.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5093d241-862f-459c-9401-aa72831fc428": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3cd2a399-17d1-429a-8528-8b953911143f": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Multiply.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "001596a0-4691-4af9-a2aa-12c2281b41b1": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Multiply.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "61f3b316-2131-42ff-9a03-aa1a3365985d": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Negate.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7d63f6e1-17a5-46f9-8bf6-2dc5aeea0f98": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Negate.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dec7cec0-6f9a-4a8d-ae09-a66767dbbd49": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Pow.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2502868e-4f85-4074-98eb-f352971eb1c4": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Pow.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9792a1cb-0368-4fb7-b94b-ddcabee9b5eb": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Scale.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5e64738f-ec7a-4826-890d-ec5b94fb68a8": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Scale.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "990f7901-1083-4302-a65a-b7020832888d": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/ScaleExp.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "52387d57-625d-4753-862b-321103518fba": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/ScaleExp.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "06e11a8f-2197-497d-b1aa-d721d69519e7": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Signal.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "da7c324d-1205-4fe9-b816-aadbe4a87d5f": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Signal.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "14dc58d6-5072-4769-8e11-fa88e3631113": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/SignalOperator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "775f84b7-82e4-4b0e-9c00-2544ca94e81f": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Subtract.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4cb789bb-e837-4044-96d8-1f4a6292e2b4": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Subtract.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b0a52c5f-1b18-464e-b771-b748c9c8eba1": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/SyncedSignal.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "37af5eeb-4f80-42cf-a4db-01e64094c0f5": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/SyncedSignal.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8d7409d8-7f51-45e4-a35f-f4f75ed6a891": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/ToneConstantSource.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c405f999-164e-499b-8129-e01bc243776b": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/ToneConstantSource.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6aa2f97d-c0df-457c-a9b3-ea229381c6c5": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/WaveShaper.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "29d1d4c4-59fd-4233-a4cb-023fc53fe7e2": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/WaveShaper.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c369c483-089c-4b79-9606-8a692e72ba7e": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Zero.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "592dc734-a53b-4670-ac72-1590bbad9a97": {
+    "url": "db://assets/Tone.js-dev/Tone/signal/Zero.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dd0bbde8-8f7b-4a1b-b9a6-116430019f19": {
+    "url": "db://assets/Tone.js-dev/Tone/source/buffer",
+    "value": {},
+    "versionCode": 0
+  },
+  "c709cd1c-dd31-41d0-8f0c-92db5a1536ce": {
+    "url": "db://assets/Tone.js-dev/Tone/source/index.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "671bf889-da6f-4912-b785-2a6e1f90fe96": {
+    "url": "db://assets/Tone.js-dev/Tone/source/Noise.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "22e3c919-638c-4c83-8574-4b8b99968f5d": {
+    "url": "db://assets/Tone.js-dev/Tone/source/Noise.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "95098beb-96d1-483a-8c0b-fdd9a80f2a9f": {
+    "url": "db://assets/Tone.js-dev/Tone/source/OneShotSource.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "aa2c0648-7dc6-4fe3-82e9-75ebd9d4b47a": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator",
+    "value": {},
+    "versionCode": 0
+  },
+  "0c2496ff-d870-46dc-b720-fbaaa5be9a67": {
+    "url": "db://assets/Tone.js-dev/Tone/source/Source.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6c62eb88-e37d-48a3-a9e1-e4cb07eca031": {
+    "url": "db://assets/Tone.js-dev/Tone/source/Source.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cf0286f6-ac25-4a49-9093-e939243ac3e2": {
+    "url": "db://assets/Tone.js-dev/Tone/source/UserMedia.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3c05f7c1-59f0-446f-99d4-8436fab705e1": {
+    "url": "db://assets/Tone.js-dev/Tone/source/UserMedia.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a69c8ddb-a7ab-439a-8f58-c6520a5abbdc": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/Analyser.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bc5b8c48-5bf2-4496-ad53-e025ba84a84e": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/Analyser.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ff6d8ac4-cfcb-475d-b86b-30f2a6e63abf": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/DCMeter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1ee69f96-1f51-4142-8944-8ffdc16acfd6": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/DCMeter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d292ab78-2a6e-4771-a806-5273582ab291": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/FFT.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d2e7666d-271f-497d-ac69-18a0a1ec3939": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/FFT.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "096e522e-c35c-45b3-a34a-73a8af9382b0": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/Follower.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ebd86a46-e2d2-4a3e-8139-120478723014": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/Follower.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1ebe6d6e-fb05-48d9-8d5e-1b96c1b377a9": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/Meter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7b4c929b-59a7-405e-a0da-7d23f0ad724c": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/Meter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c8b13a34-e5e7-4dab-bd19-c636f9505499": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/MeterBase.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4137e940-25dd-461e-84f9-f8d4bf796b97": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/Waveform.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3d2d1639-fd37-4417-9393-c39eab3948ab": {
+    "url": "db://assets/Tone.js-dev/Tone/component/analysis/Waveform.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2cc69326-5208-4054-b776-e56121621360": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Channel.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d69a6697-dca7-449c-8207-b7731bed2d89": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Channel.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ab1d9bad-7bd2-4b71-a956-3509c08e26e9": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/CrossFade.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b0d0af4e-3840-4e9b-804c-268157a89b77": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/CrossFade.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "eeda8917-5866-44a6-9696-a7595511e2d1": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Merge.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8f6e1582-1639-4b19-91f5-92dfc99b12d5": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Merge.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4547bfc9-f7b1-405e-821c-bd5ea0f1666e": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/MidSideMerge.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5484f4bf-5c60-427b-bd85-5cd9ce2b56bd": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/MidSideMerge.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "af25c741-00f1-4240-8128-76b576e6e67c": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/MidSideSplit.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "47d3c494-4104-4a5b-9814-3b60a25ca7b8": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/MidSideSplit.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "af7e4c38-9080-464c-8b4e-63a93282f9af": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Mono.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "8afedc78-0e04-42f8-a29f-4739b2bdc6f4": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Mono.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "40bf19f6-7636-4b12-80ef-005075875bd1": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/MultibandSplit.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "12a7a30e-b399-4ea8-8838-32e86885a536": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/MultibandSplit.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "63e92d66-9cdd-497b-8f00-9aeeb5e44ffb": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Panner.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4e99b8c8-d1e0-4c4c-8ddd-988d3189a206": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Panner.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f4146948-6c10-4e65-ae8d-82756f203f88": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Panner3D.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6a7880fe-39fa-440e-a353-63f1da64482b": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Panner3D.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cb8912d3-35c5-4192-a8be-6f7393c3394a": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/PanVol.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "34b1cf5f-bab2-4815-bd4d-ae2bcb963956": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/PanVol.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "906a4c5d-744d-43e5-82fa-d350a029372d": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Recorder.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e018018b-e4f0-4554-a39c-57ba16d0daf4": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Recorder.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e6540ee5-2ec7-45ea-9236-103bae99aae4": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Solo.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "89373d4a-3bda-41ed-a0b0-6e0a4d3c2906": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Solo.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7585d640-b5ec-45b6-b2bb-042fa5f33f25": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Split.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "adae93c3-8641-4c73-b1ad-4e43084f7287": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Split.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5c7f6d21-237e-4f26-a1c0-5c8ab5783f09": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Volume.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6c0f4e75-0fb5-4ed6-8818-d1a449fea694": {
+    "url": "db://assets/Tone.js-dev/Tone/component/channel/Volume.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "85df8927-b086-4b97-8d7f-4d9cad7e42ee": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/Compressor.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f27dcb3d-5c11-42b5-8e6c-a230d7817758": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/Compressor.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5641df99-7871-4c56-a4d0-b06ec63590a8": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/Gate.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b95045b2-aadb-4fe7-bf85-8eabea5ce84d": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/Gate.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "48eeb259-7798-452d-8dc3-ce953fdc193d": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/Limiter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "66cd06ff-fda1-44a2-9a30-738ba7be0768": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/Limiter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0ba33637-eb7a-47ef-b211-b36fc7b41b00": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/MidSideCompressor.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "97bb2a47-7626-4a0c-a48c-47ab34e87a17": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/MidSideCompressor.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "1e86a086-c6cb-49ca-9b7d-ad3daa2d4c66": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/MultibandCompressor.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e55ba0a6-4e91-4ffe-8a31-c6ecc62cbdf6": {
+    "url": "db://assets/Tone.js-dev/Tone/component/dynamics/MultibandCompressor.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dd4b5d26-8f81-4e46-b1dd-c8f61e4821ea": {
+    "url": "db://assets/Tone.js-dev/Tone/component/envelope/AmplitudeEnvelope.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "62ef8f94-b446-419a-b570-d8d5cde1b5b8": {
+    "url": "db://assets/Tone.js-dev/Tone/component/envelope/AmplitudeEnvelope.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0d0db643-b65b-4693-a867-67436b5cc95d": {
+    "url": "db://assets/Tone.js-dev/Tone/component/envelope/Envelope.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5a7966d1-8cf0-4cda-8aaa-0663406b5b38": {
+    "url": "db://assets/Tone.js-dev/Tone/component/envelope/Envelope.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3aadabc4-038b-4ba8-89f8-79c189c69222": {
+    "url": "db://assets/Tone.js-dev/Tone/component/envelope/FrequencyEnvelope.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6e2b4fc5-0317-49bd-a224-61410949d2ab": {
+    "url": "db://assets/Tone.js-dev/Tone/component/envelope/FrequencyEnvelope.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f89e49dd-dc8d-46c6-99fa-065d65fd876a": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/BiquadFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "72f84a4c-8f84-4753-b53f-0c0a06386437": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/BiquadFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4eb0ae71-d826-4ee8-98eb-e958bcf8035d": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/Convolver.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b11ba8eb-ab11-4ceb-90c9-932272f4e613": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/Convolver.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "622ecbba-be63-4c12-b5dc-2bcebc64bdae": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/EQ3.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c8ea4d10-8f42-4d94-af53-7d1065c2548a": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/EQ3.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "09041b0c-c8f4-4246-bf1b-15712ebe29cd": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/FeedbackCombFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6990390c-153e-47d0-9195-03ec65e14742": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/FeedbackCombFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9f5b625c-d5fe-41ef-aa70-e48520840743": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/FeedbackCombFilter.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2dfdd874-7d5b-49c8-bb8c-d7b9cb244edc": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/Filter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "344133fb-75b1-4812-a64c-2a7bc2f07182": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/Filter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "baa43a28-0675-4e29-baa1-86a65c07bbd2": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/LowpassCombFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "99fad601-4ef5-4687-8111-cb3d1a1ed93b": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/LowpassCombFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "30799f7d-1920-41ad-8c1e-e8c7e420d50a": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/OnePoleFilter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b9676580-d7d5-4e21-b6a1-1e0700ab7b1d": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/OnePoleFilter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c5ffd886-99dd-43df-9915-def1efa2d893": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/PhaseShiftAllpass.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e2adb2e8-6ddb-4275-8a7c-730ba96b3a5f": {
+    "url": "db://assets/Tone.js-dev/Tone/component/filter/PhaseShiftAllpass.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2c42a534-6664-4862-af9d-2213d884b223": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/Clock.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e309a3fe-b4f8-488a-afbe-d5fe2ee48193": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/Clock.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b35724d5-b8fc-4676-9115-68097163e81d": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/Ticker.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "86ee1ff8-9f2a-4e65-990b-bb4a88dd59b8": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/Ticker.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b6eb905b-3e27-43c6-960d-345d51ffce33": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TickParam.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7aec269d-bc69-4d58-a2cd-f7f4e42f2c8b": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TickParam.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c3146131-13c0-41e2-9cbc-c6e0fc6a5762": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TickSignal.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e633e520-ce31-465c-bdd6-57c7975eb159": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TickSignal.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c0ffddb3-8a47-4bfa-a10a-1530c8713f75": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TickSource.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "066e334e-2ca4-4593-b160-a2067972bad1": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TickSource.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ac5bc50a-ce5c-414a-bc33-a94ad1f089cb": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/Transport.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bf5f822a-0209-4a80-94dd-b3bba42ff760": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/Transport.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "00567a54-5e69-446c-a86d-bca84e47e73e": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TransportEvent.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9482bce8-7e2f-4512-bcef-38728298b3ec": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TransportEvent.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "86b3df64-5fb6-4f20-bda5-ab5da2663536": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TransportRepeatEvent.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "a8784812-f17e-48d3-af22-0f249a33fd75": {
+    "url": "db://assets/Tone.js-dev/Tone/core/clock/TransportRepeatEvent.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "abaa4494-8c32-4bbd-96dc-aed380ba910b": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/AbstractParam.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "788751e5-9f2a-41b3-9a04-b54c74e32767": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/AudioContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f061a569-c2aa-499b-9982-b66ab6cda659": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/BaseContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "248769ca-501b-41f1-9a65-b1b0e0da2cb8": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Context.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "07d559b2-f06e-43da-a5e3-ce3cc51280f5": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Context.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6b0bd868-aa31-40f6-846e-f30a17c03e91": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/ContextInitialization.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "129e8e99-9683-4f5a-9709-dd606eefbef4": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Delay.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5caaca31-bf01-4ed7-aa21-63887e4ce042": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Delay.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6a2387be-8aaa-4c5b-b6a0-29a97efc4401": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Destination.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3d00bb7b-6f9a-4aee-90aa-00a841495902": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Destination.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ca9aa9e9-cb27-4057-817d-3fb1aec5bc3c": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/DummyContext.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e528dbc4-8cba-4af6-9b99-2a785ab9e920": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/DummyContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "b3dfae24-30ab-4240-a748-85088ee7c131": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Gain.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cfa2bfbf-8e54-42ad-9e83-2aaa90a0d161": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Gain.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bdbf9511-6dd6-41e4-9a33-7cf0f8de6ff8": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Listener.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9aaa6238-df9e-4b38-8a32-3e233d996ef7": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Listener.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "463d7199-80ef-4e4d-982b-93ac6856a000": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Offline.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9e85e5d9-6c02-4716-8f33-96087153de30": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Offline.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "88fb20e2-7106-4b85-98bd-a034d6da2c4d": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/OfflineContext.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7f4b111b-2da6-4171-84d1-29405ae5410d": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/OfflineContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c79115f6-d2e8-4768-9093-ad8d7364880c": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Param.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "897ef77b-846e-4913-9fa1-a8a2c04d599a": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/Param.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6c399515-45e4-4aea-8a43-492aee718600": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/ToneAudioBuffer.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dc4a2f5f-daef-400c-ae80-67bac2de87b5": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/ToneAudioBuffer.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7dda7d3d-d427-49e1-acfb-fa53f77bc055": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/ToneAudioBuffers.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0d2bfa3b-2815-4677-8494-aead2466a7f8": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/ToneAudioBuffers.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "93544e52-35ab-450c-b3fb-5371f756f21f": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/ToneAudioNode.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3d721f39-fae7-4405-b44f-be914a61b535": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/ToneAudioNode.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5d7d3489-0357-47a4-83e4-01cdb8de071c": {
+    "url": "db://assets/Tone.js-dev/Tone/core/context/ToneWithContext.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "adeea7aa-faf6-40cd-b4d1-b116a99585ff": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Conversions.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "197b9615-866c-4ef9-8828-b900fef9a291": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Conversions.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "90ea3981-00ad-4927-a3b2-04da1087b712": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Frequency.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "78a83e71-f4da-4574-bf1e-a020d20f047a": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Frequency.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d29ffdad-ba02-4610-8556-7ebe44ec4049": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Midi.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cc32a2e6-955f-4287-8516-8461961c4b44": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Midi.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d9db6dbe-47d9-4e13-9a42-a023b2051fff": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/NoteUnits.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "17993520-0210-4d59-ba48-c65381c8ea70": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Ticks.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7bcbbbfb-7e74-4b00-9136-d26c26c7efae": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Ticks.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9becbfb9-1677-4a95-b239-21ab68b8a19f": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Time.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4c38dda9-053d-47b2-bad7-c15e1a520dc9": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Time.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "34f70fee-e8d8-4ed7-89b9-27e861763def": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/TimeBase.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c0d5969c-dddd-47bf-9ee6-335e84f028b4": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/TransportTime.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ac6e6bca-58b7-44d0-988a-a238f0aa993b": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/TransportTime.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fbbc6e45-5fa0-4c9d-8459-86d2be1f5362": {
+    "url": "db://assets/Tone.js-dev/Tone/core/type/Units.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c3c2256c-055b-4d44-af92-c84eec94bf3e": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/AdvancedTypeCheck.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0eb1f962-7b80-4126-8cf8-f10d95098cdc": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Debug.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "31a49d9f-173f-4a53-b9df-76c7172e0f6e": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Debug.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "17d939f9-f902-4fb2-bdf5-a28dd0dbcab9": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Decorator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "9a769410-69b7-4b83-9cf7-254c500b79e6": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Defaults.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d1407c28-9aa2-4b14-bfea-acf13ba582e8": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Draw.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c87618bb-48e9-4724-817f-f0b2c4aeb144": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Draw.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2ed214e4-352f-4298-a47b-f10379e6c307": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Emitter.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "900eaae6-4663-4c89-8e70-5fe49256d5ae": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Emitter.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "297bf184-58f8-40a7-9cbe-d4c3869799e7": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/global.d.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7a1fd5e3-1c66-4371-b714-55857eefe2b7": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Interface.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "79dfa7b8-fa2b-41b5-b3d3-a340f6f77d0e": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/IntervalTimeline.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "2c7671b8-ed57-4bfb-ae12-06ca4c6d8e89": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/IntervalTimeline.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4207a5bb-c9d3-4ad5-a3fa-42523c0bb79d": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Math.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7610d9c1-b70a-4c84-b70e-1644ef83668a": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/StateTimeline.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "19dcff8f-424d-4dd7-b524-e75bef407593": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/StateTimeline.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5af6b9cc-9427-4fae-a262-1b7106a830e9": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Timeline.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "95c8cc46-db2f-46fd-8677-79219080c831": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/Timeline.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "d6c075d8-4b5c-47e2-a87d-b2b80249f8ef": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/TimelineValue.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "30016825-b944-466b-9261-5e3a2ba40fa2": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/TimelineValue.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4063b13c-c3ff-4c93-92fd-406289eb4bc1": {
+    "url": "db://assets/Tone.js-dev/Tone/core/util/TypeCheck.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3f1502e5-99c8-4ef6-b0b3-9ee1674c0ade": {
+    "url": "db://assets/Tone.js-dev/Tone/core/worklet/DelayLine.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7f4342d9-a266-4199-a09d-970e29389b79": {
+    "url": "db://assets/Tone.js-dev/Tone/core/worklet/SingleIOProcessor.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fee10416-df7c-4e41-a660-7159c877b810": {
+    "url": "db://assets/Tone.js-dev/Tone/core/worklet/ToneAudioWorklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "809f3fa1-c6b6-483c-a119-ec725b28be1a": {
+    "url": "db://assets/Tone.js-dev/Tone/core/worklet/ToneAudioWorkletProcessor.worklet.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "dee06057-2461-4834-99ae-12ed8a16e74a": {
+    "url": "db://assets/Tone.js-dev/Tone/core/worklet/WorkletGlobalScope.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cbf070b4-6826-478c-a855-fb04e082dcfd": {
+    "url": "db://assets/Tone.js-dev/Tone/source/buffer/GrainPlayer.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f1425064-4a68-4e77-b4fb-dbc13c26a899": {
+    "url": "db://assets/Tone.js-dev/Tone/source/buffer/GrainPlayer.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3ae4b5d5-c927-40d2-9b12-e1bf0e2b60b2": {
+    "url": "db://assets/Tone.js-dev/Tone/source/buffer/Player.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "fea5569e-81f9-4eb6-a0d3-f90fcef28ff5": {
+    "url": "db://assets/Tone.js-dev/Tone/source/buffer/Player.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "93df838e-452a-4fc4-9c6f-133285f4bacf": {
+    "url": "db://assets/Tone.js-dev/Tone/source/buffer/Players.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "7bebb6b9-58ae-464a-ab28-c07dd01e0574": {
+    "url": "db://assets/Tone.js-dev/Tone/source/buffer/Players.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0d887ece-ac24-461f-aa0e-475887a888be": {
+    "url": "db://assets/Tone.js-dev/Tone/source/buffer/ToneBufferSource.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "4b5e7f45-211e-4d20-8a74-eaa6ad16b696": {
+    "url": "db://assets/Tone.js-dev/Tone/source/buffer/ToneBufferSource.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "16e74540-dd85-4dc6-aa0f-59418477fec8": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/AMOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "e5fd5889-5644-495d-a9bd-98a47283c08c": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/AMOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6d2bef44-9c99-47bd-a72c-5576652384fd": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/FatOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "467ac1c8-d840-4372-9a93-36671ccf12e1": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/FatOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c8821eda-9db1-43dd-b01a-24dea033591e": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/FMOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "bda5085f-51c1-4a43-bb6c-641ab69d7642": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/FMOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "59efd0a5-d7fe-474a-a0ad-4c01ff9a7d40": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/LFO.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6b60371d-0392-4a52-8c39-fd54906e7271": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/LFO.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cc8edae9-fe13-4253-89a9-3ca2861345fb": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/OmniOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "0a444b6f-1350-4db8-9a46-bd9ef6eb5b4b": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/OmniOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f3e5d969-9f3a-43f0-a91d-b11d9f8f5748": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/Oscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "81d53f94-e9d7-4cba-91e3-6feb70728144": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/Oscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "779f5c53-25ca-4ba8-9aef-3ccd5eb03473": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/OscillatorInterface.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "f4720455-9d35-40b9-8ec4-6bd6abe26bc5": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/PulseOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "620d25ff-4338-490b-84fe-f278d0697961": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/PulseOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "245960bc-96ab-4d95-9f12-052051845230": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/PWMOscillator.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "cb5b9742-d552-428c-8f90-ee24b988207b": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/PWMOscillator.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "c6f3c870-3b96-42e4-95ca-7d320c7ad1ba": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/ToneOscillatorNode.test.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "11ba4b3e-56f8-49c0-968b-719f8fbf0d19": {
+    "url": "db://assets/Tone.js-dev/Tone/source/oscillator/ToneOscillatorNode.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "94328d37-59fc-4be3-8efa-0e0bad4058e8": {
+    "url": "db://assets/Tone.js-dev",
+    "value": {},
+    "versionCode": 0
+  },
+  "c34b72f5-bf29-4825-9e99-946f9253e088": {
+    "url": "db://assets/Tone.js-dev/CHANGELOG.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "13bb108a-b1d0-4ced-a64a-982443ff1d5b": {
+    "url": "db://assets/Tone.js-dev/LICENSE.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "55609dd6-efe7-49f8-88df-f4e527c85f22": {
+    "url": "db://assets/Tone.js-dev/README.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "fae25993-d46c-4d4a-a14a-fd44c9b7a3e6": {
+    "url": "db://assets/Tone.js-dev/package-lock.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "f2f67411-a17e-401f-a921-2ca893015f8e": {
+    "url": "db://assets/Tone.js-dev/package.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "8ffc1a97-f922-42ba-9186-9ab918d2d993": {
+    "url": "db://assets/Tone.js-dev/tsconfig.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "9fc1d1f4-d28e-4be8-b629-47f80f616818": {
+    "url": "db://assets/Tone.js-dev/webpack.config.cjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "8c894d26-b832-4a3b-b555-cc2a18674d3c": {
+    "url": "db://assets/Tone.js-dev/examples/amSynth.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "1ae6046d-b10b-4ac2-9b36-6053326449d1": {
+    "url": "db://assets/Tone.js-dev/examples/analysis.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "589d7460-78dc-47c1-82c7-35b774b504f6": {
+    "url": "db://assets/Tone.js-dev/examples/animationSync.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "fe23c9a1-c22a-4e85-8ea8-7b5ed7304ced": {
+    "url": "db://assets/Tone.js-dev/examples/bembe.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "686ffc3c-7933-4af5-9133-8a31ddf67ecb": {
+    "url": "db://assets/Tone.js-dev/examples/buses.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "284631e6-891c-442d-94c7-3730dd72d413": {
+    "url": "db://assets/Tone.js-dev/examples/daw.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "78628d1d-3899-4135-91f8-e798a0f62bc2": {
+    "url": "db://assets/Tone.js-dev/examples/envelope.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "cbd224d6-85dc-4c03-aadb-11bd4a9dfbb8": {
+    "url": "db://assets/Tone.js-dev/examples/events.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "c9294eb6-1623-4c5e-86ac-5399ffd8fb82": {
+    "url": "db://assets/Tone.js-dev/examples/favicon.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "f1b3f9df-c742-43bf-a686-928f8209a196": {
+    "url": "db://assets/Tone.js-dev/examples/fmSynth.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "fc174765-f091-4473-9671-6f5b3f8f0a30": {
+    "url": "db://assets/Tone.js-dev/examples/funkyShape.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "25911080-2e68-45dd-a3aa-a0f873a11c84": {
+    "url": "db://assets/Tone.js-dev/examples/grainPlayer.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "a6709020-8d09-49c3-9619-69f2fa7fd9e5": {
+    "url": "db://assets/Tone.js-dev/examples/index.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "bff64260-655b-4a32-a759-4307345fc990": {
+    "url": "db://assets/Tone.js-dev/examples/jump.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "766fa643-0cd6-4093-bdb0-0a928620ec24": {
+    "url": "db://assets/Tone.js-dev/examples/lfoEffects.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "0e1ebde4-723a-4773-99f6-0914f44d6e56": {
+    "url": "db://assets/Tone.js-dev/examples/meter.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "b827a543-a46e-4021-83c6-44acd2f3da09": {
+    "url": "db://assets/Tone.js-dev/examples/mic.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "0dc27411-da11-4fbf-8b4b-8814222f11c5": {
+    "url": "db://assets/Tone.js-dev/examples/mixer.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "c9294eb6-1623-4c5e-86ac-5399ffd8fb82@6c48a": {
+    "url": "db://assets/Tone.js-dev/examples/favicon.png@6c48a",
+    "value": {
+      "depends": [
+        "c9294eb6-1623-4c5e-86ac-5399ffd8fb82"
+      ]
+    },
+    "versionCode": 0
+  },
+  "91c1de32-e9e8-4533-80a6-3fc4276fbbf6": {
+    "url": "db://assets/Tone.js-dev/examples/monoSynth.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "54a5040c-18d0-4d63-a702-6961f63c123b": {
+    "url": "db://assets/Tone.js-dev/examples/noises.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "635b2f28-a04d-4345-9bf9-068c7e5dfaa2": {
+    "url": "db://assets/Tone.js-dev/examples/offline.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "94547a57-0479-4023-a2a3-50e54278ab0d": {
+    "url": "db://assets/Tone.js-dev/examples/oscillator.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "bc95763d-7181-48c2-b11c-c53037215911": {
+    "url": "db://assets/Tone.js-dev/examples/pianoPhase.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "255f1bda-0a10-4787-a01f-bcbf2c5c7dbc": {
+    "url": "db://assets/Tone.js-dev/examples/pingPongDelay.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "e699ff65-cc6c-4392-bc8e-ed24a010692b": {
+    "url": "db://assets/Tone.js-dev/examples/pitchShift.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "193e6687-6ae1-45e0-be3b-18932a56521c": {
+    "url": "db://assets/Tone.js-dev/examples/player.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "54ca4919-a588-4a70-a170-542ea3c31254": {
+    "url": "db://assets/Tone.js-dev/examples/polySynth.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "6e6dc81c-6c5a-4dac-a5d3-24bd8014566f": {
+    "url": "db://assets/Tone.js-dev/examples/quantization.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "79dc83b0-e57b-4e0d-84ff-ee652f465b62": {
+    "url": "db://assets/Tone.js-dev/examples/rampTo.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "04f0b731-790d-4813-8ddf-c33045a943c1": {
+    "url": "db://assets/Tone.js-dev/examples/README.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "4a67ebaf-4d39-4e86-9325-c73c154dc183": {
+    "url": "db://assets/Tone.js-dev/examples/reverb.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "f5cafee1-2fdb-45b9-a514-562810b658dd": {
+    "url": "db://assets/Tone.js-dev/examples/sampler.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "636a47f8-26dc-42d9-b882-ed43cbf094b6": {
+    "url": "db://assets/Tone.js-dev/examples/shiny.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "2f946860-a50e-414e-84be-8d7f1fe2dfd9": {
+    "url": "db://assets/Tone.js-dev/examples/signal.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "8cc4fb29-bcab-4330-8bad-553fc2eaf43d": {
+    "url": "db://assets/Tone.js-dev/examples/simpleHtml.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "6788873d-ca2c-4b87-becd-842fec289aef": {
+    "url": "db://assets/Tone.js-dev/examples/simpleSynth.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "4356ba24-b8a8-4c01-b535-6b922bff0b6b": {
+    "url": "db://assets/Tone.js-dev/examples/spatialPanner.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "75a52e5d-7a54-4b4b-b8da-976f44274ca5": {
+    "url": "db://assets/Tone.js-dev/examples/stepSequencer.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "edb75655-ae76-44cc-a68a-73045a55ed29": {
+    "url": "db://assets/Tone.js-dev/scripts/generate_docs.cjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "a0c022d6-5aa9-4cb0-b288-36f71592bcf0": {
+    "url": "db://assets/Tone.js-dev/scripts/increment_version.cjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "af5e69f6-ab8f-4d70-9ecf-6afbcf2a9fd0": {
+    "url": "db://assets/Tone.js-dev/scripts/tsconfig.build.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "aa55b42f-871e-45c1-9295-82677824ad4b": {
+    "url": "db://assets/Tone.js-dev/scripts/typedoc.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "60d122b5-9887-40ed-8258-cd35e3fec6fe": {
+    "url": "db://assets/Tone.js-dev/test/karma.conf.cjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "0038aaad-f06e-42ef-bcda-89808482db53": {
+    "url": "db://assets/Tone.js-dev/test/README.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "cc8470b5-3aaf-41ee-8bef-10fbb9aab16e": {
+    "url": "db://assets/Tone.js-dev/examples/js/components.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "cef12b0b-bd78-4054-a1e8-15991aefe37d": {
+    "url": "db://assets/Tone.js-dev/examples/js/ExampleList.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "8baeceef-d93c-4363-b2ad-1df068e4f220": {
+    "url": "db://assets/Tone.js-dev/examples/js/tone-ui.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "fba0a4ea-5f91-48c9-9a92-671503e2a9e2": {
+    "url": "db://assets/Tone.js-dev/test/audio/corrupt.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "c400256b-cde7-4292-a988-8a15c9a96571": {
+    "url": "db://assets/Tone.js-dev/test/audio/FWDL.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "5939aab6-cdf7-44cb-927e-ecaaeea32db3": {
+    "url": "db://assets/Tone.js-dev/test/audio/hh.mp3",
+    "value": {},
+    "versionCode": 0
+  },
+  "69622b1f-7439-4690-85c3-cece8113356b": {
+    "url": "db://assets/Tone.js-dev/test/audio/hh.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "d9ebc236-4219-4b2a-a42b-7483289a5348": {
+    "url": "db://assets/Tone.js-dev/test/audio/kick.mp3",
+    "value": {},
+    "versionCode": 0
+  },
+  "cfa39bad-48fb-422e-b9eb-4249edfd2cbe": {
+    "url": "db://assets/Tone.js-dev/test/audio/short_sine.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "234df537-d23a-4529-820f-a7fff2f8ace4": {
+    "url": "db://assets/Tone.js-dev/test/audio/sine.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "075a0e5b-fbd5-40fc-ad8b-dfb369a6bb24": {
+    "url": "db://assets/Tone.js-dev/test/audio/sineStereo.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "f45175ed-6534-45e1-965d-272032dec03e": {
+    "url": "db://assets/Tone.js-dev/test/scripts/node_test.cjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "dade6136-ca6e-4c22-9cc7-aee6d3019329": {
+    "url": "db://assets/Tone.js-dev/test/scripts/test_examples.cjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "7391151c-7123-41e4-8b41-f6c01c535fcf": {
+    "url": "db://assets/Tone.js-dev/test/scripts/test_html.cjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "c6977ed3-3d0f-4e2d-b2bc-caf41b1a3be6": {
+    "url": "db://assets/Tone.js-dev/test/scripts/test_readme.cjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "1d96eb84-7022-4843-8b92-cc1447dc1cf7": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/amOscillator.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "5d0c13a0-863e-4169-ac2c-dfaca3fe3adb": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/ampEnvelope.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "8089ddd9-0b39-45df-a8c1-b7d74597ebc3": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/ampEnvelope2.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "f5a94fd7-da69-45c7-b0dd-92e40500c771": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/ampEnvelope3.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "f0c89835-f47e-4ad9-b1ca-0099a82d3ce7": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/amSynth.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "a24e40f4-098e-43e2-92f5-875e54920c05": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/autoFilter.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "d445d11b-cb3d-4211-ba41-7d16eadd8c7a": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/autoPanner.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "bd206d7f-527b-4983-a62e-d727e7537490": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/autoWah.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "349dde8d-74e8-41ce-b688-bc4aa3d548cb": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/bitCrusher.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "e3084ae6-c329-4c28-b782-14995835c83e": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/bufferSource.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "fdd750db-828a-402c-b5bb-3de091550abb": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/chebyshev.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "f13f05f2-203e-4d9e-9a81-45b7e8c134f1": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/chorus.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "95066b3c-b137-4417-854f-3b6133b5a3a0": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/distortion.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "a63f91c1-0a07-49c8-b9ed-e5014ff38cca": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/duoSynth.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "f670b29a-d70f-40a1-a44d-90b5b0a86e1a": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/fatOscillator.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "834cc1b1-c137-4562-b46d-51d848709125": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/feedbackDelay.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "a06b7384-a20f-4e80-b240-aba7ef3b082d": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/fmOscillator.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "127f326f-c757-41ea-a424-a290ec156c70": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/fmSynth.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "d0f668c1-d626-4140-91dc-4478e9a104f6": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/freeverb.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "8ad96794-1702-47c7-90b3-57571f9c63b7": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/frequencyShifter.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "47bc2555-1b23-4178-8562-1569a67d37e2": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/gate.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "3c3e6663-e2a9-4338-b6d6-e2c4aa737d71": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/grainPlayer.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "b7b54308-5198-4cd0-bc51-5d61039c23d1": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/grainPlayer2.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "8ad64ec6-a727-40c2-8eda-385253c151e2": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/jcReverb.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "931abe37-773f-4da1-930d-68bbb01cfb19": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/membraneSynth.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "124ce05d-8ffc-4599-81da-67ccc425bc10": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/membraneSynth2.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "68006454-b1fb-4e15-b327-2b7d11625d75": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/metalSynth.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "3dfb260e-8cd1-4e11-810e-d163e59a2c9e": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/monoSynth.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "7fc12c76-4b91-434d-941f-24b591ff1205": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/noise.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "1fd5f453-43da-444f-9fbe-7e32db25f49a": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/noiseSynth.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "b9878843-204b-44f7-bc8b-62bdb75caf42": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/noiseSynthRelease.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "3320826b-89c7-4ba9-9abd-1406fd0209be": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/omniOscillator.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "18ea6afe-9200-4eb4-806a-4af6287f3afd": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/onePoleHighpass.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "64db7f66-6d12-448b-8b6e-c9606e8d21f1": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/onePoleLowpass.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "8db37ebe-d4b5-4e0d-8e02-48b40d0a798b": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/oscillator.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "ec078fc0-79b2-4748-bb6b-b87b142a4c2a": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/oscillatorNode.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "a9dde547-a9b0-4923-b51f-d125c094f2cb": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/phaser.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "ead0609f-940d-48a7-9eee-23ae99283dbc": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/phaseShiftAllpass.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "904ade5c-4152-4144-bcdd-9aa3caad9f59": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/phaseShiftAllpass1.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "9a655fb9-5aed-4d07-ae45-c971d3f44b75": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/pingPongDelay.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "86c3ccd0-d48d-4e80-98fe-658a6d4b1330": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/pitchShift.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "ce2ab0d9-79cc-4b5d-94d6-55b8ae4b68e9": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/player.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "82106a06-1df4-46be-bf72-e290401fd8ec": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/playerSyncLoop.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "3d9e65ce-14f8-4502-81fe-2fdc4b44b07c": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/pluckSynth.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "bcb4d88a-0646-4166-9516-8ea03bb71eb9": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/pluckSynth2.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "53bce115-a3f5-4ad7-8e36-2553beba51bb": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/polySynth.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "e89f6323-a4f7-43fe-9935-f8f37585a01e": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/polySynth2.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "fcfe4d06-c5de-4bdc-a7be-3b6018c49a7a": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/polySynth3.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "8f509dfc-b40f-4172-8207-0c13757211a0": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/pulseOscillator.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "2fbdfd16-9802-4a0c-bf3f-0b248b19dcbd": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/pwmOscillator.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "ecb5a5cf-8c28-4f2a-a521-c1fb0cc4af2f": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/sampler.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "3e79e4ed-b994-4ebd-acb3-4abe854c2157": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/stereoWidener.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "15c60dd3-14d9-427f-901d-d62c355c262a": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/synth_basic.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "b409f5cf-6bb9-4ffa-b287-b6874055ea88": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/synth_melody.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "3f290df1-2a01-4d9f-a963-eb149d91b0e5": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/tremolo.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "4f26a2a4-59da-45e9-a912-dad27c7e4041": {
+    "url": "db://assets/Tone.js-dev/test/audio/compare/vibrato.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "b3b30050-1b21-44e6-9963-a885f2aa17ac": {
+    "url": "db://assets/Tone.js-dev/test/audio/param/curve_0.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "643af293-6e84-4dfe-b183-9be78877c89f": {
+    "url": "db://assets/Scripts/NewComponent.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "6f590bb6-7b77-46c2-997c-1c5790083ad6": {
+    "url": "db://assets/Scripts/web-audio-api-main",
+    "value": {},
+    "versionCode": 0
+  },
+  "f4e46193-eeca-48a8-9b78-21bf6b5ecaa7": {
+    "url": "db://assets/Scripts/web-audio-api-main/explainer",
+    "value": {},
+    "versionCode": 0
+  },
+  "a22e1f64-b99c-480b-8aab-180e26cfa3ea": {
+    "url": "db://assets/Scripts/web-audio-api-main/images",
+    "value": {},
+    "versionCode": 0
+  },
+  "a18084f5-2304-4465-9836-24e727ebddd6": {
+    "url": "db://assets/Scripts/web-audio-api-main/audionode-init.include",
+    "value": {},
+    "versionCode": 0
+  },
+  "30ddcc28-ba6a-4474-bccd-cf6778f5f6db": {
+    "url": "db://assets/Scripts/web-audio-api-main/audionode-noinput.include",
+    "value": {},
+    "versionCode": 0
+  },
+  "92770796-fffe-4af7-93de-80f0ee25387c": {
+    "url": "db://assets/Scripts/web-audio-api-main/audionode.include",
+    "value": {},
+    "versionCode": 0
+  },
+  "84b085fc-c7ae-41b9-a1b7-d3adb330c941": {
+    "url": "db://assets/Scripts/web-audio-api-main/audioparam.include",
+    "value": {},
+    "versionCode": 0
+  },
+  "20f6f7f6-3574-47df-a37e-0100d595d416": {
+    "url": "db://assets/Scripts/web-audio-api-main/CODE_OF_CONDUCT.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "25ebc36d-9305-4d57-b330-499d50b4d8fc": {
+    "url": "db://assets/Scripts/web-audio-api-main/compile.sh",
+    "value": {},
+    "versionCode": 0
+  },
+  "2e9ee570-ad95-4bec-bc32-e84362ea4163": {
+    "url": "db://assets/Scripts/web-audio-api-main/CONTRIBUTING.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "e7121e4b-b39c-452b-abb6-1c4210db0d03": {
+    "url": "db://assets/Scripts/web-audio-api-main/convolution.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "e9017383-bd0b-4ec0-b9e4-9567ac4e9272": {
+    "url": "db://assets/Scripts/web-audio-api-main/create-cr.sh",
+    "value": {},
+    "versionCode": 0
+  },
+  "26ea3728-fc78-424f-97a5-2b37ba708c1b": {
+    "url": "db://assets/Scripts/web-audio-api-main/expected-errs.txt",
+    "value": {},
+    "versionCode": 0
+  },
+  "3e4cc961-4d31-49d1-b86e-a84377d22db7": {
+    "url": "db://assets/Scripts/web-audio-api-main/favicon.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "4148de55-326e-4745-86c1-bc02ae83cb61": {
+    "url": "db://assets/Scripts/web-audio-api-main/implementation-report.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "698abe2b-418c-4f9b-8ff9-5834744fc2f3": {
+    "url": "db://assets/Scripts/web-audio-api-main/index.bs",
+    "value": {},
+    "versionCode": 0
+  },
+  "4432fc92-4958-43dc-b842-2c91665daf5b": {
+    "url": "db://assets/Scripts/web-audio-api-main/LICENSE.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "6e404ba8-e331-4157-8397-73a023c0753f": {
+    "url": "db://assets/Scripts/web-audio-api-main/README.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "5573310e-8cf3-4a9c-8230-8fd9255a0c47": {
+    "url": "db://assets/Scripts/web-audio-api-main/style.css",
+    "value": {},
+    "versionCode": 0
+  },
+  "c4c6c833-6282-434c-8759-129dd7fba465": {
+    "url": "db://assets/Scripts/web-audio-api-main/test-report.html",
+    "value": {},
+    "versionCode": 0
+  },
+  "3e4cc961-4d31-49d1-b86e-a84377d22db7@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/favicon.png@6c48a",
+    "value": {
+      "depends": [
+        "3e4cc961-4d31-49d1-b86e-a84377d22db7"
+      ]
+    },
+    "versionCode": 0
+  },
+  "469df038-ce5a-4d35-8401-7ada7cca5dce": {
+    "url": "db://assets/Scripts/web-audio-api-main/tidyconf.txt",
+    "value": {},
+    "versionCode": 0
+  },
+  "9fee1af9-c5c2-4ef1-8fb8-8707fbc15b7a": {
+    "url": "db://assets/Scripts/web-audio-api-main/w3c.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "61cdb0ce-ee5d-4efc-8fbf-b30b3bb3207a": {
+    "url": "db://assets/Scripts/web-audio-api-main/webaudio-CR-transition.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "b408466b-83a1-41d8-9872-bd1d3d5fc6be": {
+    "url": "db://assets/Scripts/web-audio-api-main/explainer/user-selectable-render-size.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "47b8ec80-1aed-4007-95c1-fd22b2aafd65": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-basic.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "c83cead4-d1b8-4a73-acf0-7454bd92c34f": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-basic.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "d862a287-9cc2-461c-9d67-f03490713f41": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-half-sample-rate.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "3fdf65ae-ad9a-4f97-bb82-b8e72f3c4d25": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-half-sample-rate.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "5e242673-74b4-4b01-9717-50f528ca5dcb": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-offset.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "89e34753-68cf-4797-b705-44d9a73217a8": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-offset.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "d343d781-2565-4ddf-95a0-3a561f76d19c": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-reversed-loop.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "576244c8-c18e-478a-944a-d56418e321f0": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-reversed-loop.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "7198b424-3e5d-4675-96cc-b00ff11dac0c": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-slow-loop.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "66cf630f-c64c-425d-b1fb-e71f9877fe27": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-slow-loop.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "c83cead4-d1b8-4a73-acf0-7454bd92c34f@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-basic.png@6c48a",
+    "value": {
+      "depends": [
+        "c83cead4-d1b8-4a73-acf0-7454bd92c34f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3fdf65ae-ad9a-4f97-bb82-b8e72f3c4d25@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-half-sample-rate.png@6c48a",
+    "value": {
+      "depends": [
+        "3fdf65ae-ad9a-4f97-bb82-b8e72f3c4d25"
+      ]
+    },
+    "versionCode": 0
+  },
+  "197180d5-adca-4ffa-8f85-d1874e1d7c43": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-subsample-loop.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "d41023a8-c516-40f9-bf93-639c08dbe01a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-subsample-loop.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "89e34753-68cf-4797-b705-44d9a73217a8@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-offset.png@6c48a",
+    "value": {
+      "depends": [
+        "89e34753-68cf-4797-b705-44d9a73217a8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f94d4f46-9678-4921-bc6e-1fa75696bd6d": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audio-element.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "576244c8-c18e-478a-944a-d56418e321f0@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-reversed-loop.png@6c48a",
+    "value": {
+      "depends": [
+        "576244c8-c18e-478a-944a-d56418e321f0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d31b2cd0-8a01-4b1c-8912-8c16d37801d8": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audioparam-automation-clipping.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "adf147dd-0829-4155-a5b9-88e4f3f1ffc3": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audioparam-automation1.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "e33994ff-56ca-480e-be5d-4442a0d7c7a5": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audioworklet-concept.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "66cf630f-c64c-425d-b1fb-e71f9877fe27@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-slow-loop.png@6c48a",
+    "value": {
+      "depends": [
+        "66cf630f-c64c-425d-b1fb-e71f9877fe27"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a7b04826-3a47-417d-bb35-dc21a0a1ee9d": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audioworklet-instantiation-sequence.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "d31b2cd0-8a01-4b1c-8912-8c16d37801d8@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audioparam-automation-clipping.png@6c48a",
+    "value": {
+      "depends": [
+        "d31b2cd0-8a01-4b1c-8912-8c16d37801d8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e327698c-21b3-4399-8f51-97d604eb8f80": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audioworklet.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "adf147dd-0829-4155-a5b9-88e4f3f1ffc3@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audioparam-automation1.png@6c48a",
+    "value": {
+      "depends": [
+        "adf147dd-0829-4155-a5b9-88e4f3f1ffc3"
+      ]
+    },
+    "versionCode": 0
+  },
+  "72f3863c-588d-4bf4-b2c8-8914929371d0": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/cancel-linear.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "d41023a8-c516-40f9-bf93-639c08dbe01a@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/absn-subsample-loop.png@6c48a",
+    "value": {
+      "depends": [
+        "d41023a8-c516-40f9-bf93-639c08dbe01a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ad79bd7e-6ce3-493c-8b40-d71655119269": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/cancel-linear.svg",
+    "value": {},
+    "versionCode": 0
+  },
+  "e33994ff-56ca-480e-be5d-4442a0d7c7a5@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audioworklet-concept.png@6c48a",
+    "value": {
+      "depends": [
+        "e33994ff-56ca-480e-be5d-4442a0d7c7a5"
+      ]
+    },
+    "versionCode": 0
+  },
+  "3f0de332-2d40-4e09-89bb-06d157e860e0": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/cancel-setTarget.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "7c1f149e-cad7-4c22-ab42-bac926755064": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/cancel-setTarget.svg",
+    "value": {},
+    "versionCode": 0
+  },
+  "87ff74aa-845b-4972-81ef-15050d6a7f6f": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/cancel-setValueCurve.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "b929dae3-a6bd-4546-bd2b-b410cbc0c06e": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/cancel-setValueCurve.svg",
+    "value": {},
+    "versionCode": 0
+  },
+  "1be97f43-ab84-4c60-88e4-0ee9e1c4436d": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/channel-merger.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "5df17b47-8077-486d-b9cf-fe655101aba1": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/channel-merger.svg",
+    "value": {},
+    "versionCode": 0
+  },
+  "ff1aedd2-27ec-4003-94a0-16c02aa112df": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/channel-splitter.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "a7b04826-3a47-417d-bb35-dc21a0a1ee9d@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/audioworklet-instantiation-sequence.png@6c48a",
+    "value": {
+      "depends": [
+        "a7b04826-3a47-417d-bb35-dc21a0a1ee9d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "e1aa0059-e6f3-468d-9f1f-62da4f05616c": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/channel-splitter.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "d4add1d7-a053-4870-b06b-36d1b00cb37e": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/chrome-logo.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "3e071138-5ce8-4466-bd1f-38c1b5367414": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/compression-curve.svg",
+    "value": {},
+    "versionCode": 0
+  },
+  "d00dd1b1-1d06-4f7b-a0de-4767d2383408": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/cone-diagram.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "9310ad09-d7a1-42bb-a349-d011427a7656": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/cone-diagram.svg",
+    "value": {},
+    "versionCode": 0
+  },
+  "ce0129f1-948b-4559-b52d-a555994168ee": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/convolver-diagram.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "cbaa5137-6518-436b-bf3f-c20766b3a319": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/convolver-diagram.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "61b78a97-a180-4423-b389-8cbadecd21cc": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/dj.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "e1aa0059-e6f3-468d-9f1f-62da4f05616c@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/channel-splitter.png@6c48a",
+    "value": {
+      "depends": [
+        "e1aa0059-e6f3-468d-9f1f-62da4f05616c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2a150407-e5fe-4537-8293-21f455e46aeb": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/drum-machine.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "cf77218e-2bc2-40a5-a541-5efa953d782b": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/dynamic-allocation.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "d4add1d7-a053-4870-b06b-36d1b00cb37e@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/chrome-logo.png@6c48a",
+    "value": {
+      "depends": [
+        "d4add1d7-a053-4870-b06b-36d1b00cb37e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d34ce6a7-fedb-4f6c-9923-e7293635d3a0": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/dynamic-allocation.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "28df389b-7d1a-4096-b1e6-12a00ca53ff2": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/dynamicscompressor-internal-graph.svg",
+    "value": {},
+    "versionCode": 0
+  },
+  "61b78a97-a180-4423-b389-8cbadecd21cc@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/dj.png@6c48a",
+    "value": {
+      "depends": [
+        "61b78a97-a180-4423-b389-8cbadecd21cc"
+      ]
+    },
+    "versionCode": 0
+  },
+  "22d4e33e-39b8-4ec0-9f43-22173b054e4e": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/edge-logo.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "cbaa5137-6518-436b-bf3f-c20766b3a319@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/convolver-diagram.png@6c48a",
+    "value": {
+      "depends": [
+        "cbaa5137-6518-436b-bf3f-c20766b3a319"
+      ]
+    },
+    "versionCode": 0
+  },
+  "30042dd5-c35a-489d-931d-798c15b5d394": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/fft-convolver.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "156d95c6-34fb-44b5-85cc-7278a7646541": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/firefox-logo.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "d34ce6a7-fedb-4f6c-9923-e7293635d3a0@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/dynamic-allocation.png@6c48a",
+    "value": {
+      "depends": [
+        "d34ce6a7-fedb-4f6c-9923-e7293635d3a0"
+      ]
+    },
+    "versionCode": 0
+  },
+  "2a150407-e5fe-4537-8293-21f455e46aeb@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/drum-machine.png@6c48a",
+    "value": {
+      "depends": [
+        "2a150407-e5fe-4537-8293-21f455e46aeb"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7ef99adc-59c4-4ac1-880d-92f65c556498": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/HRTF_panner.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "c78d015c-8bea-4872-82dc-683ecbe682a2": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/impulse-response.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "30042dd5-c35a-489d-931d-798c15b5d394@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/fft-convolver.png@6c48a",
+    "value": {
+      "depends": [
+        "30042dd5-c35a-489d-931d-798c15b5d394"
+      ]
+    },
+    "versionCode": 0
+  },
+  "1b84cc3d-b5eb-4140-a0ab-235e459cab64": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/latency.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "7ef99adc-59c4-4ac1-880d-92f65c556498@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/HRTF_panner.png@6c48a",
+    "value": {
+      "depends": [
+        "7ef99adc-59c4-4ac1-880d-92f65c556498"
+      ]
+    },
+    "versionCode": 0
+  },
+  "4d012aeb-1172-4dd2-b059-4706b37d35f4": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/microphone.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "22d4e33e-39b8-4ec0-9f43-22173b054e4e@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/edge-logo.png@6c48a",
+    "value": {
+      "depends": [
+        "22d4e33e-39b8-4ec0-9f43-22173b054e4e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "ef682eff-64ed-4a95-82d9-acf373f70721": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/microphones-speaker.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "156d95c6-34fb-44b5-85cc-7278a7646541@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/firefox-logo.png@6c48a",
+    "value": {
+      "depends": [
+        "156d95c6-34fb-44b5-85cc-7278a7646541"
+      ]
+    },
+    "versionCode": 0
+  },
+  "96d80f47-6b42-4922-ab98-b171b32d562d": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/modular-routing1.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "c78d015c-8bea-4872-82dc-683ecbe682a2@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/impulse-response.png@6c48a",
+    "value": {
+      "depends": [
+        "c78d015c-8bea-4872-82dc-683ecbe682a2"
+      ]
+    },
+    "versionCode": 0
+  },
+  "fa7bba93-2623-48b9-9e6e-58d85c5cf44b": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/modular-routing1.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "635fac02-a134-4a9a-b4c7-1518eb3c1788": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/modular-routing2.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "1b84cc3d-b5eb-4140-a0ab-235e459cab64@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/latency.png@6c48a",
+    "value": {
+      "depends": [
+        "1b84cc3d-b5eb-4140-a0ab-235e459cab64"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7c30dc36-c86e-46fb-820d-4f5331e98ab8": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/modular-routing2.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "0775349f-3ca4-4811-8e2e-712c367f5734": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/modular-routing3.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "4d012aeb-1172-4dd2-b059-4706b37d35f4@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/microphone.png@6c48a",
+    "value": {
+      "depends": [
+        "4d012aeb-1172-4dd2-b059-4706b37d35f4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "27f2de8f-a729-4d08-8de0-4ca48ef4c889": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/modular-routing3.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "ef682eff-64ed-4a95-82d9-acf373f70721@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/microphones-speaker.png@6c48a",
+    "value": {
+      "depends": [
+        "ef682eff-64ed-4a95-82d9-acf373f70721"
+      ]
+    },
+    "versionCode": 0
+  },
+  "f0dedbec-069c-4b26-affd-85c06072e91f": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/opera-logo.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "fa7bba93-2623-48b9-9e6e-58d85c5cf44b@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/modular-routing1.png@6c48a",
+    "value": {
+      "depends": [
+        "fa7bba93-2623-48b9-9e6e-58d85c5cf44b"
+      ]
+    },
+    "versionCode": 0
+  },
+  "059c0c77-3bd6-4e9c-b3a1-381f7a304803": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/panner-coord.graffle",
+    "value": {},
+    "versionCode": 0
+  },
+  "c2b0802f-e200-44aa-9aee-26e623e08c06": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/panner-coord.svg",
+    "value": {},
+    "versionCode": 0
+  },
+  "7c30dc36-c86e-46fb-820d-4f5331e98ab8@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/modular-routing2.png@6c48a",
+    "value": {
+      "depends": [
+        "7c30dc36-c86e-46fb-820d-4f5331e98ab8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "76a4c520-6897-49c4-90cb-f9b1f8849e4e": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/recording-setup.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "42b1be0f-bd19-4145-a369-9a51434b1c25": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/reverb-convolver.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "6be3786e-0337-4097-9ff7-4dc3bba524f9": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/reverb-matrixing.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "27f2de8f-a729-4d08-8de0-4ca48ef4c889@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/modular-routing3.png@6c48a",
+    "value": {
+      "depends": [
+        "27f2de8f-a729-4d08-8de0-4ca48ef4c889"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7549a9f8-1fc1-44b6-a13b-2caea032509a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/safari-logo.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "f0dedbec-069c-4b26-affd-85c06072e91f@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/opera-logo.png@6c48a",
+    "value": {
+      "depends": [
+        "f0dedbec-069c-4b26-affd-85c06072e91f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "325370d3-7596-437e-a7e9-7443b424d621": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/speaker.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "76a4c520-6897-49c4-90cb-f9b1f8849e4e@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/recording-setup.png@6c48a",
+    "value": {
+      "depends": [
+        "76a4c520-6897-49c4-90cb-f9b1f8849e4e"
+      ]
+    },
+    "versionCode": 0
+  },
+  "b61594c1-a14d-49d5-b0b4-c8ba0c6bb6f1": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/visualizer-gl-old.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "42b1be0f-bd19-4145-a369-9a51434b1c25@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/reverb-convolver.png@6c48a",
+    "value": {
+      "depends": [
+        "42b1be0f-bd19-4145-a369-9a51434b1c25"
+      ]
+    },
+    "versionCode": 0
+  },
+  "9ad95004-4339-4a78-8e4c-c24f1f88e5e8": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/visualizer2-gl.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "6be3786e-0337-4097-9ff7-4dc3bba524f9@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/reverb-matrixing.png@6c48a",
+    "value": {
+      "depends": [
+        "6be3786e-0337-4097-9ff7-4dc3bba524f9"
+      ]
+    },
+    "versionCode": 0
+  },
+  "71b7001b-faf3-44da-bd09-4d647017c7eb": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/warehouse.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "b61594c1-a14d-49d5-b0b4-c8ba0c6bb6f1@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/visualizer-gl-old.png@6c48a",
+    "value": {
+      "depends": [
+        "b61594c1-a14d-49d5-b0b4-c8ba0c6bb6f1"
+      ]
+    },
+    "versionCode": 0
+  },
+  "32f68a2f-359d-4be6-80f3-15ec7edd7306": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/webaudio-js.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "325370d3-7596-437e-a7e9-7443b424d621@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/speaker.png@6c48a",
+    "value": {
+      "depends": [
+        "325370d3-7596-437e-a7e9-7443b424d621"
+      ]
+    },
+    "versionCode": 0
+  },
+  "a3f75b87-53c1-4733-bb2c-9b1cf4bed0b2": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/webaudio-js.svg",
+    "value": {},
+    "versionCode": 0
+  },
+  "9ad95004-4339-4a78-8e4c-c24f1f88e5e8@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/visualizer2-gl.png@6c48a",
+    "value": {
+      "depends": [
+        "9ad95004-4339-4a78-8e4c-c24f1f88e5e8"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7549a9f8-1fc1-44b6-a13b-2caea032509a@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/safari-logo.png@6c48a",
+    "value": {
+      "depends": [
+        "7549a9f8-1fc1-44b6-a13b-2caea032509a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "71b7001b-faf3-44da-bd09-4d647017c7eb@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/warehouse.png@6c48a",
+    "value": {
+      "depends": [
+        "71b7001b-faf3-44da-bd09-4d647017c7eb"
+      ]
+    },
+    "versionCode": 0
+  },
+  "32f68a2f-359d-4be6-80f3-15ec7edd7306@6c48a": {
+    "url": "db://assets/Scripts/web-audio-api-main/images/webaudio-js.png@6c48a",
+    "value": {
+      "depends": [
+        "32f68a2f-359d-4be6-80f3-15ec7edd7306"
+      ]
+    },
+    "versionCode": 0
+  },
+  "933ae51c-704e-4e9e-921f-c09cb16f4e08": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master",
+    "value": {},
+    "versionCode": 0
+  },
+  "abb11e61-063d-44ff-869d-83dcc440e3bf": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config",
+    "value": {},
+    "versionCode": 0
+  },
+  "2b15ac3f-263b-4f2c-b402-3dc8c4f77eea": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/src",
+    "value": {},
+    "versionCode": 0
+  },
+  "7069a72e-d829-4791-a558-ed540e21d020": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test",
+    "value": {},
+    "versionCode": 0
+  },
+  "a8e86978-e95d-4bab-9666-763d2c4e297b": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/LICENSE",
+    "value": {},
+    "versionCode": 0
+  },
+  "519932ca-357e-458c-9ad8-4604f1cd111d": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/babel",
+    "value": {},
+    "versionCode": 0
+  },
+  "f514afa6-7757-44a1-9d38-a3f2a40dc248": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/eslint",
+    "value": {},
+    "versionCode": 0
+  },
+  "832d88cb-030a-4c11-9b38-56986b89da7f": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/grunt",
+    "value": {},
+    "versionCode": 0
+  },
+  "e056b389-d0c3-49ab-a01d-d5d4f2f0e24a": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/karma",
+    "value": {},
+    "versionCode": 0
+  },
+  "de4423d5-614e-49aa-bb23-edb7734f70d3": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/lint-staged",
+    "value": {},
+    "versionCode": 0
+  },
+  "848777e7-23f4-40f9-9f2e-72f1010fc6d9": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/mocha",
+    "value": {},
+    "versionCode": 0
+  },
+  "d465bacb-cc1d-4711-8b2c-fe90ad65e76b": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/prettier",
+    "value": {},
+    "versionCode": 0
+  },
+  "0174c799-26c3-49de-b7c6-4fc41a6b80ed": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/rollup",
+    "value": {},
+    "versionCode": 0
+  },
+  "3415f7d6-f6a5-4226-824c-353caa8b46b9": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/tslint",
+    "value": {},
+    "versionCode": 0
+  },
+  "492c3d8e-7ef6-40d4-8fc2-e87f0aab5554": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/webpack",
+    "value": {},
+    "versionCode": 0
+  },
+  "947390c8-b298-4503-bc9e-cb602db082ef": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/src/factories",
+    "value": {},
+    "versionCode": 0
+  },
+  "b006946a-d4dd-4506-b9f2-471c98f51768": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/src/module.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "5a93e668-5bd2-4e22-b72d-791461979e7b": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/src/worker",
+    "value": {},
+    "versionCode": 0
+  },
+  "7d606bc9-55d8-43c0-911e-44df3f86c6e3": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/fixtures",
+    "value": {},
+    "versionCode": 0
+  },
+  "df8c7a6f-308f-4573-9d5a-1375d57ed2d2": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/helper",
+    "value": {},
+    "versionCode": 0
+  },
+  "6c3ba1c8-fbd9-48b2-9b80-7b33db3d3237": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/integration",
+    "value": {},
+    "versionCode": 0
+  },
+  "dd0b2d5b-8f9a-4cee-9102-e1d1389f5d8e": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/src/factories/load-or-return-broker.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "464b6c4b-45ac-471c-824e-02d176b18bba": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/src/worker/worker.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "ab25f6d9-5c53-4543-84f6-9b3351862d70": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/gruntfile.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "c5321f46-f815-4726-b8b6-85b150914730": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/README.md",
+    "value": {},
+    "versionCode": 0
+  },
+  "2cd95380-956d-47e8-b796-c085e740b7e0": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/package-lock.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "dcd49198-3f4d-454e-ab32-a427ae121015": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/package.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "94eaacf3-47a3-410f-89d5-871b1e68bf62": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/src/tsconfig.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "062b09ff-db63-42b9-8750-96343096f1e9": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/babel/build.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "7dee7e6f-ee77-45c9-a1a9-a04588793a0e": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/babel/test.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "798e9d8b-5f0b-4794-ad7e-4ae75d02a0de": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/eslint/config.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "f6a432dc-41b9-431a-a22c-6c4e7bb99d32": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/eslint/src.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "6b053125-200c-4c09-80b1-ea2a5b389e28": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/eslint/test.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "5feefd2c-7c2f-4551-9575-4fb10d07a92a": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/grunt/aliases.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "006fe2c9-fc96-433b-b227-d70411a6dc98": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/grunt/sh.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "c71257c1-a7ff-40f2-b885-97dbe8faf5ff": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/karma/config-integration.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "617e09f9-c78a-41d0-bf67-22300de78399": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/lint-staged/config.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "d24bfddb-f9dc-4e87-b523-879bb7de6b0e": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/mocha/config-integration.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "fa286942-0148-4cca-a176-88f50842d35e": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/prettier/config.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "abd52bfa-50b2-43a9-8ab0-7e5c28c6a206": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/rollup/bundle.mjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "5ff6d1f6-38ce-4598-a740-91b6a9ea8378": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/tslint/src.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "adb24a2e-9141-4067-87ec-fc64a8633f14": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/webpack/worker-es2019.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "042be41c-b6dd-48c3-a2a6-412f9fc4346e": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/config/webpack/worker-es5.mjs",
+    "value": {},
+    "versionCode": 0
+  },
+  "41fac37d-ad8f-4727-92a7-ce2fd269a7b7": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/fixtures/alex-umstaetter-comee-0007-mocca-remix.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "6934b57a-33b8-4fde-abd0-0028308dab69": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/fixtures/alex-umstaetter-light-04.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "f0bfb664-68e9-4c3f-8fe7-1515aab0bd36": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/fixtures/bpm-offset-data.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "9d703383-9e7d-4acc-85db-5cb2a57c1ecc": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/fixtures/tempo-data.json",
+    "value": {},
+    "versionCode": 0
+  },
+  "1fc218a2-3128-4a41-b85e-b8491c019cc1": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/fixtures/tombo-piano.wav",
+    "value": {},
+    "versionCode": 0
+  },
+  "4daf0644-3160-4f20-a5dd-934a904e2636": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/helper/load-fixture.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "0fa2c9b5-1a0c-4ed0-a9b2-d960cf9ae35a": {
+    "url": "db://assets/Scripts/web-audio-beat-detector-master/test/integration/module.js",
+    "value": {},
+    "versionCode": 0
+  },
+  "9aaa4acf-d914-420c-b238-fc8080816224": {
+    "url": "db://assets/Scripts/jsfeat.js",
     "value": {},
     "versionCode": 0
   }

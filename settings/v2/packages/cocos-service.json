@@ -17,7 +17,13 @@
       "config_id": "e90639",
       "config_name": "Default",
       "config_remarks": "",
-      "services": []
+      "services": [
+        {
+          "service_id": "550",
+          "enable": false,
+          "param": {}
+        }
+      ]
     }
   ]
 }
