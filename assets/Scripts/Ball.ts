@@ -1,7 +1,6 @@
 import { _decorator, Component, director, Layers, Material, Node, RigidBody, Scene, SphereCollider, Vec3 } from 'cc';
 import { SpawnTile } from './SpawnTile';
 import { BackgroundManager } from './BackgroundManager';
-import { Tone } from 'tone/build/esm/core/Tone';
 const { ccclass, property } = _decorator;
 
 @ccclass('Ball')
