@@ -138,15 +138,18 @@
     "value": {
       "depends": [
         "b50fa493-27a0-4cf6-b6c6-7ce4f47b97a6",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
         "afc47931-f066-46b0-90be-9fe61f213428@f9941",
         "ffb88a8f-af62-48f4-8f1d-3cb606443a43@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "20f85381-9019-485e-bdf5-bdad153a8a89@f9941",
+        "7c769fed-d526-41b9-aed9-dbcd1057be5d@f9941",
         "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
         "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
-        "57520716-48c8-4a19-8acf-41c9f8777fb0@f9941",
-        "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
+        "5adcc149-b39c-4715-96fc-e4157e0c15ea",
         "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
-        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0",
+        "8419c3bb-4432-4f17-903c-02747a3090bc@b47c0"
       ],
       "dependScripts": []
     },
@@ -6446,6 +6449,116 @@
   "9aaa4acf-d914-420c-b238-fc8080816224": {
     "url": "db://assets/Scripts/jsfeat.js",
     "value": {},
+    "versionCode": 0
+  },
+  "a7e20d75-5697-4940-b930-828ab4b1966b": {
+    "url": "db://assets/Scene/LoadingScene.scene",
+    "value": {
+      "depends": [
+        "a7e20d75-5697-4940-b930-828ab4b1966b",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "92a4fea1-0f7d-4e8b-928d-e5713f8042ac@f9941",
+        "24a704da-2867-446d-8d1a-5e920c75e09d@f9941",
+        "9fd900dd-221b-4f89-8f2c-fba34243c835@f9941",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "36158053-f176-4120-92e0-ae0f869bcc0c"
+      ]
+    },
+    "versionCode": 0
+  },
+  "92a4fea1-0f7d-4e8b-928d-e5713f8042ac@f9941": {
+    "url": "db://assets/Texture/logo-social.png@f9941",
+    "value": {
+      "depends": [
+        "92a4fea1-0f7d-4e8b-928d-e5713f8042ac@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "36158053-f176-4120-92e0-ae0f869bcc0c": {
+    "url": "db://assets/Scripts/LoadingScene.ts",
+    "value": {},
+    "versionCode": 0
+  },
+  "3f67644d-d157-4b89-ba0f-27e7ea903108": {
+    "url": "db://assets/Texture/UI",
+    "value": {},
+    "versionCode": 0
+  },
+  "7c769fed-d526-41b9-aed9-dbcd1057be5d": {
+    "url": "db://assets/Texture/UI/icon.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7c769fed-d526-41b9-aed9-dbcd1057be5d@6c48a": {
+    "url": "db://assets/Texture/UI/icon.png@6c48a",
+    "value": {
+      "depends": [
+        "7c769fed-d526-41b9-aed9-dbcd1057be5d"
+      ]
+    },
+    "versionCode": 0
+  },
+  "7c769fed-d526-41b9-aed9-dbcd1057be5d@f9941": {
+    "url": "db://assets/Texture/UI/icon.png@f9941",
+    "value": {
+      "depends": [
+        "7c769fed-d526-41b9-aed9-dbcd1057be5d@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "20f85381-9019-485e-bdf5-bdad153a8a89": {
+    "url": "db://assets/Texture/UI/button.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "20f85381-9019-485e-bdf5-bdad153a8a89@6c48a": {
+    "url": "db://assets/Texture/UI/button.png@6c48a",
+    "value": {
+      "depends": [
+        "20f85381-9019-485e-bdf5-bdad153a8a89"
+      ]
+    },
+    "versionCode": 0
+  },
+  "20f85381-9019-485e-bdf5-bdad153a8a89@f9941": {
+    "url": "db://assets/Texture/UI/button.png@f9941",
+    "value": {
+      "depends": [
+        "20f85381-9019-485e-bdf5-bdad153a8a89@6c48a"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5adcc149-b39c-4715-96fc-e4157e0c15ea": {
+    "url": "db://assets/auto-atlas.pac",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7e06f945-60de-441e-9180-cf6cf4ce6467": {
+    "url": "db://assets/Texture/UI/UI_BG.jpg",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "7e06f945-60de-441e-9180-cf6cf4ce6467@6c48a": {
+    "url": "db://assets/Texture/UI/UI_BG.jpg@6c48a",
+    "value": {
+      "depends": [
+        "7e06f945-60de-441e-9180-cf6cf4ce6467"
+      ]
+    },
     "versionCode": 0
   }
 }
