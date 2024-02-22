@@ -8,7 +8,8 @@
       "buildPath": "project://build",
       "outputName": "web-mobile",
       "mainBundleCompressionType": "merge_dep",
-      "platform": "web-mobile"
+      "platform": "web-mobile",
+      "useSplashScreen": false
     },
     "taskOptionsMap": {
       "1707592163182": {
