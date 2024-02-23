@@ -19,6 +19,7 @@ export class Input extends Component {
     @property(Camera)
     mainCamera:Camera;
     
+    
     start() {
         systemEvent.on(SystemEvent.EventType.TOUCH_MOVE , this.onTouch , this)
     }
@@ -33,12 +34,12 @@ export class Input extends Component {
         this.tilemangager.canGenerate = true;
         this.soundManager.playAudio();
         var nextPos = touch.getDelta().x as number
-        if(this.node.position.x > 2){
+        if(this.node.position.x > 1.5){
             if(nextPos < 0){
                 nextPos = 0; 
              }
         }
-        if(this.node.position.x < -2){
+        if(this.node.position.x < -1.5){
             if(nextPos > 0){
                 nextPos = 0; 
              }

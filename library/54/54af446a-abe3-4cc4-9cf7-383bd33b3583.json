@@ -1,6 +1,6 @@
 {
   "__type__": "cc.Material",
-  "_name": "Tile_Pink_effect",
+  "_name": "Tile_Green_effect",
   "_objFlags": 0,
   "__editorExtras__": {},
   "_native": "",
@@ -67,21 +67,20 @@
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 154,
-        "g": 0,
-        "b": 101,
+        "r": 7,
+        "g": 105,
+        "b": 92,
         "a": 255
       },
       "alphaThreshold": 0.152,
       "occlusion": 0.487,
-      "roughness": 0.983,
-      "metallic": 0.92,
-      "specularIntensity": 1,
+      "roughness": 0.305,
+      "specularIntensity": 0.592,
       "emissive": {
         "__type__": "cc.Color",
-        "r": 154,
-        "g": 0,
-        "b": 101,
+        "r": 0,
+        "g": 90,
+        "b": 78,
         "a": 255
       }
     },

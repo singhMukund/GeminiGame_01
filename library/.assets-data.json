@@ -6,6 +6,10 @@
         "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76",
         "03300a6f-b63e-4917-91d0-b965e8b11989",
         "964603a2-67df-4be3-a6f0-0ca8add37bfa",
+        "2e82b830-3eb3-45de-8228-24354ad935d6",
+        "54af446a-abe3-4cc4-9cf7-383bd33b3583",
+        "d69e6587-ad10-41b4-8305-75d7b88f60b7",
+        "5c9ffb6e-d1e1-47d6-a7a8-7e22457611e7",
         "5cbe801e-9884-4ecc-a78e-fdde1cf747d4",
         "620b6bf3-0369-4560-837f-2a2c00b73c26",
         "1263d74c-8167-4928-91a6-4e2672411f47@17020",
@@ -90,7 +94,11 @@
         "7734831b-3f0b-42df-8df5-ec3777705af4@0447c",
         "f6108222-0dc5-4230-8dee-0b883cf59001@d295a",
         "2e82b830-3eb3-45de-8228-24354ad935d6",
-        "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
+        "f23b1c5c-5330-461f-9aa5-c80a7b7e3423",
+        "54af446a-abe3-4cc4-9cf7-383bd33b3583",
+        "d69e6587-ad10-41b4-8305-75d7b88f60b7",
+        "5c9ffb6e-d1e1-47d6-a7a8-7e22457611e7",
+        "f6108222-0dc5-4230-8dee-0b883cf59001@41ac8"
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
@@ -1122,7 +1130,7 @@
     "versionCode": 0
   },
   "2e82b830-3eb3-45de-8228-24354ad935d6": {
-    "url": "db://assets/Materials/Tile_effect.mtl",
+    "url": "db://assets/Materials/Tile_Pink_effect.mtl",
     "value": {
       "depends": [
         "c8f66d17-351a-48da-a12c-0212d28575c4"
@@ -6603,6 +6611,33 @@
     "url": "db://assets/internal/default_skybox/default_skybox_reflection.png@b47c0@40c10",
     "value": {
       "depends": []
+    },
+    "versionCode": 0
+  },
+  "54af446a-abe3-4cc4-9cf7-383bd33b3583": {
+    "url": "db://assets/Materials/Tile_Green_effect.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "d69e6587-ad10-41b4-8305-75d7b88f60b7": {
+    "url": "db://assets/Materials/Tile_Pink_Pressed_effect.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5c9ffb6e-d1e1-47d6-a7a8-7e22457611e7": {
+    "url": "db://assets/Materials/Tile_Green_Pressed_effect.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
     },
     "versionCode": 0
   }
