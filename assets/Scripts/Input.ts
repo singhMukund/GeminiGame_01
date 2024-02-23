@@ -24,9 +24,9 @@ export class Input extends Component {
     }
 
     update(deltaTime: number) {
-        var pos =  Vec3.ZERO;
-        Vec3.lerp(pos , this.character.getPosition() , this.mainCamera.node.getPosition() , deltaTime)
-        this.mainCamera.node.setPosition(pos)
+        // var pos =  Vec3.ZERO;
+        // Vec3.lerp(pos , this.character.getPosition() , this.mainCamera.node.getPosition() , deltaTime)
+        // this.mainCamera.node.setPosition(pos)
     }
 
     onTouch(touch:any){

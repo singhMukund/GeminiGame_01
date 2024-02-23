@@ -10,7 +10,7 @@ export class ParticalsManager extends Component {
     particals2:ParticleSystem
 
     start() {
-    this.schedule(this.playPaticals , 3 , macro.REPEAT_FOREVER ,1)
+    
     }
 
     update(deltaTime: number) {
@@ -21,5 +21,3 @@ export class ParticalsManager extends Component {
         this.particals2.play();
     }
 }
-
-
