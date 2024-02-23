@@ -1,4 +1,5 @@
 import { _decorator, AudioSource, Color, Component, Material, MeshRenderer, Node, renderer, Scheduler, SpriteRenderer } from 'cc';
+import { GameManager } from './GameManager';
 const { ccclass, property } = _decorator;
 enum  effect{fadein , fadeout};
 @ccclass('BackgroundManager')
@@ -19,7 +20,7 @@ export class BackgroundManager extends Component {
     @property([Material])
     Bg_Mat:Material[] = [];
 
-    activeBg:number =1;
+    activeBg:number = 1;
     
 
     start() {
@@ -42,10 +43,12 @@ export class BackgroundManager extends Component {
         switch (this.activeBg) {
             case 1:
                 this.activeBg = 2;
+                GameManager.instance.tileGenerator.bgMat = this.activeBg;
                 this.changeBG(effect.fadeout , sec)
                 break;
             case 2:
                 this.activeBg = 1;
+                GameManager.instance.tileGenerator.bgMat = this.activeBg;
                 this.changeBG(effect.fadein , sec);
                 break;
         

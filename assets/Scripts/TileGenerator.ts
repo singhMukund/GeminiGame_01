@@ -1,4 +1,4 @@
-import { _decorator, Component, instantiate, macro, Node, Prefab, randomRangeInt, Scheduler, Vec3 } from 'cc';
+import { _decorator, Component, instantiate, macro, Material, Node, Prefab, randomRangeInt, Scheduler, Vec3 } from 'cc';
 import { SpawnTile } from './SpawnTile';
 const { ccclass, property } = _decorator;
 
@@ -14,18 +14,26 @@ export class TileGenerator extends Component {
     changer:Prefab = null;
 
     tileCount:number =0;
-    changerCount:number = 20;
+    changerCount:number = 5;
     canGenrateChanger:boolean = false;
 
     counter:number =0;
-    timer:number = 30;
+    timer:number = 40;
+
+    @property([Material])
+    tile_mat:Material[] =[]
+
+    @property([Material])
+    tile_pressed_mat:Material[] =[]
+
+    bgMat:number = 1;
 
     
     start() {
         var num =0;
     this.schedule((dt)=>{
         var ar = [25 ,20,20, 35  ,40 ];
-        this.timer = ar[num];
+        //this.timer = ar[num];
 
         num++;
         if(num > ar.length-1){
@@ -79,8 +87,9 @@ export class TileGenerator extends Component {
             // if(this.canGenrateChanger){
             //     xpos = 0
             // }
-            generatedTile.getComponent(SpawnTile).xPos = xpos
+            generatedTile.getComponent(SpawnTile).matIndex = this.bgMat-1;
             generatedTile.getComponent(SpawnTile).spawnTile()
+
         }
 
     }
@@ -96,7 +105,7 @@ export class TileGenerator extends Component {
      return list[index];
     }
     getXpos(){
-        const pos = [-2 , -1 , 0 , 2 , 1];
+        const pos = [-1 , 0 , 1];
         const randomPos = randomRangeInt(0,pos.length);
         return pos[randomPos];
     }

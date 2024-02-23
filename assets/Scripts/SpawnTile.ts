@@ -1,4 +1,4 @@
-import { _decorator, Animation, Component, Node, physics, randomRange, randomRangeInt, RigidBody, SystemEvent, Vec2, Vec3 } from 'cc';
+import { _decorator, Animation, Component, Material, MeshRenderer, Node, physics, randomRange, randomRangeInt, RigidBody, SystemEvent, Vec2, Vec3 } from 'cc';
 import { TileGenerator } from './TileGenerator';
 const { ccclass, property } = _decorator;
 
@@ -12,11 +12,23 @@ export class SpawnTile extends Component {
     @property
     xPos:number =0;
 
+    @property(MeshRenderer)
+    base:MeshRenderer;
+
     @property([RigidBody])
     rightpicecs:RigidBody[]=[]
 
     @property([RigidBody])
     leftpicecs:RigidBody[]=[]
+
+
+    @property([Material])
+    tile_Mat:Material[]=[]
+
+    @property([Material])
+    tile_Pressed_Mat:Material[]=[]
+
+    public matIndex:number = 0;
 
     start() {
         this.canRun = this.node.getParent().getComponent(TileGenerator).canGenerate
@@ -35,6 +47,7 @@ export class SpawnTile extends Component {
 
     spawnTile(){
         this.node.getComponent(Animation).play();
+        this.base.setSharedMaterial(this.tile_Mat[this.matIndex],0); 
     }
 
     deleteTile(){
@@ -53,6 +66,7 @@ export class SpawnTile extends Component {
                 element.type = physics.ERigidBodyType.DYNAMIC
                 element.setLinearVelocity(new Vec3(3 , randomRangeInt(0,4) , randomRange(-3,3) ) )
             }
+            this.base.setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
         }   
     }
 }
