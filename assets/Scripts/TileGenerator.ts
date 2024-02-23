@@ -14,7 +14,7 @@ export class TileGenerator extends Component {
     changer:Prefab = null;
 
     tileCount:number =0;
-    changerCount:number = 5;
+    changerCount:number = 20;
     canGenrateChanger:boolean = false;
 
     counter:number =0;
@@ -42,8 +42,9 @@ export class TileGenerator extends Component {
         }
         if(this.canGenerate){
            this.counter++
-            if( this.counter%this.timer ==0){
+            if( this.counter%this.timer === 0){
             this.generateTile()
+            this.counter = 0; 
             }
 
     }
@@ -55,7 +56,8 @@ export class TileGenerator extends Component {
             var generatedTile;
             if(this.canGenrateChanger){
                 generatedTile = instantiate(this.changer)
-                this.changerCount += 20
+                this.changerCount = 20
+                this.tileCount = 0;
             }else{
                 generatedTile = instantiate(this.tile)
             }
@@ -84,18 +86,18 @@ export class TileGenerator extends Component {
     }
 
     getInterval(){
-        var list = [0.3 , 0.5 , 0.6];
+        const list = [0.3 , 0.5 , 0.6];
         var random = randomRangeInt(0,list.length);
         var numberOfTile = this.getNumberOfTiles(random);
         return [list[random],numberOfTile];
     }
     getNumberOfTiles(index:number){
-     var list = [3 , 2 , 1];
+        const list = [3 , 2 , 1];
      return list[index];
     }
     getXpos(){
-        var pos = [-2 , -1 , 0 , 2 , 1];
-        var randomPos = randomRangeInt(0,pos.length);
+        const pos = [-2 , -1 , 0 , 2 , 1];
+        const randomPos = randomRangeInt(0,pos.length);
         return pos[randomPos];
     }
 }

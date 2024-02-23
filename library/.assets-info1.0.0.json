@@ -80,15 +80,15 @@
       "uuid": "85194984-68f5-4ed1-a991-530d6b98f3de"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab": {
-      "time": 1708542652561.2595,
+      "time": 1708629792229.2795,
       "uuid": "e1d73078-c809-42a4-9497-d988eca4ade3"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene": {
-      "time": 1708621354859.855,
+      "time": 1708629792231.2888,
       "uuid": "919c6da4-81a4-41d6-81a1-84fe79f02c9e"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts": {
-      "time": 1708621936937.1182,
+      "time": 1708629792231.2888,
       "uuid": "841b3c5c-cd86-416a-868f-1f9368ab664b"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture": {
@@ -96,7 +96,7 @@
       "uuid": "ea35b37e-14fb-4f93-9bf4-3824dc203424"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Input.ts": {
-      "time": 1708628986757.3618,
+      "time": 1708654891895.0405,
       "uuid": "d551497a-22b7-4588-8da3-3088615e8ac9"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\SpawnTile.ts": {
@@ -140,15 +140,15 @@
       "uuid": "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\Tile.prefab": {
-      "time": 1708629042022.9792,
+      "time": 1708631093289.6326,
       "uuid": "03300a6f-b63e-4917-91d0-b965e8b11989"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\scene.scene": {
-      "time": 1708629744470.099,
+      "time": 1708707823864.0884,
       "uuid": "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\UI.scene": {
-      "time": 1708628014184.808,
+      "time": 1708629792231.2888,
       "uuid": "b50fa493-27a0-4cf6-b6c6-7ce4f47b97a6"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Ball.fbx": {
@@ -209,13 +209,13 @@
       "time": 1707760238116.6946
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Base_fracture.fbx.meta": {
-      "time": 1708195289271.609
+      "time": 1708631320729.823
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\TileGenerator.ts.meta": {
       "time": 1707847473653.4307
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\TileGenerator.ts": {
-      "time": 1708543976796.0012,
+      "time": 1708708201433.271,
       "uuid": "aaa30af3-a7fd-40be-b293-3a42e199ca55"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Ball.ts.meta": {
@@ -243,7 +243,7 @@
       "time": 1707930061954.7458
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture": {
-      "time": 1708627463228.5764,
+      "time": 1708629792237.2803,
       "uuid": "b8f372b1-895a-4b9e-8f97-d16c70ed3fe2"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Particles.meta": {
@@ -254,7 +254,7 @@
       "uuid": "9d3a624d-b4c8-4e26-b5a4-8b9a72b6d117"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\logo-social.png.meta": {
-      "time": 1708621747257.5444
+      "time": 1708629792237.2803
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\logo-social.png": {
       "time": 1707930061955.74,
@@ -263,85 +263,22 @@
     "E:\\Git_Projects\\GeminiGame_01\\assets\\internal.meta": {
       "time": 1708195289451.3403
     },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox.meta": {
-      "time": 1708195289461.4292
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection.png.meta": {
-      "time": 1708195289477.4287
-    },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\internal": {
-      "time": 1708195289461.4292,
+      "time": 1708707441830.7075,
       "uuid": "82477aa4-5516-4cb6-a817-433e880debeb"
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox": {
-      "time": 1708195289482.449,
-      "uuid": "690f9643-d142-45a7-b1b5-a67419a6e966"
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection.png": {
-      "time": 1708195289470.4463,
-      "uuid": "8419c3bb-4432-4f17-903c-02747a3090bc"
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution.meta": {
-      "time": 1708195289482.449
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_0.png.meta": {
-      "time": 1708195289493.1196
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_1.png.meta": {
-      "time": 1708195289507.2866
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_2.png.meta": {
-      "time": 1708195289521.2869
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_3.png.meta": {
-      "time": 1708195289534.5005
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_4.png.meta": {
-      "time": 1708195289547.3198
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_5.png.meta": {
-      "time": 1708195289560.0698
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution": {
-      "time": 1708195289560.0698,
-      "uuid": "554f8772-c0f7-4ffa-a403-509d8525a871"
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_3.png": {
-      "time": 1708195289529.2874,
-      "uuid": "e3c1be69-6137-478f-a33a-6dab2e5bae59"
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_0.png": {
-      "time": 1708195289488.9395,
-      "uuid": "e4bbfd36-8932-4ce0-b54c-b0502be8693b"
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_2.png": {
-      "time": 1708195289516.286,
-      "uuid": "c03610db-8d9a-4ef8-82f5-eb42b3aad666"
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_1.png": {
-      "time": 1708195289501.9946,
-      "uuid": "6fbc02f5-01e6-4e4a-8b48-56ad7a150b09"
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_4.png": {
-      "time": 1708195289540.3193,
-      "uuid": "7e16f09f-f242-4581-a227-f5c3413a87ae"
-    },
-    "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_5.png": {
-      "time": 1708195289556.0422,
-      "uuid": "407b5a2f-276f-4599-a77e-bacbf80ac1a5"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\ParticalsManager.ts.meta": {
       "time": 1708195289296.8354
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\ParticalsManager.ts": {
-      "time": 1708195289289.8362,
+      "time": 1708706989456.3652,
       "uuid": "37bc1de4-8480-4ff7-aa3a-fb85807a34e5"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\BackgroundManager.ts.meta": {
       "time": 1708195289277.5784
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\BackgroundManager.ts": {
-      "time": 1708542652563.2886,
+      "time": 1708655586831.442,
       "uuid": "5d31b2a1-84a4-4b1f-b147-40a65ea4a937"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Axel_f.mp3.meta": {
@@ -355,7 +292,7 @@
       "time": 1708195289285.7751
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\ChangeBGColor.ts": {
-      "time": 1708195289281.8086,
+      "time": 1708707865998.0574,
       "uuid": "56ee420d-b67d-4dab-b6b3-3bb5e1d3f8de"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials\\Floor_Mat_blue.mtl.meta": {
@@ -509,7 +446,7 @@
       "time": 1708195289271.609
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\BigTile.prefab": {
-      "time": 1708629080459.8142,
+      "time": 1708629792229.2795,
       "uuid": "964603a2-67df-4be3-a6f0-0ca8add37bfa"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Believer.mp3.meta": {
@@ -527,52 +464,52 @@
       "uuid": "b78eaa38-d8e0-46db-9188-de395fcdd539"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\LoadingScene.scene.meta": {
-      "time": 1708621354874.3438
+      "time": 1708629792230.28
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\LoadingScene.scene": {
-      "time": 1708624979962.5542,
+      "time": 1708631362295.7725,
       "uuid": "a7e20d75-5697-4940-b930-828ab4b1966b"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\LoadingScene.ts.meta": {
-      "time": 1708621936945.2683
+      "time": 1708629792231.2888
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\LoadingScene.ts": {
-      "time": 1708628181626.766,
+      "time": 1708629792231.2888,
       "uuid": "36158053-f176-4120-92e0-ae0f869bcc0c"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI.meta": {
-      "time": 1708627457732.5708
+      "time": 1708629792232.2803
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI": {
-      "time": 1708627928444.6245,
+      "time": 1708629792236.2793,
       "uuid": "3f67644d-d157-4b89-ba0f-27e7ea903108"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\icon.png.meta": {
-      "time": 1708627498890.6016
+      "time": 1708629792236.2793
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\icon.png": {
-      "time": 1509362793789,
+      "time": 1708629792236.2793,
       "uuid": "7c769fed-d526-41b9-aed9-dbcd1057be5d"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\button.png.meta": {
-      "time": 1708627552216.5388
+      "time": 1708629792236.2793
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\button.png": {
-      "time": 1509362793741,
+      "time": 1708629792236.2793,
       "uuid": "20f85381-9019-485e-bdf5-bdad153a8a89"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\auto-atlas.pac.meta": {
-      "time": 1708627590123.6335
+      "time": 1708629792237.2803
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\auto-atlas.pac": {
-      "time": 1708627590106.6343,
+      "time": 1708629792237.2803,
       "uuid": "5adcc149-b39c-4715-96fc-e4157e0c15ea"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\UI_BG.jpg.meta": {
-      "time": 1708627928452.9236
+      "time": 1708629792236.2793
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\UI_BG.jpg": {
-      "time": 1708627890532.0269,
+      "time": 1708629792235.2788,
       "uuid": "7e06f945-60de-441e-9180-cf6cf4ce6467"
     }
   },
@@ -5676,6 +5613,56 @@
       "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\UIBG.jpg",
       "time": 1708627890532.0269,
       "removeTime": 1708627928446
+    },
+    "8419c3bb-4432-4f17-903c-02747a3090bc": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection.png",
+      "time": 1708195289470.4463,
+      "removeTime": 1708630919622
+    },
+    "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection.png",
+      "time": 1708630925774.212,
+      "removeTime": 1708707431629
+    },
+    "690f9643-d142-45a7-b1b5-a67419a6e966": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox",
+      "time": 1708707431621.4072,
+      "removeTime": 1708707441839
+    },
+    "554f8772-c0f7-4ffa-a403-509d8525a871": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution",
+      "time": 1708195289560.0698,
+      "removeTime": 1708707441839
+    },
+    "e4bbfd36-8932-4ce0-b54c-b0502be8693b": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_0.png",
+      "time": 1708195289488.9395,
+      "removeTime": 1708707441839
+    },
+    "6fbc02f5-01e6-4e4a-8b48-56ad7a150b09": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_1.png",
+      "time": 1708195289501.9946,
+      "removeTime": 1708707441839
+    },
+    "c03610db-8d9a-4ef8-82f5-eb42b3aad666": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_2.png",
+      "time": 1708195289516.286,
+      "removeTime": 1708707441839
+    },
+    "e3c1be69-6137-478f-a33a-6dab2e5bae59": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_3.png",
+      "time": 1708195289529.2874,
+      "removeTime": 1708707441839
+    },
+    "7e16f09f-f242-4581-a227-f5c3413a87ae": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_4.png",
+      "time": 1708195289540.3193,
+      "removeTime": 1708707441839
+    },
+    "407b5a2f-276f-4599-a77e-bacbf80ac1a5": {
+      "path": "E:\\Git_Projects\\GeminiGame_01\\assets\\internal\\default_skybox\\default_skybox_reflection_convolution\\mipmap_5.png",
+      "time": 1708195289556.0422,
+      "removeTime": 1708707441839
     }
   }
 }

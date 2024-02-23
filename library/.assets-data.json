@@ -13,9 +13,7 @@
         "86123991-4f83-4b7f-acc0-27b45559fc0f",
         "1263d74c-8167-4928-91a6-4e2672411f47@a804a",
         "df1ff687-ddbc-4740-ac7e-6dd95382c558",
-        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
-        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0",
-        "8419c3bb-4432-4f17-903c-02747a3090bc@b47c0"
+        "d3c7820c-2a98-4429-8bc7-b8453bc9ac41"
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
@@ -620,9 +618,7 @@
   },
   "8419c3bb-4432-4f17-903c-02747a3090bc": {
     "url": "db://assets/internal/default_skybox/default_skybox_reflection.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "8419c3bb-4432-4f17-903c-02747a3090bc@b47c0": {
@@ -688,37 +684,27 @@
   },
   "e4bbfd36-8932-4ce0-b54c-b0502be8693b": {
     "url": "db://assets/internal/default_skybox/default_skybox_reflection_convolution/mipmap_0.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "6fbc02f5-01e6-4e4a-8b48-56ad7a150b09": {
     "url": "db://assets/internal/default_skybox/default_skybox_reflection_convolution/mipmap_1.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "c03610db-8d9a-4ef8-82f5-eb42b3aad666": {
     "url": "db://assets/internal/default_skybox/default_skybox_reflection_convolution/mipmap_2.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "e3c1be69-6137-478f-a33a-6dab2e5bae59": {
     "url": "db://assets/internal/default_skybox/default_skybox_reflection_convolution/mipmap_3.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "7e16f09f-f242-4581-a227-f5c3413a87ae": {
     "url": "db://assets/internal/default_skybox/default_skybox_reflection_convolution/mipmap_4.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "e3c1be69-6137-478f-a33a-6dab2e5bae59@6c48a": {
@@ -741,9 +727,7 @@
   },
   "407b5a2f-276f-4599-a77e-bacbf80ac1a5": {
     "url": "db://assets/internal/default_skybox/default_skybox_reflection_convolution/mipmap_5.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "c03610db-8d9a-4ef8-82f5-eb42b3aad666@6c48a": {
@@ -6558,6 +6542,67 @@
       "depends": [
         "7e06f945-60de-441e-9180-cf6cf4ce6467"
       ]
+    },
+    "versionCode": 0
+  },
+  "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230": {
+    "url": "db://assets/internal/default_skybox/default_skybox_reflection.png",
+    "value": {},
+    "versionCode": 0
+  },
+  "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0": {
+    "url": "db://assets/internal/default_skybox/default_skybox_reflection.png@b47c0",
+    "value": {
+      "depends": [
+        "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@e9a6d",
+        "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@40c10",
+        "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@8fd34",
+        "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@74afd",
+        "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@bb97f",
+        "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@7d38f"
+      ]
+    },
+    "versionCode": 0
+  },
+  "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@74afd": {
+    "url": "db://assets/internal/default_skybox/default_skybox_reflection.png@b47c0@74afd",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@8fd34": {
+    "url": "db://assets/internal/default_skybox/default_skybox_reflection.png@b47c0@8fd34",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@bb97f": {
+    "url": "db://assets/internal/default_skybox/default_skybox_reflection.png@b47c0@bb97f",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@7d38f": {
+    "url": "db://assets/internal/default_skybox/default_skybox_reflection.png@b47c0@7d38f",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@e9a6d": {
+    "url": "db://assets/internal/default_skybox/default_skybox_reflection.png@b47c0@e9a6d",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 0
+  },
+  "5dbd4aa9-f5c0-4e3b-8165-d7e5dd135230@b47c0@40c10": {
+    "url": "db://assets/internal/default_skybox/default_skybox_reflection.png@b47c0@40c10",
+    "value": {
+      "depends": []
     },
     "versionCode": 0
   }

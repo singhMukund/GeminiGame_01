@@ -6,10 +6,7 @@ export class ChangeBGColor extends Component {
 
     initalColor:Color;
     start() {
-        this.initalColor = Color.WHITE;
-        var m = this.node.getComponent(MeshRenderer).getRenderMaterial(0);
-        m.setProperty('maincolor' ,new Color(this.initalColor.r, this.initalColor.g,this.initalColor.b,0),0);
-    this.changeBackground(Color.BLUE,2)
+
     }
 
     update(deltaTime: number) {
