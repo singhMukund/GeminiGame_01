@@ -112,6 +112,18 @@ export class TileGenerator extends Component {
         const randomPos = randomRangeInt(0,pos.length);
         return pos[randomPos];
     }
+
+    prepareAfterGameOver(){
+        this.node.removeAllChildren();
+        const pos = [0, 3.7 , 8 , 12 , 15 , 18]
+        for (let i = 0; i < pos.length; i++) {
+            const element = pos[i];
+            var generatedTile = instantiate(this.tile)
+            generatedTile.parent = this.node;
+            generatedTile.setPosition(new Vec3(0,0,element))
+            generatedTile.getComponent(SpawnTile).matIndex = this.bgMat-1;
+        }
+    }
 }
 
 
