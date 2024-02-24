@@ -4,7 +4,8 @@
     "designResolution": {
       "width": 720,
       "height": 1280,
-      "fitHeight": true
+      "fitHeight": true,
+      "fitWidth": true
     }
   },
   "__version__": "1.0.6",
@@ -29,6 +30,14 @@
     {
       "name": "BigTile",
       "value": 8
+    },
+    {
+      "name": "path",
+      "value": 16
+    },
+    {
+      "name": "BG",
+      "value": 32
     }
   ],
   "custom_joint_texture_layouts": [],
