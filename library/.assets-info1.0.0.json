@@ -72,7 +72,7 @@
       "uuid": "79d93799-8172-4ef4-b60d-66bd4eb18145"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation": {
-      "time": 1707760238111.811,
+      "time": 1708775351721.9976,
       "uuid": "068ccd1b-2bfe-45c8-b05c-7e3729c74b74"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models": {
@@ -80,15 +80,15 @@
       "uuid": "85194984-68f5-4ed1-a991-530d6b98f3de"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab": {
-      "time": 1708714878636.5366,
+      "time": 1708766199745.366,
       "uuid": "e1d73078-c809-42a4-9497-d988eca4ade3"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene": {
-      "time": 1708714878636.5366,
+      "time": 1708773663647.3562,
       "uuid": "919c6da4-81a4-41d6-81a1-84fe79f02c9e"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts": {
-      "time": 1708714878637.5376,
+      "time": 1708786592301.654,
       "uuid": "841b3c5c-cd86-416a-868f-1f9368ab664b"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture": {
@@ -100,7 +100,7 @@
       "uuid": "d551497a-22b7-4588-8da3-3088615e8ac9"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\SpawnTile.ts": {
-      "time": 1708765938132.844,
+      "time": 1708766199747.5461,
       "uuid": "79d93799-8172-4ef4-b60d-66bd4eb18145"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation.meta": {
@@ -140,15 +140,15 @@
       "uuid": "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\Tile.prefab": {
-      "time": 1708765804305.9275,
+      "time": 1708766199745.366,
       "uuid": "03300a6f-b63e-4917-91d0-b965e8b11989"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\scene.scene": {
-      "time": 1708766145378.0818,
+      "time": 1708785792750.1948,
       "uuid": "618ae68d-f2a3-4ec1-8c22-6fa019f8ec76"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\UI.scene": {
-      "time": 1708629792231.2888,
+      "time": 1708786731690.3904,
       "uuid": "b50fa493-27a0-4cf6-b6c6-7ce4f47b97a6"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Models\\Base_Ball_Collectibles_Fracture\\Ball.fbx": {
@@ -215,28 +215,28 @@
       "time": 1707847473653.4307
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\TileGenerator.ts": {
-      "time": 1708759583411.1487,
+      "time": 1708785766229.151,
       "uuid": "aaa30af3-a7fd-40be-b293-3a42e199ca55"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Ball.ts.meta": {
       "time": 1707847473646.913
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\Ball.ts": {
-      "time": 1708766029072.1863,
+      "time": 1708766199747.5461,
       "uuid": "66645f15-7ca5-410d-9a52-da5e2d739b20"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameManager.ts.meta": {
       "time": 1707848825070.746
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameManager.ts": {
-      "time": 1708766012085.2947,
+      "time": 1708786549127.761,
       "uuid": "40a7b8c0-c664-4675-940c-938510455bc1"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials.meta": {
       "time": 1707930061951.7476
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials": {
-      "time": 1708714878635.537,
+      "time": 1708766199743.9905,
       "uuid": "50c6d6ea-3e19-4b47-8d9e-42717bdde974"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture.meta": {
@@ -271,7 +271,7 @@
       "time": 1708195289277.5784
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\BackgroundManager.ts": {
-      "time": 1708763996401.0833,
+      "time": 1708766199746.5408,
       "uuid": "5d31b2a1-84a4-4b1f-b147-40a65ea4a937"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Axel_f.mp3.meta": {
@@ -299,7 +299,7 @@
       "time": 1708195289250.9438
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials\\Floor_Mat_green.mtl": {
-      "time": 1708763104751.7944,
+      "time": 1708766199743.9905,
       "uuid": "aa7b2a32-da17-4a48-a6ea-9fc9163118af"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials\\Floor_Mat_purple.mtl.meta": {
@@ -432,7 +432,7 @@
       "time": 1708195289271.609
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Prefab\\BigTile.prefab": {
-      "time": 1708765806278.6272,
+      "time": 1708766199743.9905,
       "uuid": "964603a2-67df-4be3-a6f0-0ca8add37bfa"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Believer.mp3.meta": {
@@ -467,7 +467,7 @@
       "time": 1708629792232.2803
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI": {
-      "time": 1708629792236.2793,
+      "time": 1708775159635.3916,
       "uuid": "3f67644d-d157-4b89-ba0f-27e7ea903108"
     },
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\icon.png.meta": {
@@ -525,6 +525,76 @@
     "E:\\Git_Projects\\GeminiGame_01\\assets\\Materials\\Tile_Green_Pressed_effect.mtl": {
       "time": 1708714878633.5413,
       "uuid": "5c9ffb6e-d1e1-47d6-a7a8-7e22457611e7"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\GameOver.scene.meta": {
+      "time": 1708773663670.3997
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scene\\GameOver.scene": {
+      "time": 1708773663668.3525,
+      "uuid": "fdbfbe3d-91fb-4e38-96df-e57e5ddb92c8"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOver.ts.meta": {
+      "time": 1708774020006.0757
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOver.ts": {
+      "time": 1708786492180.6956,
+      "uuid": "a9112e29-bb28-4711-b572-5c193225e5a1"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOverUI.meta": {
+      "time": 1708774897127.5232
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOverUI": {
+      "time": 1708783920366.8367,
+      "uuid": "d499aa6d-7915-41c4-bf7d-5229a6df59e3"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOverUI\\StarManager.ts.meta": {
+      "time": 1708774908216.4666
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOverUI\\StarManager.ts": {
+      "time": 1708786464163.7578,
+      "uuid": "c641f686-fe42-4755-9ff9-a87fffab2deb"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOverUI\\Star.ts.meta": {
+      "time": 1708774999458.6187
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOverUI\\Star.ts": {
+      "time": 1708778381217.2124,
+      "uuid": "1edcd362-6048-4689-ba35-b78164b478c7"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\star.png.meta": {
+      "time": 1708775166436.7375
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Texture\\UI\\star.png": {
+      "time": 1272007256000,
+      "uuid": "12ed0ace-0fc6-4c44-aa06-4a4a91ca86a4"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation\\Star.anim.meta": {
+      "time": 1708775351734.998
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Animation\\Star.anim": {
+      "time": 1708775534792.9553,
+      "uuid": "9025cf8e-2fbf-450d-9ece-3e6c5de0c598"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOverUI\\GameOverButtons.ts.meta": {
+      "time": 1708783920375.8384
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\GameOverUI\\GameOverButtons.ts": {
+      "time": 1708784945222.1345,
+      "uuid": "9158e19c-3948-4c94-8f0f-f14641d2f582"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\HomeUI.meta": {
+      "time": 1708786592301.654
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\HomeUI": {
+      "time": 1708786606130.466,
+      "uuid": "1f71473e-9d66-4e0b-bb56-53bde3926c41"
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\HomeUI\\HomeUIButtons.ts.meta": {
+      "time": 1708786606141.1238
+    },
+    "E:\\Git_Projects\\GeminiGame_01\\assets\\Scripts\\HomeUI\\HomeUIButtons.ts": {
+      "time": 1708786658752.3816,
+      "uuid": "7a911fe3-d7bc-4964-86ae-b58497810cfd"
     }
   },
   "missing": {
