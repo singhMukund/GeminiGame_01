@@ -26,6 +26,9 @@ export class TileGenerator extends Component {
     @property([Material])
     tile_pressed_mat:Material[] =[]
 
+    @property
+    zPos:number = 15;
+
     bgMat:number = 1;
 
     
@@ -72,10 +75,10 @@ export class TileGenerator extends Component {
             
             generatedTile.parent = this.node;
             if(this.canGenrateChanger){
-                generatedTile.setPosition(new Vec3(0,0,10))
+                generatedTile.setPosition(new Vec3(0,0,this.zPos))
             }else{
                 var randomPos = this.getXpos()
-                generatedTile.setPosition(new Vec3(randomPos,0,10))
+                generatedTile.setPosition(new Vec3(randomPos,0,this.zPos))
             }
             var xpos = 0;
             // if(randomPos < 0){

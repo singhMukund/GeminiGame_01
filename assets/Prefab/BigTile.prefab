@@ -3746,6 +3746,9 @@
         "__id__": 29
       }
     ],
+    "tile_Mat": [],
+    "tile_Pressed_Mat": [],
+    "bigTile": true,
     "_id": ""
   },
   {

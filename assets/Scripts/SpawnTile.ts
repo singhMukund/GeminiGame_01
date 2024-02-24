@@ -30,6 +30,9 @@ export class SpawnTile extends Component {
 
     public matIndex:number = 0;
 
+    @property
+    bigTile:Boolean = true;
+
     start() {
         this.canRun = this.node.getParent().getComponent(TileGenerator).canGenerate
     }
@@ -47,7 +50,7 @@ export class SpawnTile extends Component {
 
     spawnTile(){
         this.node.getComponent(Animation).play();
-        this.base.setSharedMaterial(this.tile_Mat[this.matIndex],0); 
+        this.changeMat()
     }
 
     deleteTile(){
@@ -66,8 +69,19 @@ export class SpawnTile extends Component {
                 element.type = physics.ERigidBodyType.DYNAMIC
                 element.setLinearVelocity(new Vec3(3 , randomRangeInt(0,4) , randomRange(-3,3) ) )
             }
-            this.base.setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
+            if(!this.bigTile)
+            {
+                this.base.setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
+            }
+            
         }   
+    }
+    changeMat(){
+        if(!this.bigTile)
+        {
+            this.base.setSharedMaterial(this.tile_Mat[this.matIndex],0);
+        }
+        
     }
 }
 

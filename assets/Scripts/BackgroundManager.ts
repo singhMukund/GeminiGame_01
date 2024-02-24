@@ -11,8 +11,8 @@ export class BackgroundManager extends Component {
     @property(MeshRenderer)
     bg2:MeshRenderer
 
-    @property(MeshRenderer)
-    floor:MeshRenderer
+    @property(Material)
+    floor:Material
 
     @property([Material])
     floor_Mat:Material[] = [];
@@ -33,6 +33,7 @@ export class BackgroundManager extends Component {
         // },0)
         this.bg1.getRenderMaterial(0).setProperty("albedo" , new Color(255,0,0,255) ,0)
         this.bg2.getRenderMaterial(0).setProperty("albedo" , new Color(255,0,0,255) ,0)
+        this.floor.setProperty("albedo" , new Color(7,105,92,0) ,0)
     }
 
     update(deltaTime: number) {
@@ -45,11 +46,15 @@ export class BackgroundManager extends Component {
                 this.activeBg = 2;
                 GameManager.instance.tileGenerator.bgMat = this.activeBg;
                 this.changeBG(effect.fadeout , sec)
+                this.changeFloor(effect.fadein , sec)
+                GameManager.instance.changeTileMat();
                 break;
             case 2:
                 this.activeBg = 1;
                 GameManager.instance.tileGenerator.bgMat = this.activeBg;
                 this.changeBG(effect.fadein , sec);
+                this.changeFloor(effect.fadeout , sec);
+                GameManager.instance.changeTileMat();
                 break;
         
             default:
@@ -60,6 +65,7 @@ export class BackgroundManager extends Component {
     }
 
     changeBG(eff:effect , sec:number){
+        var maxOpacity = 255;
         var repeat = sec*10;
         var interval = sec/repeat;
         var count = 0;
@@ -72,20 +78,49 @@ export class BackgroundManager extends Component {
             var calculateAlpha;
             if(eff == effect.fadein){
                 count = count - 1;
-                calculateAlpha = 255 - (255/repeat)*count;
-                if(calculateAlpha > 255){
-                    calculateAlpha = 255
+                calculateAlpha = maxOpacity - (maxOpacity/repeat)*count;
+                if(calculateAlpha > maxOpacity){
+                    calculateAlpha = maxOpacity
                 }                
             }else{
                 count = count + 1;
-                calculateAlpha = 255 - ((255/repeat)*count);
+                calculateAlpha = maxOpacity - ((maxOpacity/repeat)*count);
                 if(calculateAlpha < 0){
                     calculateAlpha = 0
                 }
             }
             this.bg1.getRenderMaterial(0).setProperty("albedo" , new Color(255,0,0,calculateAlpha) ,0)
         } , interval , repeat ,0)
-    } 
+    }
+    
+    changeFloor(eff:effect , sec:number){
+        var maxOpacity = 150
+        var repeat = sec*10;
+        var interval = sec/repeat;
+        var count = 0;
+        
+        if(eff == effect.fadein){ //0 to 255  else //255 to 0
+            count = repeat+1;
+        }
+
+        this.schedule(()=>{
+            var calculateAlpha;
+            if(eff == effect.fadein){
+                count = count - 1;
+                calculateAlpha = maxOpacity - (maxOpacity/repeat)*count;
+                if(calculateAlpha > maxOpacity){
+                    calculateAlpha = maxOpacity
+                }                
+            }else{
+                count = count + 1;
+                calculateAlpha = maxOpacity - ((maxOpacity/repeat)*count);
+                if(calculateAlpha < 0){
+                    calculateAlpha = 0
+                }
+            }
+            this.floor.setProperty("albedo" , new Color(7,105,92,calculateAlpha) ,0)
+        } , interval , repeat ,0)
+    }
 }
 
 
