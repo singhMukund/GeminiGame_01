@@ -33,7 +33,7 @@ export class StarManager extends Component {
     stopAnimateStars()
     {
         for (let i = 0; i < this.stars.length; i++) {
-            this.stars[i].node.active = false;  
+            this.stars[i].star.active = false;  
         }
     }
 }
