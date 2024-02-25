@@ -1,7 +1,9 @@
-import { _decorator, Animation, Component, Material, MeshRenderer, Node, physics, randomRange, randomRangeInt, RigidBody, SystemEvent, Vec2, Vec3 } from 'cc';
+import { _decorator, Animation, BoxCollider, Component, Layers, Material, MeshRenderer, Node, physics, randomRange, randomRangeInt, RigidBody, SystemEvent, Vec2, Vec3 } from 'cc';
 import { TileGenerator } from './TileGenerator';
 const { ccclass, property } = _decorator;
 
+enum Tile_Type{single , double , triple}
+enum Activated_Tile{left, centre, right}
 @ccclass('SpawnTile')
 export class SpawnTile extends Component {
 
@@ -28,10 +30,23 @@ export class SpawnTile extends Component {
     @property([Material])
     tile_Pressed_Mat:Material[]=[]
 
+    @property([Material])
+    tile_Empty_Mat:Material[]=[]
+
     public matIndex:number = 0;
 
     @property
     bigTile:Boolean = true;
+
+    tile_Type:Tile_Type = Tile_Type.single;
+
+    @property(Node)
+    leftTile:Node;
+
+    @property(Node)
+    rightTile:Node;
+
+    activatedTile:Activated_Tile = Activated_Tile.centre;
 
     start() {
         this.canRun = this.node.getParent().getComponent(TileGenerator).canGenerate
@@ -50,6 +65,7 @@ export class SpawnTile extends Component {
 
     spawnTile(){
         this.node.getComponent(Animation).play();
+        this.checkForTileType();
         this.changeMat()
     }
 
@@ -79,10 +95,113 @@ export class SpawnTile extends Component {
     changeMat(){
         if(!this.bigTile)
         {
-            this.base.setSharedMaterial(this.tile_Mat[this.matIndex],0);
+            //this.base.setSharedMaterial(this.tile_Mat[this.matIndex],0);
+            
+            switch (this.activatedTile) {
+                case Activated_Tile.left:
+                    this.leftTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Mat[this.matIndex] ,0)
+                    this.rightTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
+                    this.base.setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
+                    break;
+                case Activated_Tile.right:
+                    this.leftTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
+                    this.rightTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Mat[this.matIndex] ,0)
+                    this.base.setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
+                    break;
+                case Activated_Tile.centre:
+                    this.leftTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
+                    this.rightTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
+                    this.base.setSharedMaterial(this.tile_Mat[this.matIndex] ,0)
+                    break;
+            
+                default:
+                    break;
+            }
         }
         
     }
+
+    checkForTileType(){
+        switch (this.tile_Type) {
+            case Tile_Type.double:
+                this.activateForDoubleType()
+                
+                break;
+            case Tile_Type.triple:
+                this.activateForTripleType();
+                break;
+        
+            default:
+                break;
+        }
+    }
+
+    activateForDoubleType(){
+        var random = randomRange(-1,1)
+        if(random < 0){
+            this.rightTile.active = true;
+        }else{
+            this.leftTile.active = true;
+        }
+        
+        if(random < -1)  //Right
+        {
+            // this.activatedTile = Activated_Tile.right;
+            this.rightTile.layer = Layers.nameToLayer("DeadTile");
+            this.rightTile.parent.getComponent(BoxCollider).isTrigger = true;
+        }
+        else  //Left
+        {                 
+            //this.activatedTile = Activated_Tile.left;
+            this.leftTile.layer = Layers.nameToLayer("DeadTile");
+            this.leftTile.parent.getComponent(BoxCollider).isTrigger = true;
+        }
+    }
+
+    activateForTripleType(){
+        this.leftTile.active = true;
+        this.rightTile.active = true;
+        var random = randomRangeInt(-1,1)
+
+        //Layer = Floor() For Activated Tile
+        //Layer = DeadTile() for Dead Tile
+
+        if(random  == 0)  //Centre
+        {      
+            this.activatedTile = Activated_Tile.centre;
+            this.base.node.layer = Layers.nameToLayer("Floor");
+            this.leftTile.layer = Layers.nameToLayer("DeadTile");
+            this.rightTile.layer = Layers.nameToLayer("DeadTile");
+
+            this.base.node.parent.getComponent(BoxCollider).isTrigger = false;
+            this.leftTile.parent.getComponent(BoxCollider).isTrigger = true;
+            this.rightTile.parent.getComponent(BoxCollider).isTrigger = true;
+        }
+        else if(random == -1)  //Right
+        {
+            this.activatedTile = Activated_Tile.right;
+            this.base.node.layer = Layers.nameToLayer("DeadTile");
+            this.leftTile.layer = Layers.nameToLayer("DeadTile");
+            this.rightTile.layer = Layers.nameToLayer("Floor");
+
+            this.base.node.parent.getComponent(BoxCollider).isTrigger = true;
+            this.leftTile.parent.getComponent(BoxCollider).isTrigger = true;
+            this.rightTile.parent.getComponent(BoxCollider).isTrigger = false;
+        }
+        else  //Left
+        {                 
+            this.activatedTile = Activated_Tile.left;
+            this.base.node.layer = Layers.nameToLayer("DeadTile");
+            this.leftTile.layer = Layers.nameToLayer("Floor");
+            this.rightTile.layer = Layers.nameToLayer("DeadTile");
+
+            this.base.node.parent.getComponent(BoxCollider).isTrigger = true;
+            this.rightTile.parent.getComponent(BoxCollider).isTrigger = true;
+            this.leftTile.parent.getComponent(BoxCollider).isTrigger = false;
+        }
+    }
+
+    
 }
 
 

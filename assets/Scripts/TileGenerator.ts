@@ -1,7 +1,7 @@
 import { _decorator, Component, instantiate, macro, Material, Node, Prefab, randomRangeInt, Scheduler, Vec3 } from 'cc';
 import { SpawnTile } from './SpawnTile';
 const { ccclass, property } = _decorator;
-
+enum Tile_Type{single , double , triple}
 @ccclass('TileGenerator')
 export class TileGenerator extends Component {
 
@@ -31,6 +31,10 @@ export class TileGenerator extends Component {
 
     bgMat:number = 1;
 
+    tile_Type:Tile_Type = Tile_Type.single;
+
+    tileTypeTest:number =0;
+
     
     start() {
         var num =0;
@@ -46,6 +50,7 @@ export class TileGenerator extends Component {
     }
 
     update(deltaTime: number) {
+        
         if(this.tileCount > this.changerCount){
             this.canGenrateChanger = true;
         }else{
@@ -64,32 +69,62 @@ export class TileGenerator extends Component {
     generateTile(){
         if(this.canGenerate){
             this.tileCount++;
-            var generatedTile;
-            if(this.canGenrateChanger){
+            var generatedTile:Node;
+            if(this.canGenrateChanger)
+            {
                 generatedTile = instantiate(this.changer)
                 this.changerCount = 20
                 this.tileCount = 0;
-            }else{
+                this.tileTypeTest++;
+                if(this.tileTypeTest > 2){
+                    this.tileTypeTest = 0;
+                }
+                switch (this.tileTypeTest) {
+                    case 0:
+                        this.activateTileType(Tile_Type.single)
+                        break;
+                    case 1:
+                        this.activateTileType(Tile_Type.double)
+                        break;
+                    case 2:
+                        this.activateTileType(Tile_Type.triple)
+                        break;
+                    default:
+                        break;
+                }
+            }
+            else
+            {
                 generatedTile = instantiate(this.tile)
             }
             
-            generatedTile.parent = this.node;
-            if(this.canGenrateChanger){
+            this.node.addChild(generatedTile);
+            if(this.canGenrateChanger)
+            {  //For BigTile
                 generatedTile.setPosition(new Vec3(0,0,this.zPos))
-            }else{
+            }
+            else
+            {  //For Normal Tile
                 var randomPos = this.getXpos()
+                
+                if(this.tile_Type != Tile_Type.single){    // Check for Double or Triple Tile
+                    randomPos = 0;
+                }
+                if(this.tile_Type == Tile_Type.double){
+                generatedTile.getComponent(SpawnTile).tile_Type = Tile_Type.double
+                }
+                else if(this.tile_Type == Tile_Type.triple){
+                generatedTile.getComponent(SpawnTile).tile_Type = Tile_Type.triple
+                }
+                else{
+                generatedTile.getComponent(SpawnTile).tile_Type = Tile_Type.single
+                }
+
                 generatedTile.setPosition(new Vec3(randomPos,0,this.zPos))
             }
-            var xpos = 0;
-            // if(randomPos < 0){
-            //     xpos = -0.01
-            // }else{
-            //     xpos = 0.01
-            // }
+            
+            
 
-            // if(this.canGenrateChanger){
-            //     xpos = 0
-            // }
             generatedTile.getComponent(SpawnTile).matIndex = this.bgMat-1;
             generatedTile.getComponent(SpawnTile).spawnTile()
 
@@ -123,6 +158,10 @@ export class TileGenerator extends Component {
             generatedTile.setPosition(new Vec3(0,0,element))
             generatedTile.getComponent(SpawnTile).matIndex = this.bgMat-1;
         }
+    }
+
+    activateTileType(type:Tile_Type){
+        this.tile_Type = type;
     }
 }
 
