@@ -1,20 +1,40 @@
 {
   "__type__": "cc.Material",
-  "_name": "Floor_default",
+  "_name": "Tile_Pink_empty_effect",
   "_objFlags": 0,
   "__editorExtras__": {},
   "_native": "",
   "_effectAsset": {
-    "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+    "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4",
     "__expectedType__": "cc.EffectAsset"
   },
   "_techIdx": 1,
   "_defines": [
     {},
     {},
+    {},
+    {},
     {}
   ],
   "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
     {
       "rasterizerState": {},
       "depthStencilState": {},
@@ -47,12 +67,26 @@
     {
       "mainColor": {
         "__type__": "cc.Color",
-        "r": 102,
+        "r": 154,
         "g": 0,
-        "b": 84,
-        "a": 70
+        "b": 101,
+        "a": 50
+      },
+      "alphaThreshold": 0.152,
+      "occlusion": 0.487,
+      "roughness": 0.983,
+      "metallic": 0.92,
+      "specularIntensity": 1,
+      "emissive": {
+        "__type__": "cc.Color",
+        "r": 154,
+        "g": 0,
+        "b": 101,
+        "a": 61
       }
     },
+    {},
+    {},
     {},
     {}
   ]

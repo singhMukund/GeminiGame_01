@@ -18,6 +18,7 @@ export class Ball extends Component {
     start() {
         this.node.getComponent(SphereCollider).on('onCollisionEnter' , this.OnCollide , this)
         this.node.getComponent(SphereCollider).on('onTriggerEnter' , this.OnTriggerEnter , this)
+        
     }
 
     update(deltaTime: number) {
@@ -27,19 +28,25 @@ export class Ball extends Component {
     
     OnCollide(target:any){ //It contains OtherCollider , SelfCollider
         
-        if(target.otherCollider.node.layer == 1){  //Floor Layer
+        if(target.otherCollider.node.layer == 1 || target.otherCollider.node.layer == Layers.nameToLayer("DeadTile")){  //Floor Layer
             var sphere = target.selfCollider.node as Node
             var tile = target.otherCollider.node.parent as Node;
             tile.getComponent(SpawnTile).Oncollide();
+            sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0,0, 0))
             sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, this.upSpeed, 0))      
         }
 
         if(target.otherCollider.node.layer == 8){ //BigTile Layer
             var sphere = target.selfCollider.node as Node
+            sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0,0, 0))
             sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, this.upSpeed, 0))
             this.bgManager.checkBG(GameManager.instance.bgChangeTime)
         }
         
+        // var sphere = target.selfCollider.node as Node
+        // var s = new Vec3();
+        // sphere.getComponent(RigidBody).getLinearVelocity(s)
+        // console.log("Velocity "+ s.toString())
     
     }
     OnTriggerEnter(target:any){ //It contains OtherCollider , SelfCollider

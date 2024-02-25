@@ -38,6 +38,10 @@
     {
       "name": "BG",
       "value": 32
+    },
+    {
+      "name": "DeadTile",
+      "value": 64
     }
   ],
   "custom_joint_texture_layouts": [],
@@ -50,6 +54,7 @@
     "collisionMatrix": {
       "0": 1,
       "1": 0
-    }
+    },
+    "allowSleep": false
   }
 }
