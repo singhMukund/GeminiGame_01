@@ -1,6 +1,6 @@
 {
   "__type__": "cc.Material",
-  "_name": "Tile_Pink_empty_effect",
+  "_name": "",
   "_objFlags": 0,
   "__editorExtras__": {},
   "_native": "",
@@ -65,13 +65,6 @@
   ],
   "_props": [
     {
-      "mainColor": {
-        "__type__": "cc.Color",
-        "r": 154,
-        "g": 0,
-        "b": 101,
-        "a": 100
-      },
       "alphaThreshold": 0.152,
       "occlusion": 0.487,
       "roughness": 0.983,
@@ -79,10 +72,10 @@
       "specularIntensity": 1,
       "emissive": {
         "__type__": "cc.Color",
-        "r": 154,
-        "g": 0,
-        "b": 101,
-        "a": 100
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
       }
     },
     {},

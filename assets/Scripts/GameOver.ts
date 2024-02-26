@@ -33,7 +33,7 @@ export class GameOver extends Component {
         this.ball.active = false;
         this.canvas.active = true
 
-        this.starManager.animateStars(2);
+        this.starManager.animateStars(3);
     }
 
     OnGameOverStop(){

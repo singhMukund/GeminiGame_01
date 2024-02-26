@@ -19,6 +19,13 @@ export class Star extends Component {
         this.star.active = true;
         this.star.getComponent(Animation).play();
     }
+
+    stopStar()
+    {
+        this.star.getComponent(Animation).stop();
+        this.star.active = false;
+        
+    }
 }
 
 

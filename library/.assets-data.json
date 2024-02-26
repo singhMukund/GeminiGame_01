@@ -106,6 +106,8 @@
         "f6108222-0dc5-4230-8dee-0b883cf59001@d295a",
         "2e82b830-3eb3-45de-8228-24354ad935d6",
         "6013b06c-b382-4096-a66d-e8eaa4a761f9",
+        "15868961-d57a-4f68-b9ad-fd9a0393e32b",
+        "375f2ed6-7bf9-44d6-bb13-d7617d33dc97",
         "f23b1c5c-5330-461f-9aa5-c80a7b7e3423",
         "54af446a-abe3-4cc4-9cf7-383bd33b3583",
         "d69e6587-ad10-41b4-8305-75d7b88f60b7",
@@ -1160,7 +1162,13 @@
         "7734831b-3f0b-42df-8df5-ec3777705af4@53c37",
         "7734831b-3f0b-42df-8df5-ec3777705af4@0447c",
         "f6108222-0dc5-4230-8dee-0b883cf59001@d295a",
-        "f23b1c5c-5330-461f-9aa5-c80a7b7e3423"
+        "2e82b830-3eb3-45de-8228-24354ad935d6",
+        "15868961-d57a-4f68-b9ad-fd9a0393e32b",
+        "f23b1c5c-5330-461f-9aa5-c80a7b7e3423",
+        "54af446a-abe3-4cc4-9cf7-383bd33b3583",
+        "d69e6587-ad10-41b4-8305-75d7b88f60b7",
+        "5c9ffb6e-d1e1-47d6-a7a8-7e22457611e7",
+        "f6108222-0dc5-4230-8dee-0b883cf59001@41ac8"
       ],
       "dependScripts": [
         "CC3eba29-7abb-723a-f7ab-ae275e2277e8",
@@ -6642,14 +6650,7 @@
   },
   "fdbfbe3d-91fb-4e38-96df-e57e5ddb92c8": {
     "url": "db://assets/Scene/GameOver.scene",
-    "value": {
-      "depends": [
-        "fdbfbe3d-91fb-4e38-96df-e57e5ddb92c8",
-        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
-        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
-      ],
-      "dependScripts": []
-    },
+    "value": {},
     "versionCode": 0
   },
   "a9112e29-bb28-4711-b572-5c193225e5a1": {
@@ -6779,6 +6780,29 @@
   },
   "20a5fe7b-778c-4586-8af4-7493b5b6b62c": {
     "url": "db://assets/Prefab/TripleTile.prefab",
+    "value": {},
+    "versionCode": 0
+  },
+  "15868961-d57a-4f68-b9ad-fd9a0393e32b": {
+    "url": "db://assets/Materials/Tile_White_Border.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "375f2ed6-7bf9-44d6-bb13-d7617d33dc97": {
+    "url": "db://assets/Materials/DisableTile_White_Border.mtl",
+    "value": {
+      "depends": [
+        "c8f66d17-351a-48da-a12c-0212d28575c4"
+      ]
+    },
+    "versionCode": 0
+  },
+  "8cd60aab-f935-4a15-8c57-93ccfe7ef97e": {
+    "url": "db://assets/Materials/LeftTile_White_Border.mtl",
     "value": {},
     "versionCode": 0
   }
