@@ -1,4 +1,4 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, Scheduler } from 'cc';
 import { Star } from './Star';
 const { ccclass, property } = _decorator;
 
@@ -27,13 +27,15 @@ export class StarManager extends Component {
         this.schedule(()=>{
             this.stars[count].getComponent(Star).animateStar()
             count++;
-        },0.5,index - 1,1)
+        },0.5,index - 1,0.5)
     }
 
     stopAnimateStars()
     {
+        this.unscheduleAllCallbacks()
         for (let i = 0; i < this.stars.length; i++) {
-            this.stars[i].star.active = false;  
+
+            this.stars[i].stopStar()
         }
     }
 }

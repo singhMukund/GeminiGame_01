@@ -157,6 +157,7 @@ export class TileGenerator extends Component {
             generatedTile.parent = this.node;
             generatedTile.setPosition(new Vec3(0,0,element))
             generatedTile.getComponent(SpawnTile).matIndex = this.bgMat-1;
+            generatedTile.getComponent(SpawnTile).changeMat()
         }
     }
 

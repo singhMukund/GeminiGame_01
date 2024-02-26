@@ -46,6 +46,21 @@ export class SpawnTile extends Component {
     @property(Node)
     rightTile:Node;
 
+    @property(Material)
+    disableTileBorder:Material;
+
+    @property(Material)
+    activeTileBorder:Material;
+
+    @property(MeshRenderer)
+    centreBorder:MeshRenderer;
+
+    @property(MeshRenderer)
+    leftBorder:MeshRenderer;
+
+    @property(MeshRenderer)
+    rightBorder:MeshRenderer;
+
     activatedTile:Activated_Tile = Activated_Tile.centre;
 
     start() {
@@ -75,20 +90,17 @@ export class SpawnTile extends Component {
 
     Oncollide(){
         if(this.canRun){
-            for (var i = 0; i < this.rightpicecs.length; i++) {
-                var element = this.rightpicecs[i];
-                element.type = physics.ERigidBodyType.DYNAMIC
-                element.setLinearVelocity(new Vec3(-3 , randomRangeInt(0,4) , randomRange(-3,3) ) )
-            }
-            for (var i = 0; i < this.leftpicecs.length; i++) {
-                var element = this.leftpicecs[i];
-                element.type = physics.ERigidBodyType.DYNAMIC
-                element.setLinearVelocity(new Vec3(3 , randomRangeInt(0,4) , randomRange(-3,3) ) )
-            }
-            if(!this.bigTile)
-            {
-                this.base.setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
-            }
+            // for (var i = 0; i < this.rightpicecs.length; i++) {
+            //     var element = this.rightpicecs[i];
+            //     element.type = physics.ERigidBodyType.DYNAMIC
+            //     element.setLinearVelocity(new Vec3(-3 , randomRangeInt(0,4) , randomRange(-3,3) ) )
+            // }
+            // for (var i = 0; i < this.leftpicecs.length; i++) {
+            //     var element = this.leftpicecs[i];
+            //     element.type = physics.ERigidBodyType.DYNAMIC
+            //     element.setLinearVelocity(new Vec3(3 , randomRangeInt(0,4) , randomRange(-3,3) ) )
+            // }
+            this.base.setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
             
         }   
     }
@@ -102,21 +114,32 @@ export class SpawnTile extends Component {
                     this.leftTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Mat[this.matIndex] ,0)
                     this.rightTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
                     this.base.setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
+                    this.leftBorder.setSharedMaterial(this.activeTileBorder ,0);
+                    this.rightBorder.setSharedMaterial(this.disableTileBorder ,0);
+                    this.centreBorder.getComponent(MeshRenderer).setSharedMaterial(this.disableTileBorder ,0);
                     break;
                 case Activated_Tile.right:
                     this.leftTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
                     this.rightTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Mat[this.matIndex] ,0)
                     this.base.setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
+                    this.leftBorder.setSharedMaterial(this.disableTileBorder ,0);
+                    this.rightBorder.setSharedMaterial(this.activeTileBorder ,0);
+                    this.centreBorder.getComponent(MeshRenderer).setSharedMaterial(this.disableTileBorder ,0);
                     break;
                 case Activated_Tile.centre:
                     this.leftTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
                     this.rightTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Empty_Mat[this.matIndex] ,0)
                     this.base.setSharedMaterial(this.tile_Mat[this.matIndex] ,0)
+                    this.leftBorder.setSharedMaterial(this.disableTileBorder ,0);
+                    this.rightBorder.setSharedMaterial(this.disableTileBorder ,0);
+                    this.centreBorder.getComponent(MeshRenderer).setSharedMaterial(this.activeTileBorder ,0);
                     break;
             
                 default:
                     break;
             }
+        }else{
+            this.base.setSharedMaterial(this.tile_Mat[this.matIndex] ,0)
         }
         
     }
@@ -138,29 +161,59 @@ export class SpawnTile extends Component {
 
     activateForDoubleType(){
         var random = randomRange(-1,1)
-        if(random < 0){
+
+        if(random < 0){  //right
             this.rightTile.active = true;
-        }else{
+            this.rightBorder.node.active = true;
+
+        }else{ //left
             this.leftTile.active = true;
+            this.leftBorder.node.active = true;
         }
         
-        if(random < -1)  //Right
-        {
-            // this.activatedTile = Activated_Tile.right;
-            this.rightTile.layer = Layers.nameToLayer("DeadTile");
-            this.rightTile.parent.getComponent(BoxCollider).isTrigger = true;
-        }
-        else  //Left
-        {                 
-            //this.activatedTile = Activated_Tile.left;
+        var random2 = randomRange(-1,1)
+        if(random2 < 0){  // centreActive
+            this.activatedTile = Activated_Tile.centre
+
+            this.base.node.layer = Layers.nameToLayer("Floor");
             this.leftTile.layer = Layers.nameToLayer("DeadTile");
+            this.rightTile.layer = Layers.nameToLayer("DeadTile");
+
+            this.rightTile.parent.getComponent(BoxCollider).isTrigger = true;
             this.leftTile.parent.getComponent(BoxCollider).isTrigger = true;
+            this.base.node.parent.getComponent(BoxCollider).isTrigger = false;
+            
+        }else{ //For Right And Left
+            if(random < 0){ //For Right
+                this.activatedTile = Activated_Tile.right
+
+                this.base.node.layer = Layers.nameToLayer("DeadTile");
+                this.leftTile.layer = Layers.nameToLayer("DeadTile");
+                this.rightTile.layer = Layers.nameToLayer("Floor");
+
+                this.rightTile.parent.getComponent(BoxCollider).isTrigger = false;
+                this.leftTile.parent.getComponent(BoxCollider).isTrigger = true;
+                this.base.node.parent.getComponent(BoxCollider).isTrigger = true;
+            }else{  //For Left
+                this.activatedTile = Activated_Tile.left
+
+                this.base.node.layer = Layers.nameToLayer("DeadTile");
+                this.leftTile.layer = Layers.nameToLayer("Floor");
+                this.rightTile.layer = Layers.nameToLayer("DeadTile");
+
+                this.leftTile.parent.getComponent(BoxCollider).isTrigger = false;
+                this.rightTile.parent.getComponent(BoxCollider).isTrigger = true;
+                this.leftTile.parent.getComponent(BoxCollider).isTrigger = true;
+
+            }
         }
     }
 
     activateForTripleType(){
         this.leftTile.active = true;
         this.rightTile.active = true;
+        this.leftBorder.node.active = true;
+        this.rightBorder.node.active = true;
         var random = randomRangeInt(-1,1)
 
         //Layer = Floor() For Activated Tile
@@ -201,6 +254,9 @@ export class SpawnTile extends Component {
         }
     }
 
+    fallDownTile(){
+
+    }
     
 }
 

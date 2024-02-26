@@ -70,7 +70,7 @@
         "r": 7,
         "g": 105,
         "b": 92,
-        "a": 50
+        "a": 100
       },
       "alphaThreshold": 0.152,
       "occlusion": 0.487,
@@ -79,10 +79,10 @@
       "specularIntensity": 0.592,
       "emissive": {
         "__type__": "cc.Color",
-        "r": 0,
-        "g": 36,
-        "b": 31,
-        "a": 255
+        "r": 4,
+        "g": 83,
+        "b": 73,
+        "a": 115
       }
     },
     {},
