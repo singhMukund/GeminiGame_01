@@ -271,7 +271,7 @@ export class SpawnTile extends Component {
         }
     }
 
-    fallDownTile(){
+    OnBallCollideWithDeadTile(){
 
     }
 
@@ -285,6 +285,7 @@ export class SpawnTile extends Component {
             node.layer = Layers.nameToLayer("DeadTile");
         }
     }
+
     
 }
 

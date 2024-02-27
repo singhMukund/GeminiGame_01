@@ -1,4 +1,4 @@
-import { _decorator, BoxCollider, Component, director, Game, Layers, Material, Node, physics, RigidBody, Scene, SphereCollider, Vec3 } from 'cc';
+import { _decorator, BoxCollider, Component, director, Game, Layers, Material, Node, physics, RigidBody, RigidBodyComponent, Scene, SphereCollider, Vec3 } from 'cc';
 import { SpawnTile } from './SpawnTile';
 import { BackgroundManager } from './BackgroundManager';
 import { GameManager } from './GameManager';
@@ -57,19 +57,18 @@ export class Ball extends Component {
         sphere.getComponent(RigidBody).setLinearVelocity(new Vec3(0, -this.fallingSpeed, 0))
         }
 
-        // if(target.otherCollider.node.layer == 1){  //Floor Layer
-        //     var tile = target.otherCollider.node.parent as Node;
-        //     var activatedtile = tile.getComponent(SpawnTile).activatedTile.toString()
-        //     if(activatedtile == "left"){
-
-        //     }else if(activatedtile ==  "right"){
-
-        //     }else{
-                
-        //     }
-        //     tile.getComponent(RigidBody).type = physics.ERigidBodyType.DYNAMIC
+        if(target.otherCollider.node.layer == 1){  //Floor Layer
+            var tile = target.otherCollider.node as Node;
+           // tile.getComponent(SpawnTile).OnBallCollideWithDeadTile();
+            tile.addComponent(RigidBody);
+            tile.getComponent(RigidBody).type = physics.ERigidBodyType.DYNAMIC
+            tile.getComponent(RigidBody).setLinearVelocity(new Vec3(0 ,-10,0))
+            this.scheduleOnce(()=>{
+                tile.active = false
+            },0.2)
+            
                  
-        // }
+        }
     
     }
 }
