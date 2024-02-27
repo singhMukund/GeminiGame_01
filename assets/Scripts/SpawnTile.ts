@@ -61,6 +61,7 @@ export class SpawnTile extends Component {
     @property(MeshRenderer)
     rightBorder:MeshRenderer;
 
+    @property
     activatedTile:Activated_Tile = Activated_Tile.centre;
 
     start() {
@@ -100,7 +101,27 @@ export class SpawnTile extends Component {
             //     element.type = physics.ERigidBodyType.DYNAMIC
             //     element.setLinearVelocity(new Vec3(3 , randomRangeInt(0,4) , randomRange(-3,3) ) )
             // }
-            this.base.setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
+            if(!this.bigTile)
+            {
+                switch (this.activatedTile) {
+                    
+                    case Activated_Tile.centre:
+                        this.base.setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
+                        break;
+                    case Activated_Tile.left:
+                        this.leftTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
+                        break;
+                    case Activated_Tile.right:
+                        this.rightTile.getComponent(MeshRenderer).setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
+                        break;
+                
+                    default:
+                        break;
+                }
+            }else{
+                this.base.setSharedMaterial(this.tile_Pressed_Mat[this.matIndex],0); 
+            }
+           
             
         }   
     }
@@ -162,6 +183,7 @@ export class SpawnTile extends Component {
     activateForDoubleType(){
         var random = randomRange(-1,1)
 
+        //Choosing Tile between left and Right Tile
         if(random < 0){  //right
             this.rightTile.active = true;
             this.rightBorder.node.active = true;
@@ -172,40 +194,35 @@ export class SpawnTile extends Component {
         }
         
         var random2 = randomRange(-1,1)
-        if(random2 < 0){  // centreActive
-            this.activatedTile = Activated_Tile.centre
 
-            this.base.node.layer = Layers.nameToLayer("Floor");
-            this.leftTile.layer = Layers.nameToLayer("DeadTile");
-            this.rightTile.layer = Layers.nameToLayer("DeadTile");
+        //After Getting two tile(Double TIle) , Randomly selected active tile
 
-            this.rightTile.parent.getComponent(BoxCollider).isTrigger = true;
-            this.leftTile.parent.getComponent(BoxCollider).isTrigger = true;
-            this.base.node.parent.getComponent(BoxCollider).isTrigger = false;
-            
-        }else{ //For Right And Left
-            if(random < 0){ //For Right
+        if(random < 0){ // Centre and Right
+
+            if(random2 < 0){ //Centre Will active and Right will deactive
+                this.activatedTile = Activated_Tile.centre
+                this.changeNodeType(this.base.node , true)
+                this.changeNodeType(this.rightTile , false)
+
+            }else{  ////Right Will active and Center will deactive
                 this.activatedTile = Activated_Tile.right
-
-                this.base.node.layer = Layers.nameToLayer("DeadTile");
-                this.leftTile.layer = Layers.nameToLayer("DeadTile");
-                this.rightTile.layer = Layers.nameToLayer("Floor");
-
-                this.rightTile.parent.getComponent(BoxCollider).isTrigger = false;
-                this.leftTile.parent.getComponent(BoxCollider).isTrigger = true;
-                this.base.node.parent.getComponent(BoxCollider).isTrigger = true;
-            }else{  //For Left
-                this.activatedTile = Activated_Tile.left
-
-                this.base.node.layer = Layers.nameToLayer("DeadTile");
-                this.leftTile.layer = Layers.nameToLayer("Floor");
-                this.rightTile.layer = Layers.nameToLayer("DeadTile");
-
-                this.leftTile.parent.getComponent(BoxCollider).isTrigger = false;
-                this.rightTile.parent.getComponent(BoxCollider).isTrigger = true;
-                this.leftTile.parent.getComponent(BoxCollider).isTrigger = true;
-
+                this.changeNodeType(this.base.node , false)
+                this.changeNodeType(this.rightTile , true)
             }
+
+        }else{  // Centre and Left
+
+            if(random2 < 0){ //Centre Will active and Left will deactive
+                this.activatedTile = Activated_Tile.centre
+                this.changeNodeType(this.base.node , true)
+                this.changeNodeType(this.leftTile , false)
+
+            }else{  ////Left Will active and Center will deactive
+                this.activatedTile = Activated_Tile.left
+                this.changeNodeType(this.base.node , false)
+                this.changeNodeType(this.leftTile , true)
+            }
+
         }
     }
 
@@ -256,6 +273,17 @@ export class SpawnTile extends Component {
 
     fallDownTile(){
 
+    }
+
+
+    changeNodeType(node:Node , active:boolean){
+        if(active){
+            node.parent.getComponent(BoxCollider).isTrigger = false;
+            node.layer = Layers.nameToLayer("Floor");
+        }else{
+            node.parent.getComponent(BoxCollider).isTrigger = true;
+            node.layer = Layers.nameToLayer("DeadTile");
+        }
     }
     
 }
